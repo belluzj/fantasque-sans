@@ -1,10 +1,11 @@
-
-                       Cosmic Sans Neue Mono
-                       =====================
+Cosmic Sans Neue Mono
+=====================
 
                        
 A programming font, designed with functionality in mind, and with some 
 wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
+
+![](Specimen/urxvt13.png)
 
 Not related to other Cosmic Sans from the Internet. This one has Neue at the 
 end, and it changes everything (most notably the coolness level). The name 
@@ -12,8 +13,10 @@ comes from my realization that at some point it looked like the mutant child of
 Comic Sans and Helvetica Neue. Hopefully it is not the case any more.
 
 Inspirational sources include Inconsolata and Monaco. I have also been using 
-Consolas a lot in my programing life, so it may have some points in common.
+Consolas a lot in my programming life, so it may have some points in common.
 
+![](Specimen/vim10.png)
+![](Specimen/sublime11.png)
 
 Weights, variants and glyph coverage
 ------------------------------------
@@ -27,12 +30,15 @@ It lacks a good italic version, which I plan to design later, in a fashion
 similar to Consolas' italic version, with new glyph designs, not just an added 
 slant.
 
+![](Specimen/vim21.png)
+
 
 Author and license
 ------------------
 
-Created by Jany Belluz <jany.belluz AT hotmail.fr>
-Licensed under the SIL Open Font License (see OFL.txt).
+Created by Jany Belluz \<jany.belluz AT hotmail.fr\>
+
+Licensed under the SIL Open Font License (see [OFL.txt](OFL.txt)).
 
 Please send me an e-mail if you stumble upon bad design or rendering problems 
 (with screen shot if possible), or if you need more characters, or if you want 
