@@ -20,12 +20,13 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1384772783
+ModificationTime: 1385025915
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
 LineGap: 350
 VLineGap: 0
+Panose: 2 11 6 9 2 2 4 3 2 4
 OS2TypoAscent: 1650
 OS2TypoAOffset: 0
 OS2TypoDescent: -394
@@ -39,6 +40,7 @@ HheadAscent: 1650
 HheadAOffset: 0
 HheadDescent: -394
 HheadDOffset: 0
+OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
@@ -3249,7 +3251,7 @@ StartChar: question
 Encoding: 63 63 119
 Width: 1040
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 270<333 583> 1182 155<345.349 630.299>
 VStem: 115 157<878.836 1109.3> 333 250<0 270> 367 175<431 598.664> 688 160<876.981 1122.17>
 LayerCount: 2

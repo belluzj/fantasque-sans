@@ -1,6 +1,6 @@
 SplineFontDB: 3.0
 FontName: CosmicSansNeueMonoBold
-FullName: Cosmic Sans Neue Mono
+FullName: Cosmic Sans Neue Mono Bold
 FamilyName: CosmicSansNeueMono
 Weight: Bold
 Copyright: Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)
@@ -20,12 +20,13 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1384772939
+ModificationTime: 1385025914
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
 LineGap: 350
 VLineGap: 0
+Panose: 2 11 8 9 2 2 4 3 2 4
 OS2TypoAscent: 1650
 OS2TypoAOffset: 0
 OS2TypoDescent: -394
