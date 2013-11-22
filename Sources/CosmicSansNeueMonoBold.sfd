@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1385025914
+ModificationTime: 1385113598
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 42 42 14
+WinInfo: 0 42 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6852,9 +6852,28 @@ EndChar
 StartChar: longs
 Encoding: 383 383 318
 Width: 1040
-VWidth: 32
+VWidth: -2
 Flags: W
+HStem: 807 205<99 242> 1217 201<524.522 789.055>
+VStem: 242 257<0 807 1012 1188.92>
 LayerCount: 2
+Fore
+SplineSet
+499 1012 m 5
+ 499 0 l 1
+ 242 -0 l 1
+ 242 807 l 1
+ 99 807 l 1
+ 99 1012 l 1
+ 242 1012 l 1
+ 242 1028 242 1045 242 1064 c 0
+ 242 1194 308 1418 624 1418 c 0
+ 820 1418 949 1376 1027 1221 c 1
+ 815 1124 l 1
+ 789 1206 731 1217 641 1217 c 0
+ 509 1217 498 1143 498 1083 c 3
+ 498 1056 499 1012 499 1012 c 5
+EndSplineSet
 EndChar
 
 StartChar: Euro
