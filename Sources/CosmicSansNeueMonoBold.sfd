@@ -16,11 +16,11 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 XUID: [1021 607 50037791 3178130]
 FSType: 8
-OS2Version: 0
+OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1385071875
+ModificationTime: 1385148900
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 42 14
+WinInfo: 42 42 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -743,7 +743,7 @@ StartChar: v
 Encoding: 118 118 21
 Width: 1040
 VWidth: 6
-Flags: WO
+Flags: W
 HStem: -8 21G<342 446> 1016 40G<183.385 301 687 939.5>
 VStem: 690 254<481.986 1016>
 LayerCount: 2

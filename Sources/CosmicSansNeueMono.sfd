@@ -16,11 +16,11 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 XUID: [1021 607 50037791 3178130]
 FSType: 8
-OS2Version: 0
+OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1385071815
+ModificationTime: 1385148874
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 42 14
+WinInfo: 42 42 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2073,9 +2073,9 @@ StartChar: quotesingle
 Encoding: 39 39 70
 Width: 1040
 VWidth: -25
-Flags: HWO
-HStem: 816 668
-VStem: 557 248<1317.01 1436.89>
+Flags: W
+HStem: 816 651
+VStem: 552 253<1278.81 1435.87>
 LayerCount: 2
 Fore
 SplineSet
@@ -4246,7 +4246,7 @@ StartChar: braceleft
 Encoding: 123 123 160
 Width: 1040
 VWidth: 66
-Flags: WO
+Flags: W
 HStem: -262 166<686.5 889> 1326 158<680.374 889>
 VStem: 459 173<-45.0254 197.683 1025.46 1280.54> 530 169<146.654 428.774 784.381 1074.66>
 LayerCount: 2
@@ -4310,7 +4310,7 @@ StartChar: braceright
 Encoding: 125 125 162
 Width: 1040
 VWidth: 66
-Flags: WO
+Flags: W
 HStem: -262 166<150 352.5> 1326 158<149 357.626>
 VStem: 340 168<148.269 428.633 784.259 1074.51> 406 174<-45.1572 195.685 1027 1280.09>
 LayerCount: 2
