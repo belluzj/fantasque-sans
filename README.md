@@ -1,6 +1,5 @@
 Cosmic Sans Neue Mono
 =====================
-
                        
 A programming font, designed with functionality in mind, and with some 
 wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
@@ -22,9 +21,12 @@ Weights, variants and glyph coverage
 ------------------------------------
 
 The font includes a bold version, with the same metrics as the regular one. 
-Note however that I have not tested much the bold version yet, so it might look 
-bad in some cases. Both versions include some accented glyphs, but this font 
-does not have any kind of exhaustive coverage now.
+Both versions include the same ranges of characters : latin letters, some
+accented glyphs (quite a lot), some greek letters, some arrows.
+
+Please note that I have not tested all of the glyphs I have drawn (some letters
+have those two layers of crazy accents that I have never witnessed before), so
+it might look bad in some cases. Please report these problems: see next section.
 
 It lacks a good italic version, which I plan to design later, in a fashion 
 similar to Consolas' italic version, with new glyph designs, not just an added 
@@ -40,9 +42,10 @@ Created by Jany Belluz \<jany.belluz AT hotmail.fr\>
 
 Licensed under the SIL Open Font License (see [OFL.txt](OFL.txt)).
 
-Please send me an e-mail if you stumble upon bad design or rendering problems 
-(with screen shot if possible), or if you need more characters, or if you want 
-to compliment me (I love compliments).
+Please send me an e-mail or [report an issue on
+Github](http://github.com/belluzj/cosmic-sans-neue/issues]) if you stumble upon
+bad design or rendering problems (with screen shot if possible), or if you need
+more characters, or if you want to compliment me (I love compliments).
 
 
 Versions
@@ -58,5 +61,10 @@ Versions
       
 1.2.1 - Minor adjustments.
 
+1.3 - Change of metrics to add space between characters and between lines.
+      Various small changes : curlier curly brackets, more difference between
+      various quotes, cleaner W, w, m, and rounder @. 
+      Windows compatibility.
+      Greek letters.
 
 
