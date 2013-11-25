@@ -9,7 +9,7 @@ esac
 pkg=${PKG:-${pkg}}
 
 name='cosmic-sans-neue'
-version='1.2.1'
+version='1.3'
 desc='A font family with a great monospaced variant for programmers.'
 url=http://openfontlibrary.org/en/font/cosmic-sans-neue-mono
 
