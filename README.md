@@ -43,7 +43,7 @@ Created by Jany Belluz \<jany.belluz AT hotmail.fr\>
 Licensed under the SIL Open Font License (see [OFL.txt](OFL.txt)).
 
 Please send me an e-mail or [report an issue on
-Github](http://github.com/belluzj/cosmic-sans-neue/issues]) if you stumble upon
+Github](http://github.com/belluzj/cosmic-sans-neue/issues) if you stumble upon
 bad design or rendering problems (with screen shot if possible), or if you need
 more characters, or if you want to compliment me (I love compliments).
 
