@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1385388436
+ModificationTime: 1385392683
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57288 42 14
+WinInfo: 672 42 14
 BeginPrivate: 1
 BlueValues 27 [-37 0 1017 1058 1320 1376]
 EndPrivate
@@ -9265,12 +9265,12 @@ StartChar: Rho
 Encoding: 929 929 380
 Width: 1060
 VWidth: 0
-Flags: W
-HStem: -9.17431 19.2661<99.0476 337.143> 402.752 190.826<337.143 597.024> 1024.77 193.578<339.048 631.374>
-VStem: 99.0476 238.095<-8.25688 405.504 595.413 1020.18> 680 249.524<673.706 979.32>
+Flags: WO
+HStem: -10 21<104 354> 439 208<354 626.875> 1117 211<356 662.942>
+VStem: 104 250<-9 442 649 1112> 714 262<734.34 1067.46>
 LayerCount: 2
 Fore
-Refer: 39 80 N 0.952381 0 0 0.917431 0 0 2
+Refer: 39 80 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -9453,31 +9453,31 @@ Encoding: 931 931 388
 Width: 1060
 VWidth: 0
 Flags: W
-HStem: 0 219<401 934.948> 1219 223<394 924>
+HStem: 0 201<428 935.951> 1118 205<421 926>
 LayerCount: 2
 Fore
 SplineSet
-512 717 m 1
- 14 1236 l 1
- 137 1441 l 1
- 161 1443 180 1443 200 1443 c 0
- 230 1443 263 1442 312 1442 c 0
- 345 1442 379 1442 415 1442 c 2
- 531 1442 l 2
- 687 1442 830 1439 908 1439 c 2
- 924 1439 l 1
- 924 1219 l 1
- 394 1219 l 1
- 803 791 l 1
- 796 617 l 1
- 401 219 l 1
- 535 220 670 220 804 221 c 0
- 863 221 935 251 935 251 c 1
- 1011 34 l 1
- 961 20 917 -3 814 -3 c 2
- 137 0 l 1
- 14 199 l 1
- 512 717 l 1
+534 658 m 1
+ 59 1134 l 1
+ 176 1322 l 1
+ 199 1324 217 1324 236 1324 c 0
+ 265 1324 296 1323 343 1323 c 0
+ 374 1323 407 1323 441 1323 c 2
+ 552 1323 l 2
+ 700 1323 836 1320 911 1320 c 2
+ 926 1320 l 1
+ 926 1118 l 1
+ 421 1118 l 1
+ 811 726 l 1
+ 804 566 l 1
+ 428 201 l 1
+ 555 202 684 202 812 203 c 0
+ 868 203 936 230 936 230 c 1
+ 1009 31 l 1
+ 961 18 919 -3 821 -3 c 2
+ 176 0 l 1
+ 59 183 l 1
+ 534 658 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -13254,7 +13254,7 @@ StartChar: block
 Encoding: 9608 9608 574
 Width: 1060
 VWidth: 1918
-Flags: WO
+Flags: W
 VStem: -20 1100<-505 1820>
 LayerCount: 2
 Fore
