@@ -69,3 +69,12 @@ Versions
       Greek letters.
       Powerline characters.
 
+1.3.1 - Various fixes: still cleaning m and w, reworked all ogoneks, changed a
+        bit the dollar, moved some accents, eliminated glitches around
+        Powerline symbols.
+        TTF fonts are now hinted using Freetype's `ttfautohint`, which should
+        give much better results on Windows (and maybe in Java apps and others
+        contexts). In case this is a problem, please let me know and I will
+        provide also an unhinted version.
+        **Windows users should use the TTF (TrueType) files.**
+
