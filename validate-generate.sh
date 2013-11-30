@@ -3,16 +3,13 @@
 basename=$1
 ttf="${basename}.ttf"
 otf="OTF/${basename}.otf"
+texFamily="cm" # arbitrary two letters out of the font's name
+texCut="r" # Regular
+if [[ "${basename,,}" == *bold* ]]; then
+  texCut="b" # Bold
+fi
 
 echo -e "\e[1;37mGenerating ${basename}... \e[0m"
-
-if [ -f "$ttf" ]; then
-  rm "$ttf"
-fi
-
-if [ -f "$otf" ]; then
-  rm "$otf"
-fi
 
 fontforge -lang=py -script - <<EOF
 import fontforge;
@@ -25,6 +22,11 @@ if bitmask != 0:
 
 font.generate("${basename}.ttf");
 font.generate("OTF/${basename}.otf");
+
+# TeX stuff
+font.encoding = "AdobeStandard";
+font.generate("TeX/f${texFamily}${texCut}8a.pfb",
+  flags=("afm", "tfm", "pfm"));
 EOF
 
 error=$?

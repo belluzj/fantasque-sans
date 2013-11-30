@@ -7,6 +7,7 @@ OTF_FILES=$(patsubst %,OTF/%.otf,$(BASENAMES))
 all: zip
 
 OTF/%.otf %.ttf: Sources/%.sfd
+	mkdir -p OTF TeX
 	./validate-generate.sh $*
 	# TODO determine perfect parameters
 	ttfautohint $*.ttf $*.hinted.ttf
@@ -21,5 +22,5 @@ zip: $(TTF_FILES) $(OTF_FILES) $(SOURCES)
 	zip CosmicSansNeueMono.zip OFL.txt README.md $^
 
 clean:
-	rm $(TTF_FILES) $(OTF_FILES)
+	rm -f *.ttf OTF/* TeX/*
 
