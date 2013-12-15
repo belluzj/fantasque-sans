@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1386488329
+ModificationTime: 1387139000
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57078 42 14
+WinInfo: 9114 42 14
 BeginPrivate: 1
 BlueValues 27 [-37 0 1017 1058 1320 1376]
 EndPrivate
@@ -70,7 +70,7 @@ Grid
  3891.2 1375.6 l 0
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 423805 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 576
+BeginChars: 65536 582
 
 StartChar: a
 Encoding: 97 97 0
@@ -13351,6 +13351,162 @@ SplineSet
  892 1013 1005 831 1005 459 c 0
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: SF110000
+Encoding: 9474 9474 576
+Width: 1060
+VWidth: 0
+Flags: W
+VStem: 448 165<-505 1820.18>
+LayerCount: 2
+Fore
+SplineSet
+613 1820 m 1
+ 613 -505 l 1
+ 448 -505 l 1
+ 448 1820 l 1
+ 613 1820 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2503
+Encoding: 9475 9475 577
+Width: 1060
+VWidth: 0
+Flags: W
+VStem: 400 260<-505.02 1819.98>
+LayerCount: 2
+Fore
+SplineSet
+660 1820 m 1
+ 660 -505 l 1
+ 400 -505 l 1
+ 400 1820 l 1
+ 660 1820 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2506
+Encoding: 9478 9478 578
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -531 421<447.72 612.28> 213 420<447.72 612.28> 956 421<447.72 612.28> 1700 421<447.72 612.28>
+VStem: 448 165<-530.667 -109.333 213.333 633.333 956 1377.33 1700 2121.33>
+LayerCount: 2
+Fore
+SplineSet
+613 1510 m 1
+ 613 1089 l 1
+ 448 1089 l 1
+ 448 1510 l 1
+ 613 1510 l 1
+613 766 m 1
+ 613 346 l 1
+ 448 346 l 1
+ 448 766 l 1
+ 613 766 l 1
+613 23 m 1
+ 613 -398 l 1
+ 448 -398 l 1
+ 448 23 l 1
+ 613 23 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2507
+Encoding: 9479 9479 579
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -531 421<400 660> 213 421<400 660> 956 421<400 660> 1700 421<400 660>
+VStem: 400 260<-530.667 -109.333 213.333 634.667 956 1377.33 1700 2121.33>
+LayerCount: 2
+Fore
+SplineSet
+660 1510 m 1
+ 660 1089 l 1
+ 400 1089 l 1
+ 400 1510 l 1
+ 660 1510 l 1
+660 767 m 1
+ 660 346 l 1
+ 400 346 l 1
+ 400 767 l 1
+ 660 767 l 1
+660 23 m 1
+ 660 -398 l 1
+ 400 -398 l 1
+ 400 23 l 1
+ 660 23 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni250A
+Encoding: 9482 9482 580
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -398 316<447.72 612.28> 160 315<447.72 612.28> 717 316<447.72 612.28> 1275 316<447.72 612.28>
+VStem: 448 165<-398 -82 160 475 717 1033 1275 1591>
+LayerCount: 2
+Fore
+SplineSet
+613 1591 m 1
+ 613 1275 l 1
+ 448 1275 l 1
+ 448 1591 l 1
+ 613 1591 l 1
+613 1033 m 1
+ 613 717 l 1
+ 448 717 l 1
+ 448 1033 l 1
+ 613 1033 l 1
+613 475 m 1
+ 613 160 l 1
+ 448 160 l 1
+ 448 475 l 1
+ 613 475 l 1
+613 -82 m 1
+ 613 -398 l 1
+ 448 -398 l 1
+ 448 -82 l 1
+ 613 -82 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni250B
+Encoding: 9483 9483 581
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -398 316<400 660> 160 316<400 660> 717 316<400 660> 1275 316<400 660>
+VStem: 400 260<-398 -82 160 476 717 1033 1275 1591>
+LayerCount: 2
+Fore
+SplineSet
+660 1591 m 5
+ 660 1275 l 5
+ 400 1275 l 5
+ 400 1591 l 5
+ 660 1591 l 5
+660 1033 m 5
+ 660 717 l 5
+ 400 717 l 5
+ 400 1033 l 5
+ 660 1033 l 5
+660 476 m 5
+ 660 160 l 5
+ 400 160 l 5
+ 400 476 l 5
+ 660 476 l 5
+660 -82 m 5
+ 660 -398 l 5
+ 400 -398 l 5
+ 400 -82 l 5
+ 660 -82 l 5
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
