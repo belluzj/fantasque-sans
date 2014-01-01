@@ -78,3 +78,10 @@ Versions
         provide also an unhinted version.
         **Windows users should use the TTF (TrueType) files.**
 
+1.3.2 - Various fixes: playing again with bold m, moving accents again, taking
+        care again of Powerline symbols, clean 8 and R.
+        Add a few box drawing characters (for use with vim-indentline).
+        Generate webfonts (goal: this font used for code samples on all cool
+        languages' websites).
+        Add a WIP medium version of the proportional font.
+

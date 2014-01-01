@@ -1,5 +1,5 @@
-Copyright (c) 2013, Jany Belluz (jany.belluz@hotmail.fr),
-with Reserved Font Name Cosmic Sans Neue Mono.
+Copyright (c) 2013-2014, Jany Belluz (jany.belluz@hotmail.fr),
+with Reserved Font Name Cosmic Sans Neue.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
