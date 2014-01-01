@@ -3,4 +3,8 @@ TeX
 *.deb
 *.rpm
 *~
-Webfonts/*
+Webfonts/*.woff
+Webfonts/*.svg
+Webfonts/*.eot
+Webfonts/*.css
+

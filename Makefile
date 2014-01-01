@@ -30,8 +30,8 @@ install: $(TTF_FILES)
 	fc-cache -f
 
 zip: $(TTF_FILES) $(OTF_FILES) $(SVG_FILES) $(EOT_FILES) $(WOFF_FILES) $(SOURCES) $(CSS_FILE)
-	zip CosmicSansNeueMono.zip OFL.txt README.md $^
+	zip CosmicSansNeueMono.zip OFL.txt README.md Webfonts/README.md $^
 
 clean:
-	rm -f *.ttf OTF/* TeX/* Webfonts/*
+	rm -f *.ttf *.zip OTF/* TeX/* Webfonts/*.eot Webfonts/*.woff Webfonts/*.svg Webfonts/*.css
 
