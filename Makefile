@@ -9,7 +9,7 @@ EOT_FILES=$(patsubst %,Webfonts/%.eot,$(BASENAMES))
 CSS_FRAGMENTS=$(patsubst %,Webfonts/%-decl.css,$(BASENAMES))
 CSS_FILE=Webfonts/stylesheet.css
 
-all: zip
+all: zips
 
 OTF/%.otf %.ttf Webfonts/%.svg Webfonts/%.eot Webfonts/%.woff Webfonts/%-decl.css: Sources/%.sfd
 	mkdir -p OTF TeX Webfonts
@@ -22,15 +22,20 @@ OTF/%.otf %.ttf Webfonts/%.svg Webfonts/%.eot Webfonts/%.woff Webfonts/%-decl.cs
 	ttf2eot "$*.ttf" > "Webfonts/$*.eot"
 
 $(CSS_FILE): $(CSS_FRAGMENTS)
-	cat $(CSS_FRAGMENTS) > $(CSS_FILE)
+	cat $(foreach v,$(CSS_FRAGMENTS),$(if $(findstring Mono,$v),$v)) > $(CSS_FILE)
 
-.PHONY: install clean zip
+.PHONY: install clean zips zip-mono zip-prop
 install: $(TTF_FILES)
 	cp $^ ~/.fonts/
 	fc-cache -f
 
-zip: $(TTF_FILES) $(OTF_FILES) $(SVG_FILES) $(EOT_FILES) $(WOFF_FILES) $(SOURCES) $(CSS_FILE)
-	zip CosmicSansNeueMono.zip OFL.txt README.md Webfonts/README.md $^
+zips: zip-mono zip-prop
+
+zip-mono: $(TTF_FILES) $(OTF_FILES) $(SVG_FILES) $(EOT_FILES) $(WOFF_FILES) $(SOURCES) $(CSS_FILE)
+	zip CosmicSansNeueMono.zip OFL.txt README.md Webfonts/README.md $(CSS_FILE) $(foreach v,$^,$(if $(findstring Mono,$v),$v))
+
+zip-prop: $(TTF_FILES) $(OTF_FILES) $(SVG_FILES) $(EOT_FILES) $(WOFF_FILES) $(SOURCES)
+	zip CosmicSansNeue.zip OFL.txt README.md Webfonts/README.md $(foreach v,$^,$(if $(findstring Mono,$v),,$v))
 
 clean:
 	rm -f *.ttf *.zip OTF/* TeX/* Webfonts/*.eot Webfonts/*.woff Webfonts/*.svg Webfonts/*.css
