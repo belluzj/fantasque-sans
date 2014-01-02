@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1388613490
+ModificationTime: 1388656840
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -1256,30 +1256,29 @@ StartChar: M
 Encoding: 77 77 36
 Width: 1060
 VWidth: 32
-Flags: W
+Flags: HWO
 HStem: 0 21G<62 312 700.933 948>
 VStem: 62 250<0 872.881> 701 247<0 872.874>
 LayerCount: 2
 Fore
 SplineSet
-62 1277 m 1
- 266 1302 l 1
- 342 1188 440 1020 502 834 c 1
- 556 1016 649 1171 730 1304 c 1
- 946 1284 l 1
- 946 886 948 0 948 0 c 1
+62 1323 m 1
+ 266 1323 l 1
+ 342 1209 440 1020 502 834 c 1
+ 556 1016 649 1190 730 1323 c 1
+ 946 1323 l 1
+ 946 925 948 0 948 0 c 1
  701 0 l 1
  699 596 l 2
- 699 700 724 873 724 873 c 1
- 661 750 591 588 580 551 c 1
+ 699 700 724 898 724 898 c 5
+ 661 775 591 588 580 551 c 1
  430 549 l 1
- 430 549 328 792 280 873 c 1
- 280 873 312 709 312 596 c 2
+ 430 549 328 817 280 898 c 5
+ 280 898 312 709 312 596 c 2
  312 0 l 1
  62 0 l 1
- 62 1277 l 1
+ 62 1323 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: N
@@ -9256,13 +9255,12 @@ StartChar: Mu
 Encoding: 924 924 377
 Width: 1060
 VWidth: 32
-Flags: W
+Flags: HW
 HStem: 0 21<62 312 700.933 948>
 VStem: 62 250<0 872.881> 701 247<0 872.874>
 LayerCount: 2
 Fore
 Refer: 36 77 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Nu
