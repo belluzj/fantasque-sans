@@ -1,8 +1,9 @@
 Cosmic Sans Neue Mono
 =====================
-                       
+
 A programming font, designed with functionality in mind, and with some 
 wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
+[Download](http://openfontlibrary.org/en/font/cosmic-sans-neue-mono).
 
 ![](Specimen/urxvt13.png)
 
@@ -45,8 +46,18 @@ Licensed under the SIL Open Font License (see [OFL.txt](OFL.txt)).
 Please send me an e-mail or [report an issue on
 Github](http://github.com/belluzj/cosmic-sans-neue/issues) if you stumble upon
 bad design or rendering problems (with screen shot if possible), or if you need
-more characters, or if you want to compliment me (I love compliments).
+more characters, or if you want to compliment me (I love compliments). I also
+accept
+[Flattry](https://flattr.com/thing/2258061/belluzjcosmic-sans-neue-on-GitHub).
 
+Building installable font files
+-------------------------------
+
+Run `make`. You should see green stuff and some "OK" messages.
+The build process requires FontForge with python scripting support,
+`ttfautohint`, `sfnt2woff` (from the `woff-tools` package on Ubuntu) and
+`ttf2eot`, for example from [this
+repository](https://github.com/harrastia/ttf2eot).
 
 Versions
 --------
