@@ -8,10 +8,10 @@ esac
 # But make it overridable from outside:
 pkg=${PKG:-${pkg}}
 
-name='cosmic-sans-neue'
-version='1.3.2'
+name='fantasque-sans'
+version='1.4'
 desc='A font family with a great monospaced variant for programmers.'
-url=http://openfontlibrary.org/en/font/cosmic-sans-neue-mono
+url=http://openfontlibrary.org/en/font/fantasque-sans
 
 fpm -s dir -t ${pkg} -a all \
   -n ${name}-fonts          \
@@ -19,10 +19,10 @@ fpm -s dir -t ${pkg} -a all \
   --url ${url}              \
   --description "${desc}"   \
 	--license OFL             \
-  CosmicSansNeueMono.ttf=/usr/share/fonts/truetype/${name}/         \
-  CosmicSansNeueMonoBold.ttf=/usr/share/fonts/truetype/${name}/     \
-  OTF/CosmicSansNeueMono.otf=/usr/share/fonts/opentype/${name}/     \
-  OTF/CosmicSansNeueMonoBold.otf=/usr/share/fonts/opentype/${name}/ \
+  FantasqueSansMono.ttf=/usr/share/fonts/truetype/${name}/         \
+  FantasqueSansMonoBold.ttf=/usr/share/fonts/truetype/${name}/     \
+  OTF/FantasqueSansMono.otf=/usr/share/fonts/opentype/${name}/     \
+  OTF/FantasqueSansMonoBold.otf=/usr/share/fonts/opentype/${name}/ \
   OFL.txt=/usr/share/doc/${name}/copyright \
   README.md=/usr/share/doc/${name}/        \
 	Specimen=/usr/share/doc/${name}/
