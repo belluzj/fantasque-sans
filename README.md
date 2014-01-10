@@ -66,6 +66,9 @@ The build process requires FontForge with python scripting support,
 `ttf2eot`, for example from [this
 repository](https://github.com/harrastia/ttf2eot).
 
+`make install` will install the TTF fonts into your local `.fonts/` directory 
+and update the font cache. It comes in handy while modifying the font.
+
 Versions
 --------
 
