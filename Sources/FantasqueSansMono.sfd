@@ -5,7 +5,7 @@ FamilyName: FantasqueSansMono
 Weight: Regular
 Copyright: Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)
 UComments: "2013-9-13: Created." 
-Version: 1.3.2
+Version: 1.4
 ItalicAngle: 0
 UnderlinePosition: -192
 UnderlineWidth: 96
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1388853600
+ModificationTime: 1389356243
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 42 42 14
+WinInfo: 0 42 14
 BeginPrivate: 1
 BlueValues 37 [-22 1 1018 1061 1296 1323 1389 1428]
 EndPrivate
@@ -616,33 +616,31 @@ Encoding: 113 113 16
 Width: 1060
 VWidth: -2
 Flags: HW
-HStem: -7 155<399.119 679.98> 858 155<363.869 663.56>
-VStem: 120 156<291.52 755.414> 757 156<-393.801 56 220.225 763.281>
+HStem: -7 155<399.119 680.219> 858 155<363.869 663.56> 998 20G<765.5 932>
+VStem: 120 156<291.52 755.414> 757 157<-393.801 56 220.225 763.281> 770 159<-397.642 -150.269 923.954 999.408>
 LayerCount: 2
 Fore
 SplineSet
-276 527 m 0
+276 527 m 0xd8
  276 244 393 148 556 148 c 0
  647 148 705 211 757 262 c 1
  757 698 l 1
  686 812 638 858 501 858 c 0
- 331 858 276 731 276 527 c 0
-913 739 m 2
- 914 -146 l 2
- 914 -237 909 -333 900 -406 c 1
- 741 -397 l 1
- 748 -329 756 -245 756 -151 c 2
- 756 56 l 1
- 708 25 670 -7 570 -7 c 0
+ 331 858 276 731 276 527 c 0xd8
+914 763 m 0
+ 914 -151 l 0xb8
+ 914 -245 922 -329 929 -397 c 1
+ 770 -406 l 1
+ 761 -333 757 -237 757 -146 c 1
+ 757 56 l 1
+ 709 25 670 -7 570 -7 c 0
  247 -7 120 210 120 546 c 0
- 120 814 226 1013 501 1013 c 0
+ 120 814 226 1013 501 1013 c 0xd4
  613 1013 694 978 757 922 c 1
  758 964 763 986 768 1018 c 1
- 932 998 l 1
- 922 932 913 846 913 763 c 0
- 913 755 913 747 913 739 c 2
+ 932 998 l 1xb8
+ 922 932 914 846 914 763 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: r
@@ -1582,28 +1580,37 @@ StartChar: W
 Encoding: 87 87 46
 Width: 1060
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 1298 20G<63.75 208 820 959.176>
 VStem: 699 136<0 127.939> 868 155<1070.48 1284.14>
 LayerCount: 2
+Back
+SplineSet
+521 613 m 5
+ 568 388 702 22 710 0 c 5
+ 841 0 l 5
+ 884 170 990 1035 1036 1286 c 5
+ 882 1318 l 5
+ 761.5 675.2 796 608 752 298 c 5
+ 682 528 613 886 607 957 c 5
+EndSplineSet
 Fore
 SplineSet
 332 0 m 1
  201 0 l 1
  158 170 52 1035 6 1286 c 1
  160 1318 l 1
- 256 779 251 620 297 301 c 1
- 367 531 429 886 435 957 c 1
+ 280 675 246 608 290 298 c 1
+ 360 528 429 886 435 957 c 1
  480 957 568 957 602 969 c 1
- 638 778 677 497 751 291 c 1
- 785 577 772 845 868 1315 c 1
+ 638 778 686 485 744 300 c 1
+ 777 585 741 624 868 1315 c 1
  1023 1281 l 1
  971 1030 868 178 835 0 c 1
  699 0 l 1
  699 0 553 429 521 613 c 1
  474 388 340 22 332 0 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: X
@@ -6899,9 +6906,8 @@ HStem: 1 155<343.159 630.662> 878 154<352.497 639.881> 1049 517
 VStem: 72 158<272.944 736.885> 743 159<279.587 758.636>
 LayerCount: 2
 Fore
-Refer: 333 779 S 1 0 0 1 48 -109 2
+Refer: 333 779 S 1 0 0 1 106 -109 2
 Refer: 14 111 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Racute
@@ -7591,7 +7597,6 @@ LayerCount: 2
 Fore
 Refer: 324 770 S 1 0 0 1 -16 93 2
 Refer: 46 87 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: wcircumflex

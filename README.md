@@ -1,16 +1,23 @@
-Cosmic Sans Neue Mono
-=====================
+Fantasque Sans Mono
+===================
 
 A programming font, designed with functionality in mind, and with some 
 wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
-[Download](http://openfontlibrary.org/en/font/cosmic-sans-neue-mono).
+[Download](http://openfontlibrary.org/en/font/fantasque-sans-mono).
+
 
 ![](Specimen/urxvt13.png)
 
-Not related to other Cosmic Sans from the Internet. This one has Neue at the 
-end, and it changes everything (most notably the coolness level). The name 
-comes from my realization that at some point it looked like the mutant child of 
-Comic Sans and Helvetica Neue. Hopefully it is not the case any more.
+Previously known as *Cosmic Sans Neue Mono*. It
+appeared that [similar names were already in use for other
+fonts](https://github.com/belluzj/cosmic-sans-neue/issues/16), and that
+people tended to extend their instinctive hatred of Comic Sans to this very
+font of mine (which of course can only be *loved*). Why the previous name?
+Here is my original explanation:
+
+> The name comes from my realization that at some point it looked like the
+> mutant child of Comic Sans and Helvetica Neue. Hopefully it is not the
+> case any more.
 
 Inspirational sources include Inconsolata and Monaco. I have also been using 
 Consolas a lot in my programming life, so it may have some points in common.
@@ -96,3 +103,5 @@ Versions
         languages' websites).
         Add a WIP medium version of the proportional font.
 
+1.4 - Rename font to **Fantasque Sans**, because *fantasque is the new cosmic*.
+      Make W look symetrical at big size.
