@@ -9,6 +9,8 @@ EOT_FILES=$(patsubst %,Webfonts/%.eot,$(BASENAMES))
 CSS_FRAGMENTS=$(patsubst %,Webfonts/%-decl.css,$(BASENAMES))
 CSS_FILE=Webfonts/stylesheet.css
 
+INSTALLED_TTF_FILES=$(patsubst %,~/.fonts/%.ttf,$(BASENAMES))
+
 all: zips
 
 OTF/%.otf %.ttf Webfonts/%.svg Webfonts/%.eot Webfonts/%.woff Webfonts/%-decl.css: Sources/%.sfd
@@ -25,7 +27,9 @@ $(CSS_FILE): $(CSS_FRAGMENTS)
 	cat $(foreach v,$(CSS_FRAGMENTS),$(if $(findstring Mono,$v),$v)) > $(CSS_FILE)
 
 .PHONY: install clean zips zip-mono zip-prop
-install: $(TTF_FILES)
+install: $(INSTALLED_TTF_FILES)
+
+$(INSTALLED_TTF_FILES): $(TTF_FILES)
 	cp $^ ~/.fonts/
 	fc-cache -f
 
