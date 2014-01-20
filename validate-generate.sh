@@ -32,6 +32,7 @@ font.encoding = "AdobeStandard";
 font.generate("TeX/f${texFamily}${texCut}8a.pfb",
   flags=("afm", "tfm", "pfm"));
 EOF
+error=$?
 
 cat > Webfonts/${basename}-decl.css <<EOF
 @font-face {
@@ -45,7 +46,6 @@ cat > Webfonts/${basename}-decl.css <<EOF
 
 EOF
 
-error=$?
 if [ "x$error" != "x0" ]; then
   echo -e "\e[1;31mError in ${basename}.\e[0m"
   if [ "x$error" = "x42" ]; then
