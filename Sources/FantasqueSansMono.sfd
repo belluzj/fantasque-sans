@@ -1,6 +1,6 @@
 SplineFontDB: 3.0
-FontName: FantasqueSansMono
-FullName: Fantasque Sans Mono
+FontName: FantasqueSansMono-Regular
+FullName: Fantasque Sans Mono Regular
 FamilyName: Fantasque Sans Mono
 Weight: Regular
 Copyright: Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1390313751
+ModificationTime: 1390319716
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5

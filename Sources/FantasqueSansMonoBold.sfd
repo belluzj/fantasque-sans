@@ -1,5 +1,5 @@
 SplineFontDB: 3.0
-FontName: FantasqueSansMonoBold
+FontName: FantasqueSansMono-Bold
 FullName: Fantasque Sans Mono Bold
 FamilyName: Fantasque Sans Mono
 Weight: Bold
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1390314409
+ModificationTime: 1390319738
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -912,27 +912,27 @@ StartChar: y
 Encoding: 121 121 24
 Width: 1060
 VWidth: 14
-Flags: HWO
+Flags: HW
 HStem: -376 202<203.477 426.49> -20 20G<42 294> 703 310<57.4717 216.333>
 VStem: 42 250<-163.866 0> 716 254<539.521 1013>
 LayerCount: 2
 Fore
 SplineSet
-352 -174 m 4
- 441 -174 509 -24 529 70 c 5
- 319 550 217 751 101 751 c 7
- 81 751 67 751 57 750 c 5
- 56 1011 l 5
- 56 1011 98 1013 132 1013 c 7
- 324 1013 473 747 649 341 c 5
- 723 558 708 786 716 1013 c 5
- 972 1013 l 5
- 972 953 972 891 970 839 c 4
- 955 516 828 131 646 -174 c 4
- 543 -347 459 -376 312 -376 c 5
- 98 -376 46 -173 42 0 c 5
- 292 0 l 5
- 296 -85 304 -174 352 -174 c 4
+352 -174 m 0
+ 441 -174 509 -24 529 70 c 1
+ 319 550 217 751 101 751 c 3
+ 81 751 67 751 57 750 c 1
+ 56 1011 l 1
+ 56 1011 98 1013 132 1013 c 3
+ 324 1013 473 747 649 341 c 1
+ 723 558 708 786 716 1013 c 1
+ 972 1013 l 1
+ 972 953 972 891 970 839 c 0
+ 955 516 828 131 646 -174 c 0
+ 543 -347 459 -376 312 -376 c 1
+ 98 -376 46 -173 42 0 c 1
+ 292 0 l 1
+ 296 -85 304 -174 352 -174 c 0
 EndSplineSet
 EndChar
 
