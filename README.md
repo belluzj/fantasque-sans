@@ -108,3 +108,8 @@ Versions
 
 1.4 - Rename font to **Fantasque Sans**, because *fantasque is the new cosmic*.
       Make W look symetrical at big size.
+
+1.4.1 - Drop Reserved Font Name. **You can now subset, compress, hint and
+        whatnot without worrying about renaming**.
+        Many small improvements (8, s , t, a, e, {, }, W, i, l, g...).
+
