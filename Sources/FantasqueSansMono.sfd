@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1390319716
+ModificationTime: 1390410587
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 42 42 14
+WinInfo: 8190 42 14
 BeginPrivate: 1
 BlueValues 37 [-22 1 1018 1061 1296 1323 1389 1428]
 EndPrivate
@@ -377,7 +377,7 @@ StartChar: p
 Encoding: 112 112 7
 Width: 1060
 VWidth: -2
-Flags: WO
+Flags: W
 HStem: -7 155<359.305 639.934> 858 155<376.237 675.54> 998 20G<108 274.5>
 VStem: 127 156<-393.801 56 220.225 763.281> 763 157<291.52 763.3>
 LayerCount: 2
@@ -711,7 +711,7 @@ StartChar: s
 Encoding: 115 115 18
 Width: 1060
 VWidth: 6
-Flags: WO
+Flags: W
 HStem: -20 143<341.391 671.341> 881 148<339.448 675.835>
 VStem: 118 157<192.72 329> 152 160<706.04 850.139> 741 155<188.544 389.011>
 LayerCount: 2
@@ -1996,7 +1996,7 @@ StartChar: aring
 Encoding: 229 229 64
 Width: 1060
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -6 152<275.367 541.736> 504 153<324.522 659.622> 877 249<391.256 546.493> 1267 124<389.409 550.018>
 VStem: 78 156<186.95 423.616> 254 130<1135.55 1257.04> 556 132<1136.6 1257.04> 696 157<285.558 463.324 597 788.129>
 LayerCount: 2
@@ -2819,22 +2819,18 @@ StartChar: hyphen
 Encoding: 45 45 100
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HWO
 HStem: 448 152<108 939>
 LayerCount: 2
 Fore
 SplineSet
-102 591 m 5
- 238 598 394 600 496 600 c 4
- 537 600 576 600 615 600 c 4
- 697 600 814 599 921 598 c 5
- 939 598 l 5
- 939 445 l 5
- 921 445 l 5
- 786 448 619 448 494 448 c 4
- 427 448 260 446 108 438 c 5
- 108 522 l 5
- 102 591 l 5
+148 594 m 1
+ 284 600 377 600 496 600 c 0
+ 644 600 773 598 939 598 c 1
+ 939 445 l 1
+ 798 445 625 448 494 448 c 0
+ 389 448 303 448 154 441 c 1
+ 148 594 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -7171,7 +7167,7 @@ StartChar: scaron
 Encoding: 353 353 287
 Width: 1060
 VWidth: 32
-Flags: HWO
+Flags: HW
 HStem: -20 143<315.391 645.341> 881 148<313.448 649.835> 1058 405
 VStem: 92 157<192.72 329> 126 160<706.04 850.139> 715 155<188.544 389.011>
 LayerCount: 2
@@ -11263,7 +11259,7 @@ StartChar: aringacute
 Encoding: 507 507 459
 Width: 1060
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -6 152<275.367 562.638> 504 144<324.611 688.29> 877 151<307.034 638.987> 1056 125<404.543 561.062> 1322 124<403.637 561.812> 1432 461
 VStem: 78 156<186.95 423.484> 266 130<1191.22 1312.04> 284 590 568 132<1190.77 1312.04> 724 157<285.558 463.324 597 789.375>
 LayerCount: 2
@@ -12354,7 +12350,7 @@ StartChar: uni2010
 Encoding: 8208 8208 523
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HW
 HStem: 448 152<108 939>
 LayerCount: 2
 Fore
@@ -12366,7 +12362,7 @@ StartChar: uni2011
 Encoding: 8209 8209 524
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HW
 HStem: 448 152<108 939>
 LayerCount: 2
 Fore
@@ -12378,7 +12374,7 @@ StartChar: figuredash
 Encoding: 8210 8210 525
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HW
 HStem: 448 152<79.8427 948.105>
 LayerCount: 2
 Fore
@@ -12390,7 +12386,7 @@ StartChar: endash
 Encoding: 8211 8211 526
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HW
 HStem: 448 152<108 939>
 LayerCount: 2
 Fore
@@ -12402,11 +12398,11 @@ StartChar: emdash
 Encoding: 8212 8212 527
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HW
 HStem: 448 152<24.5877 983.221>
 LayerCount: 2
 Fore
-Refer: 100 45 N 1.15359 0 0 1 -100 0 2
+Refer: 100 45 S 1.20977 0 0 1 -152.753 0 2
 Validated: 1
 EndChar
 
@@ -12414,11 +12410,11 @@ StartChar: afii00208
 Encoding: 8213 8213 528
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HW
 HStem: 435 152<-54.3868 1066.03>
 LayerCount: 2
 Fore
-Refer: 100 45 S 1.34827 0 0 1 -200 -13 2
+Refer: 100 45 S 1.4024 0 0 1 -249.407 -14 2
 Validated: 1
 EndChar
 

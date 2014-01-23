@@ -11,7 +11,7 @@ CSS_FILE=Webfonts/stylesheet.css
 
 INSTALLED_TTF_FILES=$(patsubst %,~/.fonts/%.ttf,$(BASENAMES))
 
-all: zips
+all: $(TTF_FILES)
 
 OTF/%.otf %.ttf Webfonts/%.svg Webfonts/%.eot Webfonts/%.woff Webfonts/%-decl.css: Sources/%.sfd
 	mkdir -p OTF TeX Webfonts
@@ -43,4 +43,7 @@ zip-prop: $(TTF_FILES) $(OTF_FILES) $(SVG_FILES) $(EOT_FILES) $(WOFF_FILES) $(SO
 
 clean:
 	rm -f *.ttf *.zip OTF/* TeX/* Webfonts/*.eot Webfonts/*.woff Webfonts/*.svg Webfonts/*.css
+
+test: $(INSTALLED_TTF_FILES)
+	gvim -f ~/Developpement/Système/kernel-base/shared/printf.c
 
