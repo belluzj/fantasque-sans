@@ -36,9 +36,9 @@ Please note that I have not tested all of the glyphs I have drawn (some letters
 have those two layers of crazy accents that I have never witnessed before), so
 it might look bad in some cases. Please report these problems: see next section.
 
-It lacks a good italic version, which I plan to design later, in a fashion 
-similar to Consolas' italic version, with new glyph designs, not just an added 
-slant.
+It also features a good italic version, which I designed in a fashion similar
+to Consolas' italic version, with new glyph designs, not just an added slant.
+It still needs to be emboldened, though.
 
 ![](Specimen/vim21.png)
 
