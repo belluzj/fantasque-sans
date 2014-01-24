@@ -113,3 +113,6 @@ Versions
         whatnot without worrying about renaming**.
         Many small improvements (8, s , t, a, e, {, }, W, i, l, g...).
 
+1.5 - Add regular italic version.
+      Some small changes (Q, w, y, n).
+
