@@ -22,7 +22,7 @@ Here is my original explanation:
 Inspirational sources include Inconsolata and Monaco. I have also been using 
 Consolas a lot in my programming life, so it may have some points in common.
 
-![](Specimen/vim10.png)
+![](Specimen/vim13.png)
 ![](Specimen/sublime11.png)
 
 Weights, variants and glyph coverage
