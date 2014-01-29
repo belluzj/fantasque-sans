@@ -38,7 +38,6 @@ it might look bad in some cases. Please report these problems: see next section.
 
 It also features a good italic version, which I designed in a fashion similar
 to Consolas' italic version, with new glyph designs, not just an added slant.
-It still needs to be emboldened, though.
 
 ![](Specimen/vim21.png)
 
@@ -115,4 +114,6 @@ Versions
 
 1.5 - Add regular italic version.
       Some small changes (Q, w, y, n).
+
+1.6 - Add bold italic version.
 
