@@ -117,3 +117,6 @@ Versions
 
 1.6 - Add bold italic version.
 
+1.6.1 - Simplify @ to make it look sharp at all sizes.
+        Various fixes.
+
