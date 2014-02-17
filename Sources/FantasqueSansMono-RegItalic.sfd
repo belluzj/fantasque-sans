@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1391459806
+ModificationTime: 1392646091
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 42 14
+WinInfo: 42 42 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -450,6 +450,7 @@ SplineSet
  586 1406 l 1
 EndSplineSet
 Refer: 177 305 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: j
@@ -2085,12 +2086,12 @@ StartChar: colon
 Encoding: 58 58 66
 Width: 1060
 VWidth: 26
-Flags: W
+Flags: HW
 HStem: 0 269<449 648> 766 269<597 796>
 VStem: 397 303 545 303
 LayerCount: 2
 Fore
-Refer: 53 46 N 1 0 0 1 148 766 2
+Refer: 53 46 S 1 0 0 1 145.279 752 2
 Refer: 53 46 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
@@ -2099,13 +2100,13 @@ StartChar: semicolon
 Encoding: 59 59 67
 Width: 1060
 VWidth: 26
-Flags: W
+Flags: HW
 HStem: -393 667 792 269<596 795>
 VStem: 298 408 544 303
 LayerCount: 2
 Fore
 Refer: 54 44 N 1 0 0 1 0 0 2
-Refer: 53 46 N 1 0 0 1 147 792 2
+Refer: 53 46 N 1 0 0 1 139.03 750 2
 Validated: 1
 EndChar
 
@@ -2283,6 +2284,7 @@ LayerCount: 2
 Fore
 Refer: 320 768 S 1 0 0 1 -109 -174 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: iacute
@@ -2296,6 +2298,7 @@ LayerCount: 2
 Fore
 Refer: 321 769 S 1 0 0 1 -53 -210 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: icircumflex
@@ -2309,6 +2312,7 @@ LayerCount: 2
 Fore
 Refer: 322 770 S 1 0 0 1 -94 -198 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: idieresis
@@ -2322,6 +2326,7 @@ LayerCount: 2
 Fore
 Refer: 173 168 S 1 0 0 1 31 91 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ccedilla
@@ -2886,30 +2891,29 @@ StartChar: plus
 Encoding: 43 43 101
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HWO
 HStem: 0 21G<436 600.857> 443 155<175 522 713 1056>
 LayerCount: 2
 Fore
 SplineSet
 175 589 m 1
- 234 600 303 601 396 601 c 0
+ 235 600 303 601 396 601 c 0
  442 601 495 601 556 601 c 1
- 630 985 l 1
- 784 984 l 1
- 708 593 l 1
- 713 600 l 1
- 840 598 942 598 1005 598 c 0
- 1032 598 1059 598 1086 598 c 1
- 1056 443 l 1
- 1041 443 l 2
- 1035 443 892 443 683 446 c 1
- 597 0 l 1
- 436 2 l 1
+ 638 1024 l 1
+ 792 1023 l 1
+ 785 982 773 922 761 859 c 0
+ 737 734 710 600 710 600 c 1
+ 836 598 942 598 1005 598 c 0
+ 1032 598 1061 598 1088 598 c 1
+ 1058 443 l 1
+ 1043 443 l 2
+ 1037 443 892 443 683 446 c 1
+ 601 20 l 1
+ 440 22 l 1
  522 445 l 1
  323 445 215 444 145 434 c 1
  175 589 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: less
@@ -2920,16 +2924,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-882 87 m 1
- 769 -30 l 1
- 752 6 716 42 675 80 c 1
- 595 159 242 435 219 453 c 1
- 242 573 l 1
- 424 702 768 945 916 1023 c 0
- 949 1040 973 1054 1010 1065 c 1
- 1070 923 l 1
- 892 838 599 628 416 505 c 1
- 539 404 816 219 882 87 c 1
+882 87 m 5
+ 769 -30 l 5
+ 752 6 716 42 675 80 c 5
+ 595 159 242 435 219 453 c 5
+ 242 573 l 5
+ 424 702 768 945 916 1023 c 4
+ 949 1040 973 1054 1010 1065 c 5
+ 1070 923 l 5
+ 892 838 599 628 416 505 c 5
+ 539 404 816 219 882 87 c 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -2938,8 +2942,7 @@ StartChar: greater
 Encoding: 62 62 103
 Width: 1060
 VWidth: 6
-Flags: W
-HStem: 1042 20G<343.128 412>
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4551,6 +4554,7 @@ SplineSet
  872 202 868 235 868 273 c 0
  868 285 868 297 869 309 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: brokenbar
@@ -4984,6 +4988,7 @@ SplineSet
  495 943 528 991 546 1020 c 1
  736 1020 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Amacron
@@ -6264,6 +6269,7 @@ LayerCount: 2
 Fore
 Refer: 323 771 S 0.935897 0 0 1 -42.8461 -292 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Imacron
@@ -6291,6 +6297,7 @@ LayerCount: 2
 Fore
 Refer: 324 772 S 1 0 0 1 -82 -292 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Ibreve
@@ -6318,6 +6325,7 @@ LayerCount: 2
 Fore
 Refer: 326 774 S 1 0 0 1 -70 -230 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Iogonek
@@ -11142,6 +11150,7 @@ LayerCount: 2
 Fore
 Refer: 332 780 N 1 0 0 1 -64 -64 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni01D1
@@ -11659,6 +11668,7 @@ LayerCount: 2
 Fore
 Refer: 333 783 S 1 0 0 1 -108 -71 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni020C
@@ -12237,6 +12247,7 @@ LayerCount: 2
 Fore
 Refer: 492 785 N 1 0 0 1 -55 -206 2
 Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uni020E

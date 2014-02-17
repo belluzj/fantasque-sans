@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1391459788
+ModificationTime: 1392646030
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 42 14
+WinInfo: 42 42 14
 BeginPrivate: 1
 BlueValues 27 [-37 0 1017 1058 1320 1376]
 EndPrivate
@@ -2592,12 +2592,12 @@ StartChar: colon
 Encoding: 58 58 66
 Width: 1060
 VWidth: 26
-Flags: W
+Flags: HW
 HStem: 2 313<402 656> 725 313<543 797>
 VStem: 341 376 482 376
 LayerCount: 2
 Fore
-Refer: 53 46 N 1 0 0 1 138 725 2
+Refer: 53 46 S 1 0 0 1 132.946 699 2
 Refer: 53 46 N 1 0 0 1 -3 2 2
 Validated: 1
 EndChar
@@ -2606,12 +2606,12 @@ StartChar: semicolon
 Encoding: 59 59 67
 Width: 1060
 VWidth: 26
-Flags: W
+Flags: HWO
 HStem: 747 313<533 787>
 VStem: 250 461 472 376
 LayerCount: 2
 Fore
-Refer: 53 46 N 1 0 0 1 128 747 2
+Refer: 53 46 S 1 0 0 1 118.67 699 2
 Refer: 54 44 N 1 0 0 1 -8 0 2
 Validated: 1
 EndChar
@@ -3388,29 +3388,29 @@ StartChar: plus
 Encoding: 43 43 101
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HWO
 HStem: 0 21G<400 655.858> 391 235<180 476 768 1046>
 LayerCount: 2
 Fore
 SplineSet
-180 616 m 5
- 230 625 260 626 325 626 c 0
- 337 626 350 626 364 626 c 6
- 524 626 l 5
- 593 983 l 5
- 839 984 l 5
- 768 627 l 5
- 894 627 947 625 1009 625 c 4
- 1036 625 1064 625 1091 625 c 5
- 1046 391 l 5
- 1032 391 l 6
- 1026 391 937 391 728 394 c 5
- 652 0 l 5
- 400 0 l 5
- 476 391 l 5
+180 616 m 1
+ 229 625 260 626 325 626 c 0
+ 337 626 350 626 364 626 c 2
+ 524 626 l 1
+ 600 1017 l 1
+ 846 1018 l 1
+ 768 627 l 1
+ 894 627 947 625 1009 625 c 0
+ 1036 625 1064 625 1091 625 c 1
+ 1046 391 l 1
+ 1032 391 l 2
+ 1026 391 937 391 728 394 c 1
+ 652 0 l 1
+ 400 0 l 1
+ 476 391 l 1
  443 391 414 391 387 391 c 0
- 254 391 195 390 136 382 c 5
- 180 616 l 5
+ 254 391 195 390 136 382 c 1
+ 180 616 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -5071,6 +5071,7 @@ SplineSet
  877 169 l 1
  863 205 860 213 854 267 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: brokenbar
@@ -9530,6 +9531,7 @@ SplineSet
  684 330 665 479 655 606 c 1
  571 459 400 228 202 -39 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: mu
