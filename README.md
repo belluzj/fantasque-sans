@@ -120,3 +120,4 @@ Versions
 1.6.1 - Simplify @ to make it look sharp at all sizes.
         Various fixes.
 
+1.6.2 - Make `+` symmetrical, align dots in `:` and `;`.
