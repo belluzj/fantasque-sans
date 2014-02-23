@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1392645966
+ModificationTime: 1393149853
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -40,6 +40,7 @@ HheadAscent: 1750
 HheadAOffset: 0
 HheadDescent: -398
 HheadDOffset: 0
+OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
@@ -52,7 +53,7 @@ AntiAlias: 1
 FitToEm: 1
 WinInfo: 42 42 14
 BeginPrivate: 1
-BlueValues 27 [-37 0 1017 1058 1320 1376]
+BlueValues 27 [-37 0 1017 1058 1322 1376]
 EndPrivate
 Grid
 -2048 1183.6 m 0
@@ -2073,7 +2074,7 @@ StartChar: semicolon
 Encoding: 59 59 67
 Width: 1060
 VWidth: 26
-Flags: HWO
+Flags: HW
 HStem: 747 313<337 652>
 VStem: 328 323<5 309> 337 315<747 1060> 441 210<-166.501 6>
 LayerCount: 2

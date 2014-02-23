@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1392646091
+ModificationTime: 1393149856
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +52,8 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 42 42 14
-BeginPrivate: 0
+BeginPrivate: 1
+BlueValues 37 [-26 1 1021 1061 1296 1326 1389 1428]
 EndPrivate
 Grid
 -2048 1180.9 m 0
@@ -2891,7 +2892,7 @@ StartChar: plus
 Encoding: 43 43 101
 Width: 1060
 VWidth: 6
-Flags: HWO
+Flags: HW
 HStem: 0 21G<436 600.857> 443 155<175 522 713 1056>
 LayerCount: 2
 Fore
