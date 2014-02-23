@@ -23,8 +23,8 @@ bitmask = font.validate();
 if bitmask != 0:
   exit(42);
 
-font.generate("${basename}.ttf");
-font.generate("OTF/${basename}.otf");
+font.generate("${basename}.ttf", flags=("opentype", "dummy-dsig"));
+font.generate("OTF/${basename}.otf", flags=("opentype", "dummy-dsig"));
 font.generate("Webfonts/${basename}.svg");
 
 # TeX stuff
