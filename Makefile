@@ -14,7 +14,7 @@ INSTALLED_TTF_FILES=$(patsubst %,~/.fonts/%.ttf,$(BASENAMES))
 all: $(TTF_FILES)
 
 OTF/%.otf %.ttf Webfonts/%.svg Webfonts/%.eot Webfonts/%.woff Webfonts/%-decl.css: Sources/%.sfd
-	mkdir -p OTF TeX Webfonts
+	mkdir -p OTF Webfonts
 	./validate-generate.sh "$*"
 	# TODO determine perfect parameters
 	ttfautohint "$*.ttf" "$*.hinted.ttf"
@@ -42,7 +42,7 @@ zip-prop: $(TTF_FILES) $(OTF_FILES) $(SVG_FILES) $(EOT_FILES) $(WOFF_FILES) $(SO
 	zip FantasqueSans.zip OFL.txt README.md Webfonts/README.md $(foreach v,$^,$(if $(findstring Mono,$v),,$v))
 
 clean:
-	rm -f *.ttf *.zip OTF/* TeX/* Webfonts/*.eot Webfonts/*.woff Webfonts/*.svg Webfonts/*.css
+	rm -f *.ttf *.zip OTF/* Webfonts/*.eot Webfonts/*.woff Webfonts/*.svg Webfonts/*.css
 
 test: $(INSTALLED_TTF_FILES)
 	gvim -f ~/Developpement/Système/kernel-base/shared/printf.c

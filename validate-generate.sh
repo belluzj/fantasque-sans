@@ -5,19 +5,20 @@
 basename=$1
 ttf="${basename}.ttf"
 otf="OTF/${basename}.otf"
-texFamily="cm" # arbitrary two letters out of the font's name
-
-texCut="r" # Regular
-if [[ "${basename,,}" == *bold* ]]; then
-  texCut="b" # Bold
-fi
 
 echo -e "\e[1;37mGenerating ${basename}... \e[0m"
 
-fontforge -lang=py -script - <<EOF
+output=$(fontforge -lang=py -script - <<EOF
 import fontforge;
 
 font = fontforge.open("Sources/${basename}.sfd");
+
+# Extract interesting informations
+print font.fontname
+print font.familyname
+print font.fullname
+print font.os2_weight
+print font.italicangle
 
 bitmask = font.validate();
 if bitmask != 0:
@@ -27,23 +28,38 @@ font.generate("${basename}.ttf", flags=("opentype", "dummy-dsig"));
 font.generate("OTF/${basename}.otf", flags=("opentype", "dummy-dsig"));
 font.generate("Webfonts/${basename}.svg");
 
-# TeX stuff
-font.encoding = "AdobeStandard";
-font.generate("TeX/f${texFamily}${texCut}8a.pfb",
-  flags=("afm", "tfm", "pfm"));
 EOF
+)
 error=$?
+
+old_IFS="$IFS"
+IFS='
+'
+output=($output)
+IFS="$old_IFS"
+
+fontname=${output[0]}
+familyname=${output[1]}
+fullname=${output[2]}
+fontweight=${output[3]}
+slope=${output[4]}
+if [ x"$slope" = "x0.0" ]; then
+  fontstyle=normal
+else
+  fontstyle=italic
+fi
 
 cat > Webfonts/${basename}-decl.css <<EOF
 @font-face {
-    font-family: '${basename}';
-    src: url('${basename}.eot'); /* IE 9 Compatibility Mode */
-    src: url('${basename}.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-         url('${basename}.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-         url('${basename}.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('${basename}.svg#${basename}') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-family: '${familyname}';
+  src: url('${basename}.eot'); /* IE 9 Compatibility Mode */
+  src: url('${basename}.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+       url('${basename}.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+       url('${basename}.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('${basename}.svg#${fontname}') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: ${fontweight};
+  font-style: ${fontstyle};
 }
-
 EOF
 
 if [ "x$error" != "x0" ]; then
