@@ -7,8 +7,8 @@ Copyright: Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)
 UComments: "2013-9-13: Created." 
 Version: 1.6.2
 ItalicAngle: 0
-UnderlinePosition: -192
-UnderlineWidth: 96
+UnderlinePosition: -77
+UnderlineWidth: 156
 Ascent: 1650
 Descent: 398
 LayerCount: 2
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1395951162
+ModificationTime: 1397674255
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 62816 32 11
+WinInfo: 32 32 11
 BeginPrivate: 1
 BlueValues 37 [-22 1 1018 1061 1296 1326 1389 1428]
 EndPrivate
@@ -75,7 +75,7 @@ Grid
  3891.2 1375.6 l 0
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 423805 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 739
+BeginChars: 65536 737
 
 StartChar: a
 Encoding: 97 97 0
@@ -2724,22 +2724,22 @@ VStem: 352 160<-101 1316>
 LayerCount: 2
 Fore
 SplineSet
-844 1483 m 1
- 876 1329 l 1
- 775 1320 679 1320 512 1316 c 1
- 512 -101 l 1
- 608 -98 713 -97 732 -97 c 2
- 745 -97 l 2
- 808 -97 874 -103 888 -106 c 1
- 888 -268 l 1
- 863 -265 823 -259 752 -259 c 0
- 693 -259 447 -264 354 -264 c 1
- 354 -86 356 -3 356 177 c 0
- 356 267 355 388 354 567 c 0
- 354 742 352 918 352 1049 c 2
- 352 1470 l 1
- 445 1470 689 1477 740 1477 c 1
- 812 1480 821 1481 844 1483 c 1
+844 1483 m 5
+ 876 1329 l 5
+ 775 1320 679 1320 512 1316 c 5
+ 512 -101 l 5
+ 608 -98 713 -97 732 -97 c 6
+ 745 -97 l 6
+ 808 -97 874 -103 888 -106 c 5
+ 888 -268 l 5
+ 863 -265 823 -259 752 -259 c 4
+ 693 -259 447 -264 354 -264 c 5
+ 354 -86 356 -3 356 177 c 4
+ 356 267 355 388 354 567 c 4
+ 354 742 352 918 352 1049 c 6
+ 352 1470 l 5
+ 445 1470 689 1477 740 1477 c 5
+ 812 1480 821 1481 844 1483 c 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -2840,7 +2840,7 @@ StartChar: plus
 Encoding: 43 43 101
 Width: 1060
 VWidth: 6
-Flags: HWO
+Flags: HW
 HStem: 444 156<62 432 587 971>
 VStem: 432 155<51 444 600 960>
 LayerCount: 2
@@ -3269,18 +3269,17 @@ StartChar: underscore
 Encoding: 95 95 117
 Width: 1060
 VWidth: 41
-Flags: W
-HStem: -236 159<46 992>
+Flags: WO
+HStem: -334 156<42 992>
 LayerCount: 2
 Fore
 SplineSet
-46 -77 m 5
- 992 -77 l 5
- 992 -236 l 1
- 42 -236 l 1
- 46 -77 l 5
+992 -334 m 5
+ 42 -334 l 5
+ 42 -178 l 5
+ 992 -178 l 5
+ 992 -334 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: grave
@@ -17880,42 +17879,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uniFF0F
-Encoding: 65295 65295 736
-Width: 2120
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-2006 1429 m 1
- 230 -347 l 1
- 114 -230 l 1
- 1890 1546 l 1
- 2006 1429 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniFF3C
-Encoding: 65340 65340 737
-Width: 2120
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-114 1429 m 1
- 230 1546 l 1
- 2006 -230 l 1
- 1890 -347 l 1
- 114 1429 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
 StartChar: filledbox
-Encoding: 9632 9632 738
+Encoding: 9632 9632 736
 Width: 1060
 VWidth: 1918
 Flags: HW
