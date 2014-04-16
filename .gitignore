@@ -1,5 +1,6 @@
 TeX
 *.zip
+*.tar.gz
 *.deb
 *.rpm
 *~

@@ -37,9 +37,12 @@ zips: zip-mono zip-prop
 
 zip-mono: $(TTF_FILES) $(OTF_FILES) $(SVG_FILES) $(EOT_FILES) $(WOFF_FILES) $(SOURCES) $(CSS_FILE)
 	zip FantasqueSansMono.zip OFL.txt README.md Webfonts/README.md $(CSS_FILE) $(foreach v,$^,$(if $(findstring Mono,$v),$v))
+	tar czvf FantasqueSansMono.tar.gz OFL.txt README.md Webfonts/README.md $(CSS_FILE) $(foreach v,$^,$(if $(findstring Mono,$v),$v))
+
 
 zip-prop: $(TTF_FILES) $(OTF_FILES) $(SVG_FILES) $(EOT_FILES) $(WOFF_FILES) $(SOURCES)
 	zip FantasqueSans.zip OFL.txt README.md Webfonts/README.md $(foreach v,$^,$(if $(findstring Mono,$v),,$v))
+	tar czvf FantasqueSans.zip OFL.txt README.md Webfonts/README.md $(foreach v,$^,$(if $(findstring Mono,$v),,$v))
 
 clean:
 	rm -f *.ttf *.zip OTF/* Webfonts/*.eot Webfonts/*.woff Webfonts/*.svg Webfonts/*.css
