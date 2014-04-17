@@ -121,3 +121,7 @@ Versions
         Various fixes.
 
 1.6.2 - Make `+` symmetrical, align dots in `:` and `;`.
+
+1.6.3 - Add block characters.
+        Make the underscore visible on Windows.
+        Generate better CSS.
