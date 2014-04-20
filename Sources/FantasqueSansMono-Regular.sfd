@@ -20,13 +20,13 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1397674255
+ModificationTime: 1398024556
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 0
+LineGap: 100
 VLineGap: 0
-Panose: 2 11 5 9 2 2 4 3 2 4
+Panose: 2 11 6 9 2 2 4 3 2 4
 OS2TypoAscent: 1650
 OS2TypoAOffset: 0
 OS2TypoDescent: -398
@@ -36,7 +36,7 @@ OS2WinAscent: 1750
 OS2WinAOffset: 0
 OS2WinDescent: 398
 OS2WinDOffset: 0
-HheadAscent: 1750
+HheadAscent: 1650
 HheadAOffset: 0
 HheadDescent: -398
 HheadDOffset: 0
@@ -51,9 +51,8 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 32 11
-BeginPrivate: 1
-BlueValues 37 [-22 1 1018 1061 1296 1326 1389 1428]
+WinInfo: 64 32 11
+BeginPrivate: 0
 EndPrivate
 Grid
 -1678 2674 m 0
@@ -3269,7 +3268,7 @@ StartChar: underscore
 Encoding: 95 95 117
 Width: 1060
 VWidth: 41
-Flags: WO
+Flags: W
 HStem: -334 156<42 992>
 LayerCount: 2
 Fore
