@@ -22,7 +22,7 @@ Here is my original explanation:
 Inspirational sources include Inconsolata and Monaco. I have also been using 
 Consolas a lot in my programming life, so it may have some points in common.
 
-![](Specimen/vim13.png)
+![](Specimen/kdevelop11.png)
 ![](Specimen/sublime11.png)
 
 Weights, variants and glyph coverage
@@ -67,6 +67,8 @@ repository](https://github.com/harrastia/ttf2eot).
 
 `make install` will install the TTF fonts into your local `.fonts/` directory 
 and update the font cache. It comes in handy while modifying the font.
+
+[![](Specimen/Specimen.png)](Specimen/Specimen.pdf)
 
 Versions
 --------
@@ -127,3 +129,5 @@ Versions
         Generate better CSS.
 
 1.6.4 - Fix line height on Mac. 
+        Move all the italic glyphs to the left.
+        Adjust some accents.
