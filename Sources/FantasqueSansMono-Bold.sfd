@@ -5,7 +5,7 @@ FamilyName: Fantasque Sans Mono
 Weight: Bold
 Copyright: Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)
 UComments: "2013-9-13: Created." 
-Version: 1.6.3
+Version: 1.6.4
 ItalicAngle: 0
 UnderlinePosition: -77
 UnderlineWidth: 213
@@ -24,10 +24,10 @@ ModificationTime: 1397675402
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
-LineGap: 75
+LineGap: 50
 VLineGap: 0
 Panose: 2 11 8 9 2 2 4 3 2 4
-OS2TypoAscent: 1650
+OS2TypoAscent: 1700
 OS2TypoAOffset: 0
 OS2TypoDescent: -398
 OS2TypoDOffset: 0

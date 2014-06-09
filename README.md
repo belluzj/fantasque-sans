@@ -125,3 +125,5 @@ Versions
 1.6.3 - Add block characters.
         Make the underscore visible on Windows.
         Generate better CSS.
+
+1.6.4 - Fix line height on Mac. 
