@@ -15,7 +15,7 @@ all: $(TTF_FILES)
 
 OTF/%.otf %.ttf Webfonts/%.svg Webfonts/%.eot Webfonts/%.woff Webfonts/%-decl.css: Sources/%.sfd
 	mkdir -p OTF Webfonts
-	./validate-generate.sh "$*"
+	./validate-generate "$*"
 	# TODO determine perfect parameters
 	ttfautohint "$*.ttf" "$*.hinted.ttf"
 	mv "$*.hinted.ttf" "$*.ttf"
