@@ -2,6 +2,8 @@
 
 # Generate font files with FontForge, and a CSS declaration for this font.
 
+if ! type fontforge &> /dev/null; then echo "ERROR: Missing dependency: fontforge" 1>&2; exit 1; fi
+
 basename=$1
 ttf="${basename}.ttf"
 otf="OTF/${basename}.otf"
