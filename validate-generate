@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Generate font files with FontForge, and a CSS declaration for this font.
 
