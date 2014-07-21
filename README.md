@@ -131,3 +131,5 @@ Versions
 1.6.4 - Fix line height on Mac. 
         Move all the italic glyphs to the left.
         Adjust some accents.
+
+1.6.5 - Make italics visible on Windows.
