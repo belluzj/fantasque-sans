@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1408711834
+ModificationTime: 1408713035
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 42 14
+WinInfo: 8652 42 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -70,7 +70,7 @@ Grid
  3891.2 1375.6 l 1024
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 423805 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 738
+BeginChars: 65536 739
 
 StartChar: a
 Encoding: 97 97 0
@@ -2619,7 +2619,7 @@ StartChar: exclam
 Encoding: 33 33 68
 Width: 1060
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 270<350 700> 1356 20G<367 682>
 VStem: 350 350<0 270> 367 315<558.848 1376> 383 283<464 1280.94>
 LayerCount: 2
@@ -18539,6 +18539,42 @@ SplineSet
  90 990 l 5
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: notequal
+Encoding: 8800 8800 738
+Width: 1060
+VWidth: 6
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+140 861 m 1
+ 282 852 392 849 486 849 c 0
+ 513 849 539 849 564 850 c 1
+ 623 970 677 1083 719 1180 c 1
+ 934 1111 l 1
+ 900 1035 858 949 813 856 c 1
+ 865 858 921 859 987 859 c 1
+ 946 639 l 1
+ 852 639 776 636 701 633 c 1
+ 662 556 622 477 582 400 c 1
+ 689 398 787 394 902 394 c 1
+ 858 170 l 1
+ 719 170 600 173 466 174 c 1
+ 398 41 337 -78 294 -167 c 1
+ 78 -95 l 1
+ 115 -22 164 71 219 176 c 1
+ 215 176 211 176 207 176 c 0
+ 147 176 83 174 14 170 c 1
+ 56 394 l 1
+ 161 400 251 401 336 402 c 1
+ 375 476 414 551 452 627 c 1
+ 449 627 446 627 443 627 c 0
+ 347 627 240 634 97 643 c 1
+ 103 673 112 723 121 770 c 0
+ 127 805 135 839 140 861 c 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
