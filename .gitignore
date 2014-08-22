@@ -11,4 +11,5 @@ Webfonts/*.css
 OTF/*.otf
 *.ttf
 Specimen/*.svg
+Sources/*.sfd-*
 
