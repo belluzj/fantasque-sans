@@ -9,8 +9,8 @@ Version: 1.6.5
 ItalicAngle: -11
 UnderlinePosition: -192
 UnderlineWidth: 96
-Ascent: 1650
-Descent: 398
+Ascent: 1708
+Descent: 412
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1408713035
+ModificationTime: 1408713724
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8652 42 14
+WinInfo: 0 42 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -14157,6 +14157,7 @@ EndChar
 StartChar: uniE0A0
 Encoding: 57504 57504 567
 Width: 1060
+VWidth: 2048
 Flags: W
 VStem: 140 276<-364 202.322 703 1596> 707 166<673.969 1222>
 LayerCount: 2
@@ -14194,6 +14195,7 @@ EndChar
 StartChar: uniE0A1
 Encoding: 57505 57505 568
 Width: 1060
+VWidth: 2048
 Flags: W
 HStem: 748 132<230 582>
 VStem: 76 154<880 1648> 392 158<-233 85.552> 784 158<373.093 667> 804 138<80 387.507>
@@ -14227,6 +14229,7 @@ EndChar
 StartChar: uniE0A2
 Encoding: 57506 57506 569
 Width: 1060
+VWidth: 2048
 Flags: W
 HStem: 0 236<464 576> 745 187<433.175 606.825> 1472 130<401.37 643.096>
 VStem: 42 422<236 544.963> 42 354<524.414 707.825> 185 161<932 1415.8> 576 424<236 544.963> 644 356<524.414 707.825> 696 161<932 1418.87>
@@ -18575,6 +18578,7 @@ SplineSet
  103 673 112 723 121 770 c 0
  127 805 135 839 140 861 c 1
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
