@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1405968143
+ModificationTime: 1408711849
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 42 42 14
+WinInfo: 0 42 14
 BeginPrivate: 1
 BlueValues 37 [-26 1 1021 1061 1296 1326 1389 1428]
 EndPrivate
@@ -2115,22 +2115,22 @@ StartChar: exclam
 Encoding: 33 33 68
 Width: 1060
 VWidth: 0
-Flags: W
-HStem: 0 270<365 563>
-VStem: 313 492
+Flags: HW
+HStem: 0 270<388 638>
+VStem: 388 250<0 270> 415 198<557.952 1376> 431 166<463 1280.84>
 LayerCount: 2
 Fore
 SplineSet
-805 1376 m 1
+794 1319 m 1xa0
  612 463 l 1
- 446 461 l 1
- 607 1376 l 1
- 805 1376 l 1
-365 270 m 1
+ 446 461 l 1x90
+ 596 1319 l 1
+ 794 1319 l 1xa0
+365 270 m 1xc0
  615 270 l 1
  563 0 l 1
  313 0 l 1
- 365 270 l 1
+ 365 270 l 1xc0
 EndSplineSet
 Validated: 1
 EndChar
@@ -3441,10 +3441,10 @@ StartChar: exclamdown
 Encoding: 161 161 121
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 68 33 S -0.999996 0.0027248 -0.0027248 -0.999996 1032 1116 2
+Refer: 68 33 S -0.999996 0.0027248 -0.0027248 -0.999996 1012.76 1018 2
 Validated: 1
 EndChar
 
@@ -4820,10 +4820,10 @@ StartChar: questiondown
 Encoding: 191 191 172
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 119 63 S -1 -8.74228e-08 8.74228e-08 -1 1030 1107 2
+Refer: 119 63 S -1 -8.74228e-08 8.74228e-08 -1 1013.09 1020 2
 Validated: 1
 EndChar
 
@@ -10633,7 +10633,7 @@ StartChar: uni03D3
 Encoding: 979 979 414
 Width: 1060
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 21G<427 586.889> 1070 298<1009.19 1150>
 LayerCount: 2
 Fore
@@ -13109,7 +13109,7 @@ StartChar: exclamdbl
 Encoding: 8252 8252 547
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 270<121 319 601 799>
 VStem: 69 492 549 492
 LayerCount: 2

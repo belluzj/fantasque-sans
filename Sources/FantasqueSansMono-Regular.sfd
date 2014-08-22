@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1405968293
+ModificationTime: 1408711199
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -48,10 +48,10 @@ LangName: 1033 "" "" "" "" "" "" "" "" "" "Jany Belluz" "" "" "" "Copyright (c) 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -48
+DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 32 10
+WinInfo: 0 42 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2094,11 +2094,11 @@ VStem: 388 250<0 270> 415 198<557.952 1376> 431 166<463 1280.84>
 LayerCount: 2
 Fore
 SplineSet
-613 1376 m 1xa0
+613 1319 m 1xa0
  597 463 l 1
  431 461 l 1x90
- 415 1376 l 1
- 613 1376 l 1xa0
+ 415 1319 l 1
+ 613 1319 l 1xa0
 388 270 m 1xc0
  638 270 l 1
  638 0 l 1
@@ -10462,7 +10462,7 @@ SplineSet
  270 1481 222 1290 147 1164 c 1
  19 1224 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: uni03D4
@@ -23741,7 +23741,7 @@ StartChar: uni049E
 Encoding: 1182 1182 860
 Width: 1061
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -5 21G<149 307> 1083 134<0 526> 1288 20G<149 307 851.5 882.943>
 VStem: 149 158<-5 508.713 703 1308>
 LayerCount: 2

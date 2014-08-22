@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1405926058
+ModificationTime: 1408711834
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 714 42 14
+WinInfo: 0 42 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -352,7 +352,7 @@ StartChar: f
 Encoding: 102 102 5
 Width: 1060
 VWidth: -2
-Flags: WO
+Flags: W
 HStem: 0 21G<167 450> 807 205<220 324 621 904.063> 1217 201<676.563 1055.8>
 LayerCount: 2
 Back
@@ -2619,22 +2619,22 @@ StartChar: exclam
 Encoding: 33 33 68
 Width: 1060
 VWidth: 0
-Flags: W
-HStem: 0 270<327 625> 1356 20G<532.167 874>
-VStem: 275 599
+Flags: HWO
+HStem: 0 270<350 700> 1356 20G<367 682>
+VStem: 350 350<0 270> 367 315<558.848 1376> 383 283<464 1280.94>
 LayerCount: 2
 Fore
 SplineSet
-874 1376 m 1
- 809.667 1072 745.333 768 681 464 c 1
- 586.667 463.333 492.333 462.667 398 462 c 1
- 451.667 766.667 505.333 1071.33 559 1376 c 1
- 664 1376 769 1376 874 1376 c 1
-327 270 m 1
- 443.667 270 560.333 270 677 270 c 1
- 659.667 180 642.333 90 625 0 c 1
- 508.333 -0 391.667 0 275 0 c 1
- 292.333 90 309.667 180 327 270 c 1
+868 1341 m 1xd0
+ 681 464 l 1
+ 398 462 l 1xc8
+ 553 1341 l 1
+ 868 1341 l 1xd0
+327 270 m 1xe0
+ 677 270 l 1
+ 625 0 l 1
+ 275 0 l 1
+ 327 270 l 1xe0
 EndSplineSet
 Validated: 1
 EndChar
@@ -3933,10 +3933,10 @@ StartChar: exclamdown
 Encoding: 161 161 121
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 68 33 S -0.999996 0.0027248 -0.0027248 -0.999996 1023 1116 2
+Refer: 68 33 S -0.999996 0.0027248 -0.0027248 -0.999996 1002.59 1011 2
 Validated: 1
 EndChar
 
@@ -5375,10 +5375,10 @@ StartChar: questiondown
 Encoding: 191 191 172
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 119 63 S -1 -8.74228e-08 8.74228e-08 -1 1110 1107 2
+Refer: 119 63 S -1 -8.74228e-08 8.74228e-08 -1 1091.92 1014 2
 Validated: 1
 EndChar
 
@@ -11379,7 +11379,7 @@ StartChar: uni03DC
 Encoding: 988 988 426
 Width: 1060
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 22.89<254.975 310.8> 699.78 235.44<470.4 805.765> 1215.35 227.81<523.95 1083.52>
 LayerCount: 2
 Fore
@@ -13934,7 +13934,7 @@ StartChar: exclamdbl
 Encoding: 8252 8252 560
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 270<83 381 563 861> 1356 20<288.167 630 768.167 1110>
 VStem: 31 599 511 599
 LayerCount: 2
