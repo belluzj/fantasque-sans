@@ -30,6 +30,7 @@ $(CSS_FILE): $(CSS_FRAGMENTS)
 install: $(INSTALLED_TTF_FILES)
 
 $(INSTALLED_TTF_FILES): $(TTF_FILES)
+	mkdir -p ~/.fonts/
 	cp $^ ~/.fonts/
 	fc-cache -f
 
