@@ -16,11 +16,19 @@ import fontforge;
 font = fontforge.open("Sources/${basename}.sfd");
 
 # Extract interesting informations
-print font.fontname
-print font.familyname
-print font.fullname
-print font.os2_weight
-print font.italicangle
+$(if [[ "$(python --version 2>&1 | cut -d' ' -f2- | cut -c1)" == "3" ]]; then
+  echo 'print(font.fontname)'
+  echo 'print(font.familyname)'
+  echo 'print(font.fullname)'
+  echo 'print(font.os2_weight)'
+  echo 'print(font.italicangle)'
+else
+  echo 'print font.fontname'
+  echo 'print font.familyname'
+  echo 'print font.fullname'
+  echo 'print font.os2_weight'
+  echo 'print font.italicangle'
+fi)
 
 bitmask = font.validate();
 if bitmask != 0:
