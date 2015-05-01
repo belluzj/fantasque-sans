@@ -9,8 +9,8 @@ Version: 1.6.5
 ItalicAngle: 0
 UnderlinePosition: -80
 UnderlineWidth: 100
-Ascent: 1610
-Descent: 438
+Ascent: 1620
+Descent: 428
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
@@ -27,18 +27,18 @@ TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 11 6 9 2 2 4 3 2 4
-OS2TypoAscent: 1610
+OS2TypoAscent: 1620
 OS2TypoAOffset: 0
-OS2TypoDescent: -438
+OS2TypoDescent: -428
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1610
+OS2WinAscent: 1620
 OS2WinAOffset: 0
-OS2WinDescent: 438
+OS2WinDescent: 428
 OS2WinDOffset: 0
-HheadAscent: 1610
+HheadAscent: 1620
 HheadAOffset: 0
-HheadDescent: -438
+HheadDescent: -428
 HheadDOffset: 0
 OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
