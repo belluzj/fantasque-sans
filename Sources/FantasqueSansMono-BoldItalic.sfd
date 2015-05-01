@@ -7,10 +7,10 @@ Copyright: Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)
 UComments: "2013-9-13: Created." 
 Version: 1.6.5
 ItalicAngle: -11
-UnderlinePosition: -335
+UnderlinePosition: -363
 UnderlineWidth: 60
-Ascent: 1638
-Descent: 410
+Ascent: 1610
+Descent: 438
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
@@ -27,21 +27,19 @@ TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 11 8 9 2 2 4 3 2 4
-OS2TypoAscent: 1580
+OS2TypoAscent: 1610
 OS2TypoAOffset: 0
-OS2TypoDescent: -375
+OS2TypoDescent: -438
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1950
+OS2WinAscent: 1610
 OS2WinAOffset: 0
-OS2WinDescent: 375
+OS2WinDescent: 438
 OS2WinDOffset: 0
-HheadAscent: 1950
+HheadAscent: 1610
 HheadAOffset: 0
-HheadDescent: -375
+HheadDescent: -438
 HheadDOffset: 0
-OS2CapHeight: 1580
-OS2XHeight: 1172
 OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
