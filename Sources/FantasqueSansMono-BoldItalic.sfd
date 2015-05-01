@@ -27,18 +27,18 @@ TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 11 8 9 2 2 4 3 2 4
-OS2TypoAscent: 1580
+OS2TypoAscent: 1610
 OS2TypoAOffset: 0
-OS2TypoDescent: -375
+OS2TypoDescent: -438
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 1610
 OS2WinAOffset: 0
 OS2WinDescent: 438
 OS2WinDOffset: 0
-HheadAscent: 1950
+HheadAscent: 1610
 HheadAOffset: 0
-HheadDescent: -375
+HheadDescent: -438
 HheadDOffset: 0
 OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
