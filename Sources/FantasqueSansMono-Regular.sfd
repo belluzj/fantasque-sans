@@ -36,10 +36,12 @@ OS2WinAscent: 1850
 OS2WinAOffset: 0
 OS2WinDescent: 475
 OS2WinDOffset: 0
-HheadAscent: 1950
+HheadAscent: 1850
 HheadAOffset: 0
-HheadDescent: -375
+HheadDescent: -475
 HheadDOffset: 0
+OS2CapHeight: 1375
+OS2XHeight: 1000
 OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
