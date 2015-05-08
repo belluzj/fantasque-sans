@@ -32,7 +32,7 @@ OS2TypoAOffset: 0
 OS2TypoDescent: -375
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1850
+OS2WinAscent: 1750
 OS2WinAOffset: 0
 OS2WinDescent: 475
 OS2WinDOffset: 0
@@ -40,7 +40,7 @@ HheadAscent: 1850
 HheadAOffset: 0
 HheadDescent: -475
 HheadDOffset: 0
-OS2CapHeight: 1375
+OS2CapHeight: 1400
 OS2XHeight: 1000
 OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
