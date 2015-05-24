@@ -16,11 +16,11 @@ import fontforge;
 font = fontforge.open("Sources/${basename}.sfd");
 
 # Extract interesting informations
-print font.fontname
-print font.familyname
-print font.fullname
-print font.os2_weight
-print font.italicangle
+print(font.fontname)
+print(font.familyname)
+print(font.fullname)
+print(font.os2_weight)
+print(font.italicangle)
 
 bitmask = font.validate();
 if bitmask != 0:
