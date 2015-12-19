@@ -1,0 +1,113 @@
+#!/usr/bin/env bash
+
+# Generate a webpage that allows the comparison of two fonts.
+# Pass TTF font files as arguments
+
+if ! type fontforge &> /dev/null; then echo "ERROR: Missing dependency: fontforge" 1>&2; exit 1; fi
+
+OUTPUT="fontdiff.html"
+
+cat > "$OUTPUT" <<EOF
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fontdiff $1 vs. $2</title>
+<style>
+EOF
+
+fontfacedecl() {
+  base64=$(base64 --wrap=0 "$1")
+  cat >> "$OUTPUT" <<EOF
+@font-face {
+  font-family: '$2';
+  src: url('data:font/ttf;base64,$base64') format('truetype');
+}
+EOF
+}
+
+fontfacedecl "$1" font1
+fontfacedecl "$2" font2
+
+cat >> "$OUTPUT" <<EOF
+h1 {
+font-weight: normal;
+}
+
+div {
+  float: left;
+  width: 150px;
+  text-align: center;
+}
+div.font2 {
+  margin-left: -150px;
+}
+
+pre.glyph {
+  margin: 0;
+  font-size: 140px;
+  line-height: 200px;
+}
+
+pre.blank-glyph {
+  height: 200px;
+}
+
+.font1 {
+  color: rgba(255, 0, 0, 0.5);
+}
+.font2 {
+  color: rgba(0, 0, 255, 0.5);
+}
+
+.font1 .glyph, h1.font1 {
+  font-family: font1;
+}
+.font2 .glyph, h1.font2 {
+  font-family: font2;
+}
+
+</style>
+</head>
+<body>
+<h1 class="font1">$1</h1>
+<h1 class="font2">$2</h1>
+EOF
+
+# Use fontforge to list available glyphs of each font
+fontforge -lang=py -script - >> "$OUTPUT" <<EOF
+import fontforge;
+
+def print_glyph(_class, glyph):
+  if glyph and glyph.unicode > 0:
+    print '<div class="font%s"><pre class="glyph">&#%s;</pre><div class="name">%s</div></div>'%(_class, glyph.unicode, glyph.glyphname)
+  else:
+    print '<div class="font%s"><pre class="glyph blank-glyph"></pre><div class="name"></div></div>'%(_class)
+
+font1 = fontforge.open("$1");
+font2 = fontforge.open("$2");
+
+glyphs1 = sorted(font1.glyphs(), key = lambda g: g.unicode)
+glyphs2 = sorted(font2.glyphs(), key = lambda g: g.unicode)
+
+while glyphs1 and glyphs2:
+  if glyphs1[0].unicode > glyphs2[0].unicode: 
+    print_glyph(1, None)
+    print_glyph(2, glyphs2.pop(0))
+  elif glyphs1[0].unicode < glyphs2[0].unicode:
+    print_glyph(1, glyphs1.pop(0))
+    print_glyph(2, None)
+  else:
+    print_glyph(1, glyphs1.pop(0))
+    print_glyph(2, glyphs2.pop(0))
+
+while glyphs1 or glyphs2:
+  print_glyph(1, glyphs1.pop(0) if glyphs1 else None)
+  print_glyph(2, glyphs2.pop(0) if glyphs2 else None)
+
+EOF
+
+cat >> "$OUTPUT" <<EOF
+</body>
+</html>
+
+EOF
