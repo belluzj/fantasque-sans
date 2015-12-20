@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1450648306
+ModificationTime: 1450648333
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -2128,8 +2128,8 @@ LayerCount: 2
 Fore
 SplineSet
 794 1319 m 1
- 618.219726562 504.484375 l 1
- 452.219726562 502.484375 l 1
+ 618 504 l 1
+ 452 502 l 1
  596 1319 l 1
  794 1319 l 1
 365 270 m 1
@@ -2138,6 +2138,7 @@ SplineSet
  313 0 l 1
  365 270 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: space
@@ -2864,19 +2865,20 @@ StartChar: hyphen
 Encoding: 45 45 100
 Width: 1060
 VWidth: 6
-Flags: HWO
+Flags: HW
 HStem: 448 152<142 951>
 LayerCount: 2
 Fore
 SplineSet
 142 592 m 1
  279 599 436 599 538 599 c 0
- 685.390264221 599 814.250495703 597 980 597 c 1
- 951 444 l 5
- 811.278151705 446 637.186112762 447 506 447 c 0
+ 685 599 814 597 980 597 c 1
+ 951 444 l 1
+ 811 446 637 447 506 447 c 0
  439 447 272 445 118 437 c 1
  142 592 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: plus
@@ -3165,6 +3167,7 @@ SplineSet
  740 526 673 591 554 591 c 0
  421 591 293 488 260 403 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: seven
@@ -3435,6 +3438,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 68 33 S -0.999996 0.0027248 -0.0027248 -0.999996 1012.76 1018 2
+Validated: 1
 EndChar
 
 StartChar: Ograve
@@ -12487,6 +12491,7 @@ HStem: 448 152<142 951>
 LayerCount: 2
 Fore
 Refer: 100 45 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni2011
@@ -12498,6 +12503,7 @@ HStem: 448 152<142 951>
 LayerCount: 2
 Fore
 Refer: 100 45 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: figuredash
@@ -12509,6 +12515,7 @@ HStem: 448 152<115.367 960.643>
 LayerCount: 2
 Fore
 Refer: 100 45 S 1.04484 0 0 1 -33 0 2
+Validated: 1
 EndChar
 
 StartChar: endash
@@ -12520,6 +12527,7 @@ HStem: 448 152<142 951>
 LayerCount: 2
 Fore
 Refer: 100 45 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: emdash
@@ -12531,6 +12539,7 @@ HStem: 448 152<63.8098 997.064>
 LayerCount: 2
 Fore
 Refer: 100 45 N 1.15359 0 0 1 -100 0 2
+Validated: 1
 EndChar
 
 StartChar: afii00208
@@ -12542,6 +12551,7 @@ HStem: 435 152<-8.54565 1082.2>
 LayerCount: 2
 Fore
 Refer: 100 45 S 1.34827 0 0 1 -200 -13 2
+Validated: 1
 EndChar
 
 StartChar: uni2016
@@ -12970,6 +12980,7 @@ LayerCount: 2
 Fore
 Refer: 68 33 N 1 0 0 1 -244 0 2
 Refer: 68 33 N 1 0 0 1 236 0 2
+Validated: 1
 EndChar
 
 StartChar: uni203D
@@ -13101,6 +13112,7 @@ SplineSet
  196 1197 l 1
 EndSplineSet
 Refer: 68 33 N 1 0 0 1 324 0 2
+Validated: 1
 EndChar
 
 StartChar: uni2049
@@ -13135,6 +13147,7 @@ SplineSet
  569 1197 l 1
 EndSplineSet
 Refer: 68 33 N 1 0 0 1 -297 0 2
+Validated: 1
 EndChar
 
 StartChar: arrowleft
