@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1450609159
+ModificationTime: 1450612697
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 693 21 12
+WinInfo: 336 21 12
 BeginPrivate: 1
 BlueValues 27 [-37 0 1017 1058 1322 1376]
 EndPrivate
@@ -77,7 +77,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 423805 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "cedilla_accent" "'mark' Placement de signe diacritique lookups1-1" "above_accent" "'mark' Placement de signe diacritique lookups1-1" 
-BeginChars: 65536 973
+BeginChars: 65536 974
 
 StartChar: a
 Encoding: 97 97 0
@@ -23389,6 +23389,55 @@ LayerCount: 2
 Fore
 Refer: 331 778 N 1 0 0 1 0 0 2
 Validated: 1
+EndChar
+
+StartChar: uni01A4
+Encoding: 420 420 973
+Width: 1060
+VWidth: 0
+Flags: HWO
+HStem: -10 21G<325 569> 440 215<570 696.989> 1105 209<258.782 325 571 704.117>
+VStem: 15 224<927.2 1084.7> 325 246<-9 443 655.133 1102> 746 254<697.193 1061.39>
+LayerCount: 2
+Back
+SplineSet
+714 909 m 4
+ 714 1113 597 1117 515 1117 c 4
+ 506 1117 l 5
+ 445 1117 401 1113 356 1112 c 5
+ 356 1041 l 6
+ 356 854 354 649 354 649 c 5
+ 390 648 425 647 458 647 c 4
+ 574 647 714 676 714 909 c 4
+354 0 m 5
+ 104 0 l 5
+ 104 1320 l 5
+ 222 1320 260 1328 393 1328 c 4
+ 618 1328 789 1315 904 1174 c 4
+ 958 1108 976 1016 976 924 c 4
+ 976 600 852 439 508 439 c 4
+ 460 439 408 440 354 442 c 5
+ 354 174 354 159 354 0 c 5
+EndSplineSet
+Fore
+SplineSet
+746 900 m 0
+ 746 1083 670 1105 571 1105 c 1
+ 571 1020 l 2
+ 571 837 570 655 570 655 c 1
+ 690 655 746 687 746 900 c 0
+569 -1 m 1
+ 325 0 l 1
+ 325 1102 l 1
+ 262 1097 239 1065 239 927.200195312 c 1
+ 15 927 l 1
+ 15 1214 117.900243261 1273.20794954 300 1300.79980469 c 0
+ 352.825623738 1308.80397221 403 1314 536 1314 c 0
+ 845 1314 1000 1184 1000 906 c 0
+ 1000 608 904 440 676 440 c 0
+ 628 440 610 441 570 443 c 1
+ 570 180 569 155 569 -1 c 1
+EndSplineSet
 EndChar
 EndChars
 BitmapFont: 9 974 7 2 1 
