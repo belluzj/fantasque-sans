@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1450550551
+ModificationTime: 1450609159
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 966 42 12
+WinInfo: 693 21 12
 BeginPrivate: 1
 BlueValues 27 [-37 0 1017 1058 1322 1376]
 EndPrivate
@@ -1269,19 +1269,19 @@ AnchorPoint: "above_accent" 491 1322 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-588 782 m 5
- 708 663 995 232 1046 94 c 5
- 810 -32 l 5
- 764 79 558 445 428 574 c 5
- 428 574 372 512 342 440 c 5
- 342 0 l 5
- 84 0 l 5
- 84 1335 l 5
- 342 1335 l 5
- 342 871 l 5
- 445 1016 769 1339 806 1376 c 5
- 1002 1199 l 5
- 820 1064 648 856 588 782 c 5
+588 782 m 1
+ 708 663 995 232 1046 94 c 1
+ 810 -32 l 1
+ 764 79 558 445 428 574 c 1
+ 428 574 372 512 342 440 c 1
+ 342 0 l 1
+ 84 0 l 1
+ 84 1335 l 1
+ 342 1335 l 1
+ 342 871 l 1
+ 445 1016 769 1339 806 1376 c 1
+ 1002 1199 l 1
+ 820 1064 648 856 588 782 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -2243,7 +2243,7 @@ VStem: 6 260<0 174.195> 176 279<1398 1638> 596 282<1398 1635> 750 276<0 224.965>
 AnchorPoint: "above_accent" 513 1604 basechar 0
 LayerCount: 2
 Fore
-Refer: 173 168 N 1 0 0 1 30 214 2
+Refer: 173 168 S 1 0 0 1 30 214 2
 Refer: 26 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -6564,7 +6564,7 @@ StartChar: lslash
 Encoding: 322 322 259
 Width: 1060
 VWidth: -2
-Flags: W
+Flags: HW
 HStem: -18 200<607.352 863.717> 1230 200<113.45 344>
 VStem: 344 255<191.813 595 979 1230>
 LayerCount: 2
@@ -6572,27 +6572,26 @@ Fore
 SplineSet
 344 1430 m 2
  598 1430 l 1
- 598 1334 599 1162 599 979 c 1
- 837 1105 l 1
- 940 910 l 1
- 599 730 l 1
- 599 484 600 274 600 274 c 2
- 600 210 616 182 708 182 c 0
+ 598 1334 598 1125 598 942 c 5
+ 836 1068 l 5
+ 939 873 l 5
+ 598 693 l 5
+ 598 447 600 274 600 274 c 2
+ 600.305443188 210.009652217 616 182 708 182 c 0
  801 182 861 215 921 273 c 1
  1018 83 l 1
  932 12 781 -18 657 -18 c 0
  572 -18 481 -4 437 20 c 0
- 352 67 344 147 344 206 c 2
- 344 595 l 1
- 220 529 l 1
- 117 723 l 1
- 344 843 l 1
+ 352 67 344.167586964 147.009388782 344 206 c 2
+ 343 558 l 5
+ 219 492 l 5
+ 116 686 l 5
+ 343 806 l 5
  344 1230 l 1
  295 1230 204 1224 109 1202 c 1
  80 1388 l 1
  174 1416 264 1430 344 1430 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Nacute
@@ -8017,16 +8016,16 @@ AnchorPoint: "above_accent" 491 1107 mark 0
 LayerCount: 2
 Fore
 SplineSet
-566 1424 m 1
- 848 1421 l 1
- 848 1183 l 1
- 566 1184 l 1
- 566 1424 l 1
-146 1424 m 1
- 425 1424 l 1
- 425 1184 l 1
- 146 1184 l 1
- 146 1424 l 1
+566 1424 m 5
+ 848 1421 l 5
+ 848 1183 l 5
+ 566 1184 l 5
+ 566 1424 l 5
+146 1424 m 5
+ 425 1424 l 5
+ 425 1184 l 5
+ 146 1184 l 5
+ 146 1424 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -11903,9 +11902,9 @@ StartChar: uni0326
 Encoding: 806 806 519
 Width: 1060
 VWidth: 26
-Flags: HW
-HStem: -489 493
-VStem: 390 270<-217 4> 446 214<-330.504 -217>
+Flags: W
+HStem: -528 532
+VStem: 390 270<-217 4> 446 214<-373.832 -217>
 AnchorPoint: "cedilla_accent" 510 53 mark 0
 LayerCount: 2
 Fore
@@ -22992,7 +22991,7 @@ StartChar: uni04F6
 Encoding: 1270 1270 957
 Width: 1060
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 1118 210<475 1014.96>
 VStem: 221 254<210 1118> 452 228<-297 0>
 LayerCount: 2
