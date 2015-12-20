@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1450644921
+ModificationTime: 1450646972
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -53,9 +53,9 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8127 21 5
+WinInfo: 0 21 5
 BeginPrivate: 1
-BlueValues 27 [-37 0 1017 1058 1322 1376]
+BlueValues 37 [-28 0 1013 1049 1292 1376 1389 1428]
 EndPrivate
 Grid
 -2048 1107 m 0
@@ -2130,15 +2130,15 @@ StartChar: exclam
 Encoding: 33 33 68
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 0 270<350 700> 1321 20G<367 682>
 VStem: 350 350<0 270> 367 315<555.208 1341> 383 283<464 1249.58>
 LayerCount: 2
 Fore
 SplineSet
 682 1341 m 1xd0
- 666 464 l 1
- 383 462 l 1xc8
+ 666 503 l 5
+ 383 501 l 5xc8
  367 1341 l 1
  682 1341 l 1xd0
 350 270 m 1xe0
@@ -2147,7 +2147,6 @@ SplineSet
  350 0 l 1
  350 270 l 1xe0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: space
@@ -3100,28 +3099,27 @@ StartChar: six
 Encoding: 54 54 110
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -3 203<392 605.46> 560 201<387.87 610.188> 1104 226<600.661 721.425>
 VStem: 64 263<273.159 507.464> 665 254<258.18 503.598>
 LayerCount: 2
 Fore
 SplineSet
-772 1104 m 1
- 591 1084 447 1000 381 843 c 0
+840 1104 m 5
+ 627 1083 447 1000 381 843 c 0
  356 781 342 703 340 674 c 1
  340 674 406 761 526 761 c 0
  790 761 919 599 919 368 c 0
  919 115 750 -3 487 -3 c 0
  226 -3 64 200 64 474 c 0
- 64 929 280 1262 718 1330 c 1
- 772 1104 l 1
+ 64 929 305 1280 786 1330 c 5
+ 840 1104 l 5
 327 457 m 1
  327 328 371 200 493 200 c 0
  578 200 665 266 665 367 c 0
  665 485 592 560 526 560 c 0
  421 560 373 522 327 457 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: seven
@@ -3378,11 +3376,10 @@ StartChar: exclamdown
 Encoding: 161 161 121
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 68 33 S -0.999996 0.0027248 -0.0027248 -0.999996 1046 1012 2
-Validated: 1
 EndChar
 
 StartChar: Ograve
@@ -12932,14 +12929,13 @@ StartChar: exclamdbl
 Encoding: 8252 8252 560
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 270<106 456 586 936> 1321 20<123 438 603 918>
 VStem: 106 350<0 270> 123 315<555.208 1341> 139 283<464 1249.58> 586 350<0 270> 603 315<555.208 1341> 619 283<464 1249.58>
 LayerCount: 2
 Fore
 Refer: 68 33 N 1 0 0 1 236 0 2
 Refer: 68 33 N 1 0 0 1 -244 0 2
-Validated: 1
 EndChar
 
 StartChar: uni203D
