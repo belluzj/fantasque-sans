@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1450652107
+ModificationTime: 1450708587
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 63 21 5
+WinInfo: 0 42 12
 BeginPrivate: 1
 BlueValues 37 [-22 1 1018 1061 1281 1345 1395 1433]
 EndPrivate
@@ -2089,7 +2089,7 @@ StartChar: exclam
 Encoding: 33 33 68
 Width: 1060
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 270<388 638> 1299 20G<415 613>
 VStem: 388 250<0 270> 415 198<523.352 1319> 431 166<431 1226.65>
 LayerCount: 2
@@ -2106,6 +2106,7 @@ SplineSet
  388 0 l 1
  388 270 l 1xe0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: space
@@ -3115,28 +3116,29 @@ StartChar: six
 Encoding: 54 54 110
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -3 153<363.087 645.085> 619 155<365.499 649.627> 1158 153<586.885 751.249>
 VStem: 94 168<260.883 678.715> 738 159<236.957 530.36>
 LayerCount: 2
 Fore
 SplineSet
 773 1158 m 1
- 556 1138 382.513807238 1028.4723635 317 866 c 0
+ 556 1138 383 1028 317 866 c 0
  292 804 281 742 272 682 c 1
  326 728 373 774 523 774 c 0
  745 774 897 612 897 381 c 0
  897 118 723 -3 487 -3 c 0
  226 -3 94 212 94 509 c 0
- 94 628 112.495117188 780.19921875 171 928 c 0
- 256.935430798 1145.09958692 468 1280.5 749 1311 c 1
+ 94 628 112 780 171 928 c 0
+ 257 1145 468 1280 749 1311 c 1
  773 1158 l 1
-262 440 m 5
+262 440 m 1
  262 272 355 150 487 150 c 0
  631 150 738 227 738 381 c 0
  738 517 653 619 514 619 c 0
- 381 619 278 525 262 440 c 5
+ 381 619 278 525 262 440 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: seven
@@ -3399,6 +3401,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 68 33 N -0.999996 0.0027248 -0.0027248 -0.999996 1032 1018 2
+Validated: 1
 EndChar
 
 StartChar: Ograve
@@ -12861,6 +12864,7 @@ LayerCount: 2
 Fore
 Refer: 68 33 N 1 0 0 1 -244 0 2
 Refer: 68 33 N 1 0 0 1 236 0 2
+Validated: 1
 EndChar
 
 StartChar: uni203D
@@ -12956,9 +12960,9 @@ StartChar: uni2048
 Encoding: 8264 8264 552
 Width: 1060
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 270<191 441 712 962> 1182 155<202.651 488.299> 1299 20G<739 937>
-VStem: 191 250<0 270> 225 175<431 598.664> 546 160<876.981 1122.17> 712 250<0 270> 739 198<559.192 1319> 755 166<471 1230.81>
+VStem: 191 250<0 270> 225 175<431 598.664> 546 160<876.981 1122.17> 712 250<0 270> 739 198<523.352 1319> 755 166<431 1226.65>
 LayerCount: 2
 Fore
 SplineSet
@@ -12982,15 +12986,16 @@ SplineSet
  38 1197 l 1
 EndSplineSet
 Refer: 68 33 N 1 0 0 1 324 0 2
+Validated: 1
 EndChar
 
 StartChar: uni2049
 Encoding: 8265 8265 553
 Width: 1060
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 270<91 341 564 814> 1182 155<575.651 861.299> 1299 20G<118 316>
-VStem: 91 250<0 270> 118 198<559.192 1319> 134 166<471 1230.81> 564 250<0 270> 598 175<431 598.664> 919 160<876.981 1122.17>
+VStem: 91 250<0 270> 118 198<523.352 1319> 134 166<431 1226.65> 564 250<0 270> 598 175<431 598.664> 919 160<876.981 1122.17>
 LayerCount: 2
 Fore
 SplineSet
@@ -13014,6 +13019,7 @@ SplineSet
  411 1197 l 1
 EndSplineSet
 Refer: 68 33 N 1 0 0 1 -297 0 2
+Validated: 1
 EndChar
 
 StartChar: arrowleft
@@ -22620,6 +22626,7 @@ SplineSet
  855 -7 831 -9 815 -11 c 1
  796 121 707 416 644 614 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0497
@@ -23166,6 +23173,7 @@ SplineSet
  973 1204 l 1
  813 1062 575 798 517 725 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni049F
