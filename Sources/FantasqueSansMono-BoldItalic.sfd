@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1450697862
+ModificationTime: 1450698916
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 252 21 5
+WinInfo: 0 42 12
 BeginPrivate: 1
 BlueValues 37 [-37 0 1013 1052 1281 1376 1390 1444]
 EndPrivate
@@ -1662,7 +1662,7 @@ Width: 1060
 VWidth: 0
 Flags: W
 HStem: 0 204<323 868.946> 646 203<450 751.438> 1118 205<493.966 1033.45>
-AnchorPoint: "above_accent" 699 1322 basechar 0
+AnchorPoint: "above_accent" 696 1322 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2667,15 +2667,15 @@ StartChar: exclam
 Encoding: 33 33 68
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 270<327 625> 1321 20G<549.434 868>
 VStem: 275 593
 LayerCount: 2
 Fore
 SplineSet
 868 1341 m 1
- 673.384765625 431 l 5
- 390.384765625 429 l 5
+ 673 431 l 1
+ 390 429 l 1
  553 1341 l 1
  868 1341 l 1
 327 270 m 1
@@ -2684,6 +2684,7 @@ SplineSet
  275 0 l 1
  327 270 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: space
@@ -3650,26 +3651,27 @@ StartChar: six
 Encoding: 54 54 110
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -3 203<365.618 574.399> 601 201<470.814 728.616> 1091 226<780.734 1032>
 VStem: 71 260<230.279 503.775> 673.969 258<307.018 567.875>
 LayerCount: 2
 Fore
 SplineSet
-1043 1091 m 5
- 759 1091 522 972 403.96875 715 c 1
- 403.96875 715 502 802 636 802 c 0
- 819 802 931.96875 655 931.96875 467 c 0
- 931.96875 160.04296875 689.843920369 -3 411 -3 c 0
+1043 1091 m 1
+ 759 1091 522 972 404 715 c 1
+ 404 715 502 802 636 802 c 0
+ 819 802 932 655 932 467 c 0
+ 932 160 690 -3 411 -3 c 0
  224 -3 71 152 71 374 c 0
- 71 908 468 1317 1032 1317 c 5
- 1036 1242 1039 1166 1043 1091 c 5
+ 71 908 468 1317 1032 1317 c 1
+ 1036 1242 1039 1166 1043 1091 c 1
 331 365 m 0
  331 274 365 200 457 200 c 0
- 557.394580337 200 673.96875 305.3359375 673.96875 438 c 0
- 673.96875 526 623.96875 601 567.96875 601 c 0
- 428 601 331 506.083375607 331 365 c 0
+ 557 200 674 305 674 438 c 0
+ 674 526 624 601 568 601 c 0
+ 428 601 331 506 331 365 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: seven
@@ -3939,10 +3941,11 @@ StartChar: exclamdown
 Encoding: 161 161 121
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 68 33 S -0.999996 0.0027248 -0.0027248 -0.999996 1002.59 1011 2
+Validated: 1
 EndChar
 
 StartChar: Ograve
@@ -5389,7 +5392,7 @@ Width: 1060
 VWidth: -28
 Flags: W
 HStem: 1184 240<423 655 843 1078>
-AnchorPoint: "above_accent" 691 1090 mark 0
+AnchorPoint: "above_accent" 691 1073 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7259,7 +7262,7 @@ StartChar: lslash
 Encoding: 322 322 259
 Width: 1060
 VWidth: -2
-Flags: WO
+Flags: W
 HStem: -18 215<491.285 818.08> 1147.5 211<691.055 966.281> 1391.5 20G<918 960.647>
 VStem: 35 244<1069.5 1199.94> 186 265<240.013 535.835>
 LayerCount: 2
@@ -7286,6 +7289,7 @@ SplineSet
  351.125976562 1238.10253906 279 1204.65234375 279 1069.5 c 5
  35 1069.5 l 1xf0
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Nacute
@@ -8622,7 +8626,7 @@ VWidth: -43
 Flags: W
 HStem: 1267 451
 VStem: 391 560
-AnchorPoint: "above_accent" 595 1217 mark 0
+AnchorPoint: "above_accent" 595 1227 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8642,7 +8646,7 @@ VWidth: -43
 Flags: W
 HStem: 1267 449
 VStem: 404 585
-AnchorPoint: "above_accent" 589 1245 mark 0
+AnchorPoint: "above_accent" 589 1239 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8682,7 +8686,7 @@ Width: 1060
 VWidth: -12
 Flags: W
 HStem: 1376 178<811.948 967.708> 1406 21G<439.359 495.5> 1506 180<511.789 683.018>
-AnchorPoint: "above_accent" 647 1250 mark 0
+AnchorPoint: "above_accent" 647 1307 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8708,7 +8712,7 @@ VWidth: -34
 Flags: W
 HStem: 1463 194<482.574 948.216>
 VStem: 447 538
-AnchorPoint: "above_accent" 609 1296 mark 0
+AnchorPoint: "above_accent" 649 1299 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8733,7 +8737,7 @@ Width: 1060
 VWidth: -34
 Flags: W
 HStem: 1458 203<332.551 1087>
-AnchorPoint: "above_accent" 641 1285 mark 0
+AnchorPoint: "above_accent" 662 1302 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8773,7 +8777,7 @@ Width: 1060
 VWidth: -28
 Flags: W
 HStem: 1184 240<423 655 843 1078>
-AnchorPoint: "above_accent" 679 1090 mark 0
+AnchorPoint: "above_accent" 679 1051 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8877,7 +8881,7 @@ Width: 1060
 VWidth: -43
 Flags: W
 HStem: 1143 545
-AnchorPoint: "above_accent" 494 1090 mark 0
+AnchorPoint: "above_accent" 494 1100 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8922,7 +8926,7 @@ Width: 1060
 VWidth: -43
 Flags: W
 HStem: 1170 545
-AnchorPoint: "above_accent" 631 1166 mark 0
+AnchorPoint: "above_accent" 631 1118 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -17532,7 +17536,7 @@ VWidth: 0
 Flags: W
 HStem: -16 203<355.841 578.506> 567 222<386.781 749> 1147 203<553.057 756.703>
 VStem: 51 264<228.391 548.623> 801 257<791.969 1102.8>
-AnchorPoint: "above_accent" 511 1322 basechar 0
+AnchorPoint: "above_accent" 731 1322 basechar 0
 LayerCount: 2
 Fore
 Refer: 590 1138 N 1 0 0 1 0 0 3
@@ -17546,7 +17550,7 @@ VWidth: 0
 Flags: W
 HStem: -16 203<352.054 589.68> 412 222<357.36 719> 835 203<472.707 707.656>
 VStem: 45 254<243.483 396.729> 761 259<634.311 780.109>
-AnchorPoint: "above_accent" 502 1107 basechar 0
+AnchorPoint: "above_accent" 678 1107 basechar 0
 LayerCount: 2
 Fore
 Refer: 591 1139 N 1 0 0 1 0 0 3
@@ -19060,13 +19064,14 @@ StartChar: exclamdbl
 Encoding: 8252 8252 771
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 270<83 381 563 861> 1321 20G<305.434 624 785.434 1104>
 VStem: 31 593 511 593
 LayerCount: 2
 Fore
 Refer: 68 33 N 1 0 0 1 236 0 2
 Refer: 68 33 N 1 0 0 1 -244 0 2
+Validated: 1
 EndChar
 
 StartChar: uni203D
