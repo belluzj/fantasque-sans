@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1450708438
+ModificationTime: 1450712012
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 42 12
+WinInfo: 1008 42 12
 BeginPrivate: 1
 BlueValues 37 [-37 0 1013 1052 1281 1376 1390 1444]
 EndPrivate
@@ -77,7 +77,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 423805 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "cedilla_accent" "'mark' Placement de signe diacritique lookups1-2" "above_accent" "'mark' Placement de signe diacritique lookups1-1" 
-BeginChars: 65536 976
+BeginChars: 65536 978
 
 StartChar: a
 Encoding: 97 97 0
@@ -15374,44 +15374,41 @@ EndChar
 StartChar: uni0497
 Encoding: 1175 1175 607
 Width: 1060
-Flags: W
-HStem: -5 8G<10.8235 178 298 544.904 681.5 738> 1020 2G<311.077 382 493.114 740 846 957.542>
+Flags: HWO
+HStem: -7 2G<72.2857 171.5 325 571.904 776 855> 1000 20G<520.114 767>
+VStem: 225 202<598 789.829> 682 200<220.767 449.734>
+AnchorPoint: "above_accent" 655 1107 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-679 598 m 1
- 791 770 783 836 909 1042 c 1
- 1142 946 l 1
- 987 754 898 599 833 536 c 1
- 884 448 900 325 912 210 c 1
- 1009 210 l 1
- 910 -297 l 1
- 682 -297 l 1
- 738 -10 l 1
- 682 -18 l 1
- 681 -4 681 12 681 28 c 0
- 681 77 684 136 684 197 c 0
- 684 283 679 374 655 451 c 1
- 630 451 l 1
- 541 -5 l 1
- 298 -5 l 1
- 387 451 l 1
- 367 451 l 1
- 258 288 204 100 152 -16 c 1
- -88 18 l 1
- -8 158 65 395 209 526 c 1
- 177 590 199 772 109 953 c 1
- 368 1044 l 1
- 396 958 403 896 403 841 c 0
- 403 785 396 735 396 675 c 0
- 396 652 397 626 400 598 c 1
- 415 598 l 1
- 497 1020 l 1
- 740 1020 l 1
- 658 598 l 1
- 679 598 l 1
+706 598 m 1
+ 770 806 827 884 971 1058 c 1
+ 1148 917 l 1
+ 941 720 882 641 882 395 c 0
+ 882 304 900 260 941 210 c 1
+ 1048 210 l 1
+ 949 -297 l 1
+ 721 -297 l 1
+ 783 18 l 1
+ 722 120 682 283 682 451 c 1
+ 657 451 l 1
+ 568 -5 l 1
+ 325 -5 l 1
+ 414 451 l 1
+ 394 451 l 1
+ 302 233 245 116 98 -37 c 1
+ -91 110 l 1
+ 125 278 225 434 225 605 c 0
+ 225 716 188 797 92 938 c 1
+ 323 1061 l 1
+ 405 873 427 780 427 610 c 0
+ 427 606 427 602 427 598 c 1
+ 442 598 l 1
+ 524 1020 l 1
+ 767 1020 l 1
+ 685 598 l 1
+ 706 598 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0498
@@ -24532,6 +24529,30 @@ SplineSet
  951 1013 1044 906 1044 688 c 0
  1044 622 1036 546 1019 459 c 0
 EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni01E0
+Encoding: 480 480 976
+Width: 1060
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 326 772 N 1 0 0 1 104.979 359 2
+Refer: 482 550 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni01E1
+Encoding: 481 481 977
+Width: 1060
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 326 772 N 1 0 0 1 89.9792 144 2
+Refer: 483 551 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 EndChars
