@@ -133,3 +133,12 @@ Versions
         Adjust some accents.
 
 1.6.5 - Make italics visible on Windows.
+
+1.7.0 - Beta version for the 1.7 series.
+        **Add Cyrillic alphabet to the four fonts.**
+        Add some real sub/supscript numbers and fractions.
+        Revamp straight and curly quotes.
+        Fix some Windows rendering issues.
+        Move accents around (why do I do that every time?)
+        Add `fontdiff` script which generates font diffs.
+
