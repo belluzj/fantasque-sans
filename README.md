@@ -65,6 +65,15 @@ The build process requires FontForge with python scripting support,
 `ttf2eot`, for example from [this
 repository](https://github.com/harrastia/ttf2eot).
 
+If you are using Ubuntu, please note that the FontForge version
+in the default Ubuntu repositories is much outdated at the time of this writing,
+and that [is known to have caused subtle problems](https://github.com/belluzj/fantasque-sans/issues/59).
+You are advised to install FontForge from
+[this PPA](https://launchpad.net/~fontforge/+archive/ubuntu/fontforge)
+(using `sudo add-apt-repository ppa:fontforge/fontforge` prior to the installation).
+Alternatively, you can always [download](https://github.com/belluzj/fantasque-sans/releases/latest)
+the latest prebuilt release of these fonts.
+
 `make install` will install the TTF fonts into your local `.fonts/` directory 
 and update the font cache. It comes in handy while modifying the font.
 
