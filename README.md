@@ -59,11 +59,16 @@ accept
 Building installable font files
 -------------------------------
 
+The build process requires:
+* FontForge with python scripting support,
+* `ttfautohint`
+* `sfnt2woff` (from the `woff-tools` package on Ubuntu)
+* `ttf2eot`, for example from [this
+  repository](https://github.com/harrastia/ttf2eot).
+* `woff2_compress` from [the Google WOFF2
+  tools](https://github.com/google/woff2)
+
 Run `make`. You should see green stuff and some "OK" messages.
-The build process requires FontForge with python scripting support,
-`ttfautohint`, `sfnt2woff` (from the `woff-tools` package on Ubuntu) and
-`ttf2eot`, for example from [this
-repository](https://github.com/harrastia/ttf2eot).
 
 If you are using Ubuntu, please note that the FontForge version
 in the default Ubuntu repositories is much outdated at the time of this writing,
