@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1459701429
+ModificationTime: 1459706343
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57120 42 12
+WinInfo: 7980 42 12
 BeginPrivate: 1
 BlueValues 37 [-28 0 1013 1049 1292 1376 1389 1428]
 EndPrivate
@@ -12116,19 +12116,31 @@ Encoding: 8216 8216 530
 Width: 1060
 VWidth: -25
 Flags: W
-VStem: 325 235<1072.03 1305.37>
+VStem: 317 241<1037.02 1287.29>
 LayerCount: 2
+Back
+SplineSet
+679 804 m 5
+ 436 737 l 5
+ 381 945 l 6
+ 371 985 364 1054 364 1100 c 4
+ 364 1281 456 1406 619 1500 c 5
+ 702 1379 l 5
+ 585 1316 538 1251 538 1145 c 4
+ 538 1075 561 1021 619 1007 c 5
+ 679 804 l 5
+EndSplineSet
 Fore
 SplineSet
-744 810 m 1
- 441 696 l 1
- 352 944 l 2
- 331 1001 325 1073 325 1137 c 0
- 325 1300 424 1444 576 1530 c 1
- 695 1387 l 1
- 589 1313 560 1262 560 1173 c 0
- 560 1110 595 1058 653 1053 c 1
- 744 810 l 1
+705 793 m 1
+ 392 710 l 1
+ 331 940 l 2
+ 322 974 317 1038 317 1076 c 0
+ 317 1300 422 1443 610 1526 c 1
+ 714 1372 l 1
+ 600 1308 558 1258 558 1156 c 0
+ 558 1081 591 1027 641 1018 c 1
+ 705 793 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -12140,7 +12152,7 @@ VWidth: -25
 Flags: W
 LayerCount: 2
 Fore
-Refer: 530 8216 S -1 1.22465e-16 -1.22465e-16 -1 1126 2232 2
+Refer: 530 8216 N -1 1.22465e-16 -1.22465e-16 -1 1036 2232 2
 Validated: 1
 EndChar
 
@@ -12151,7 +12163,7 @@ VWidth: -25
 Flags: W
 LayerCount: 2
 Fore
-Refer: 531 8217 S 1 0 0 1 -22 -1173 2
+Refer: 531 8217 S 1 0 0 1 -4 -1173 2
 Validated: 1
 EndChar
 
@@ -12160,21 +12172,20 @@ Encoding: 8219 8219 533
 Width: 1060
 VWidth: -25
 Flags: W
-VStem: 317 235<926.532 1159.87>
+VStem: 322 241<944.713 1194.98>
 LayerCount: 2
 Fore
 SplineSet
-736 1421.90039062 m 1
- 645 1178.90039062 l 1
- 587 1173.90039062 552 1121.90039062 552 1058.90039062 c 0
- 552 969.900390625 581 918.900390625 687 844.900390625 c 1
- 568 701.900390625 l 1
- 416 787.900390625 317 931.900390625 317 1094.90039062 c 0
- 317 1158.90039062 323 1230.90039062 344 1287.90039062 c 2
- 433 1535.90039062 l 1
- 736 1421.90039062 l 1
+710 1439 m 1
+ 646 1214 l 1
+ 596 1205 563 1151 563 1076 c 0
+ 563 974 605 924 719 860 c 1
+ 615 706 l 1
+ 427 789 322 932 322 1156 c 0
+ 322 1194 327 1258 336 1292 c 2
+ 397 1522 l 1
+ 710 1439 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotedblleft
@@ -23518,7 +23529,7 @@ StartChar: k.noloop
 Encoding: 57349 57349 975
 Width: 1060
 VWidth: -2
-Flags: HW
+Flags: W
 HStem: -7 7G<134 383 752 843.312> 1028 20G<758.5 886.333> 1407 20G<244.182 366>
 VStem: 134 249<0 412.28 650.557 1380.61>
 AnchorPoint: "above_accent" 343 1413 basechar 0
@@ -23570,32 +23581,35 @@ SplineSet
  474 803 640 953 877 1048 c 1
  982 823 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: kcommaaccent.noloop
 Encoding: 57350 57350 976
 Width: 1060
 VWidth: -2
-Flags: HW
+Flags: W
 HStem: -561 532 -7 7G<134 383 752 843.312> 1028 20G<758.5 886.333> 1407 20G<244.182 366>
 VStem: 134 249<0 412.28 650.557 1380.61> 403 270<-250 -29> 459 214<-406.832 -250>
 LayerCount: 2
 Fore
 Refer: 519 806 N 1 0 0 1 13 -33 2
 Refer: 975 57349 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni01E9.noloop
 Encoding: 57351 57351 977
 Width: 1060
 VWidth: -2
-Flags: HW
+Flags: W
 HStem: -7 7G<134 383 752 843.312> 1028 20G<758.5 886.333> 1407 20G<244.182 366> 1425 447
 VStem: 134 249<0 412.28 650.557 1380.61>
 LayerCount: 2
 Fore
 Refer: 334 780 N 1 0 0 1 -311 219 2
 Refer: 975 57349 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 BitmapFont: 9 978 7 2 1 
