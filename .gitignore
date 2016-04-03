@@ -5,6 +5,7 @@ TeX
 *.rpm
 *~
 Webfonts/*.woff
+Webfonts/*.woff2
 Webfonts/*.svg
 Webfonts/*.eot
 Webfonts/*.css
