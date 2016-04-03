@@ -16,6 +16,7 @@ import fontforge;
 font = fontforge.open("Sources/${basename}.sfd");
 
 # Extract interesting informations
+print("---")
 print(font.fontname)
 print(font.familyname)
 print(font.fullname)
@@ -34,6 +35,8 @@ EOF
 )
 error=$?
 
+output="${output##*---
+}"
 old_IFS="$IFS"
 IFS='
 '
