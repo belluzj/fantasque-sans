@@ -9,7 +9,7 @@ esac
 pkg=${PKG:-${pkg}}
 
 name='fantasque-sans'
-version='1.6.5'
+version='1.7.0'
 desc='A font family with a great monospaced variant for programmers.'
 url=http://openfontlibrary.org/en/font/fantasque-sans
 
@@ -21,11 +21,11 @@ fpm -s dir -t ${pkg} -a all \
 	--license OFL             \
   FantasqueSansMono-Regular.ttf=/usr/share/fonts/truetype/${name}/         \
   FantasqueSansMono-Bold.ttf=/usr/share/fonts/truetype/${name}/     \
-  FantasqueSansMono-RegItalic.ttf=/usr/share/fonts/truetype/${name}/     \
+  FantasqueSansMono-Italic.ttf=/usr/share/fonts/truetype/${name}/     \
   FantasqueSansMono-BoldItalic.ttf=/usr/share/fonts/truetype/${name}/     \
   OTF/FantasqueSansMono-Regular.otf=/usr/share/fonts/opentype/${name}/     \
   OTF/FantasqueSansMono-Bold.otf=/usr/share/fonts/opentype/${name}/ \
-  OTF/FantasqueSansMono-RegItalic.otf=/usr/share/fonts/opentype/${name}/ \
+  OTF/FantasqueSansMono-Italic.otf=/usr/share/fonts/opentype/${name}/ \
   OTF/FantasqueSansMono-BoldItalic.otf=/usr/share/fonts/opentype/${name}/ \
   OFL.txt=/usr/share/doc/${name}/copyright \
   README.md=/usr/share/doc/${name}/        \
