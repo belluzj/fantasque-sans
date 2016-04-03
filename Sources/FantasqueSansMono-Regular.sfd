@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1450711004
+ModificationTime: 1459700432
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -43,6 +43,9 @@ HheadDescent: -398
 HheadDOffset: 0
 OS2FamilyClass: 2057
 OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'ss01' Stylistic Set 1 - No loop k" { "'ss01' Stylistic Set 1 - No loop k-1" ("noloop") } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss02' Stylistic Set 2 - Flat base i" { } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss03' Stylistic Set 3 - No base serif i" { } ['ss03' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Jany Belluz" "" "" "" "Copyright (c) 2013-2014, Jany Belluz (<jany.belluz@hotmail.fr>)+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
@@ -52,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 672 42 12
+WinInfo: 0 42 12
 BeginPrivate: 1
 BlueValues 37 [-22 1 1018 1061 1281 1345 1395 1433]
 EndPrivate
@@ -76,7 +79,7 @@ Grid
  3891.2 1375.6 l 1024
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 423805 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 977
+BeginChars: 65536 980
 
 StartChar: a
 Encoding: 97 97 0
@@ -525,6 +528,7 @@ SplineSet
  293 880 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "'ss01' Stylistic Set 1 - No loop k-1" k.noloop
 EndChar
 
 StartChar: l
@@ -1887,13 +1891,14 @@ StartChar: egrave
 Encoding: 232 232 56
 Width: 1060
 VWidth: -2
-Flags: HW
-HStem: -10 153<357.663 694.191> 427 153<236 721.719> 869 152<361.998 649.715> 1064 461
-VStem: 78 158<266.631 427 580 738.031> 154 590
+Flags: W
+HStem: -10 153<357.663 694.191> 427 153<236 721.719> 869 152<361.998 649.715> 1065.5 461
+VStem: 78 158<266.631 427 580 738.031> 195 590
 LayerCount: 2
 Fore
 Refer: 322 768 S 1 0 0 1 33 -214.5 2
 Refer: 4 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ecircumflex
@@ -2122,9 +2127,9 @@ StartChar: quotesingle
 Encoding: 39 39 70
 Width: 1060
 VWidth: -25
-Flags: HW
-HStem: 784 680<395 534.907>
-VStem: 395 211<1051.66 1464>
+Flags: W
+HStem: 804 660
+VStem: 374 211<1035.07 1464>
 LayerCount: 2
 Fore
 SplineSet
@@ -2579,8 +2584,9 @@ StartChar: quotedbl
 Encoding: 34 34 92
 Width: 1060
 VWidth: -25
-Flags: HW
-VStem: 234 185<1035.19 1464> 605 185<1035.19 1464>
+Flags: W
+HStem: 804 660
+VStem: 234 185<1035.07 1464> 605 185<1035.07 1464>
 LayerCount: 2
 Fore
 SplineSet
@@ -3115,9 +3121,9 @@ StartChar: six
 Encoding: 54 54 110
 Width: 1060
 VWidth: 0
-Flags: HW
-HStem: -3 153<363.087 645.085> 619 155<365.499 649.627> 1158 153<586.885 751.249>
-VStem: 94 168<260.883 678.715> 738 159<236.957 530.36>
+Flags: W
+HStem: -3 153<363.087 645.085> 619 155<365.499 649.627> 1158 153<586.891 751.249>
+VStem: 94 168<260.883 678.676> 738 159<236.957 530.36>
 LayerCount: 2
 Fore
 SplineSet
@@ -3320,9 +3326,9 @@ StartChar: grave
 Encoding: 96 96 118
 Width: 1060
 VWidth: -25
-Flags: HW
-HStem: 876.151 592.09
-VStem: 177.686 634.086
+Flags: W
+HStem: 926.151 561.09
+VStem: 214.228 613.086
 LayerCount: 2
 Fore
 SplineSet
@@ -3396,7 +3402,7 @@ StartChar: exclamdown
 Encoding: 161 161 121
 Width: 1060
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 68 33 N -0.999996 0.0027248 -0.0027248 -0.999996 1032 1018 2
@@ -6465,8 +6471,9 @@ VStem: 136 157<0 469 611.15 735.644 880 1381.07> 463 220<-250 -29> 519 164<-375.
 LayerCount: 2
 Fore
 Refer: 520 806 S 1 0 0 1 13 -33 2
-Refer: 11 107 N 1 0 0 1 0 0 3
+Refer: 11 107 S 1 0 0 1 0 0 3
 Validated: 1
+Substitution2: "'ss01' Stylistic Set 1 - No loop k-1" kcommaaccent.noloop
 EndChar
 
 StartChar: kgreenlandic
@@ -8541,9 +8548,9 @@ StartChar: epsilon
 Encoding: 949 949 345
 Width: 1060
 VWidth: 0
-Flags: HW
-HStem: -4 154<281.879 739.193> 510 151<329.949 636> 871 153<242.845 778.822>
-VStem: 64 157<206.569 417.619 716.508 840.612>
+Flags: W
+HStem: -4 154<348.879 806.193> 510 151<396.949 703> 871 153<309.845 845.822>
+VStem: 131 157<206.569 417.619 716.508 840.612>
 LayerCount: 2
 Fore
 SplineSet
@@ -8570,20 +8577,21 @@ SplineSet
  728 150 859 206 910 252 c 5
  996 131 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: zeta
 Encoding: 950 950 346
 Width: 1060
 VWidth: 0
-Flags: HWO
-HStem: -306 138<598.507 725.68> 0 150<351.504 746.161> 1191 161<172.294 677.525> 1218 158<379.16 684>
-VStem: 82 159<273.156 666.823> 755 156<-130.969 -9.887>
+Flags: W
+HStem: -306 138<664.507 791.68> 0 150<417.504 812.161> 1191 161<238.294 743.525> 1218 158<445.16 750> 1408 20G<186.906 223>
+VStem: 148 159<273.156 666.823> 821 156<-130.969 -9.887>
 LayerCount: 2
 Fore
 SplineSet
-203 1428 m 5xec
- 243 1386 289 1352 370 1352 c 4xec
+203 1428 m 5xee
+ 243 1386 289 1352 370 1352 c 4xee
  535 1352 805 1358 936 1376 c 5
  989 1207 l 5
  597 998 307 773 307 480 c 4
@@ -8597,11 +8605,12 @@ SplineSet
  675 0 669 0 662 0 c 4
  658 0 503 0 499 0 c 4
  298 0 148 177 148 504 c 4
- 148 810 428 1067 750 1218 c 5xdc
+ 148 810 428 1067 750 1218 c 5xde
  626 1199 517 1191 390 1191 c 4
  275 1191 177 1218 100 1300 c 5
- 203 1428 l 5xec
+ 203 1428 l 5xee
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: eta
@@ -8709,20 +8718,20 @@ VStem: 116 156<0 375.744 550 1020>
 LayerCount: 2
 Fore
 SplineSet
-558 605 m 1
- 668 478 933 185 984 50 c 1
- 850 -26 l 1
- 804 83 565 364 446 501 c 1
- 446 501 327 399 272 324 c 1
- 272 0 l 1
- 116 0 l 1
- 116 1020 l 1
- 272 1020 l 1
- 272 550 l 1
- 365 642 470 725 577 819 c 1
- 784 997 862 1030 885 1049 c 1
- 982 920 l 1
- 789 804 624 673 558 605 c 1
+558 605 m 5
+ 668 478 933 185 984 50 c 5
+ 850 -26 l 5
+ 804 83 565 364 446 501 c 5
+ 446 501 327 399 272 324 c 5
+ 272 0 l 5
+ 116 0 l 5
+ 116 1020 l 5
+ 272 1020 l 5
+ 272 550 l 5
+ 365 642 470 725 577 819 c 5
+ 784 997 862 1030 885 1049 c 5
+ 982 920 l 5
+ 789 804 624 673 558 605 c 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -10102,13 +10111,14 @@ StartChar: epsilontonos
 Encoding: 941 941 396
 Width: 1060
 VWidth: 0
-Flags: HW
-HStem: -4 154<281.879 739.193> 510 151<329.949 636> 871 153<242.845 778.822> 1115 491
-VStem: 64 157<206.569 417.619 716.508 840.612> 537 180<1455.42 1560.9>
+Flags: W
+HStem: -4 154<348.879 806.193> 510 151<396.949 703> 871 153<309.845 845.822> 1115 491
+VStem: 131 157<206.569 417.619 716.508 840.612> 537 180<1455.42 1560.9>
 LayerCount: 2
 Fore
 Refer: 392 900 S 1 0 0 1 -5 -107 2
 Refer: 345 949 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: etatonos
@@ -11175,13 +11185,14 @@ Encoding: 489 489 452
 Width: 1060
 VWidth: 0
 Flags: W
-HStem: 872 144<500.523 718.984> 1407 20<196.455 270.5> 1437 425
+HStem: 872 144<500.523 718.984> 1407 20G<196.455 270.5> 1437 425
 VStem: 136 157<0 469 611.15 735.644 880 1381.07> 742 157<618.956 848.248>
 LayerCount: 2
 Fore
-Refer: 334 780 S 1 0 0 1 -248 219 2
-Refer: 11 107 N 1 0 0 1 0 0 3
+Refer: 334 780 S 1 0 0 1 -311 219 2
+Refer: 11 107 S 1 0 0 1 0 0 3
 Validated: 1
+Substitution2: "'ss01' Stylistic Set 1 - No loop k-1" uni01E9.noloop
 EndChar
 
 StartChar: uni01F0
@@ -12495,7 +12506,8 @@ StartChar: quoteleft
 Encoding: 8216 8216 531
 Width: 1060
 VWidth: -25
-Flags: HW
+Flags: W
+VStem: 380.036 171.964<1069.92 1322.56>
 LayerCount: 2
 Fore
 SplineSet
@@ -12516,7 +12528,7 @@ StartChar: quoteright
 Encoding: 8217 8217 532
 Width: 1060
 VWidth: -25
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 531 8216 S -1 1.22465e-16 -1.22465e-16 -1 1126 2232 2
@@ -12527,7 +12539,7 @@ StartChar: quotesinglbase
 Encoding: 8218 8218 533
 Width: 1060
 VWidth: -25
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 532 8217 S 1 0 0 1 -22 -1173 2
@@ -12538,7 +12550,8 @@ StartChar: quotereversed
 Encoding: 8219 8219 534
 Width: 1060
 VWidth: -25
-Flags: HW
+Flags: W
+VStem: 372 172<909.197 1161.97>
 LayerCount: 2
 Fore
 SplineSet
@@ -12559,8 +12572,8 @@ StartChar: quotedblleft
 Encoding: 8220 8220 535
 Width: 1060
 VWidth: -25
-Flags: HW
-VStem: 172.549 174.451<1073.16 1317.42> 564.908 174.451<1107.02 1326.67>
+Flags: W
+VStem: 172.549 174.451<1070.14 1317.42> 564.908 174.451<1106.27 1326.67>
 LayerCount: 2
 Fore
 SplineSet
@@ -12590,7 +12603,7 @@ StartChar: quotedblright
 Encoding: 8221 8221 536
 Width: 1060
 VWidth: -25
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 535 8220 S -1 1.22465e-16 -1.22465e-16 -1 1083 2235.9 2
@@ -12601,7 +12614,7 @@ StartChar: quotedblbase
 Encoding: 8222 8222 537
 Width: 1060
 VWidth: -25
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 536 8221 N 1 0 0 1 0 -1162 2
@@ -12612,7 +12625,8 @@ StartChar: uni201F
 Encoding: 8223 8223 538
 Width: 1060
 VWidth: -25
-Flags: HW
+Flags: W
+VStem: 174 174<918.383 1165.03> 566 174<909.234 1129.51>
 LayerCount: 2
 Fore
 SplineSet
@@ -12853,9 +12867,9 @@ StartChar: exclamdbl
 Encoding: 8252 8252 549
 Width: 1060
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 270<144 394 624 874> 1299 20G<171 369 651 849>
-VStem: 144 250<0 270> 171 198<559.192 1319> 187 166<471 1230.81> 624 250<0 270> 651 198<559.192 1319> 667 166<471 1230.81>
+VStem: 144 250<0 270> 171 198<523.352 1319> 187 166<431 1226.65> 624 250<0 270> 651 198<523.352 1319> 667 166<431 1226.65>
 LayerCount: 2
 Fore
 Refer: 68 33 N 1 0 0 1 -244 0 2
@@ -20921,14 +20935,15 @@ StartChar: uni0450
 Encoding: 1104 1104 816
 Width: 1060
 VWidth: -2
-Flags: HW
-HStem: -10 153<357.663 694.191> 427 153<236 721.719> 869 152<361.998 649.715> 1064 461
-VStem: 78 158<266.631 427 580 738.031> 154 590
+Flags: W
+HStem: -10 153<357.663 694.191> 427 153<236 721.719> 869 152<361.998 649.715> 1065.5 461
+VStem: 78 158<266.631 427 580 738.031> 195 590
 LayerCount: 2
 Back
 Refer: 56 232 N 1 0 0 1 0 0 2
 Fore
 Refer: 56 232 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: afii10071
@@ -21013,9 +21028,9 @@ EndChar
 StartChar: afii10100
 Encoding: 1107 1107 819
 Width: 1060
-Flags: HW
-HStem: 866 154<378 907.956> 1201 416
-VStem: 217 161<0 866> 410 543
+Flags: W
+HStem: 866 154<378 907.956> 1137.5 416
+VStem: 217 161<0 866> 286 543
 LayerCount: 2
 Back
 Refer: 174 180 N 1 0 0 1 189 0 2
@@ -21023,6 +21038,7 @@ Refer: 787 1075 N 1 0 0 1 0 0 2
 Fore
 Refer: 174 180 S 1 0 0 1 65 -63.5 2
 Refer: 787 1075 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: afii10101
@@ -22556,7 +22572,7 @@ EndChar
 StartChar: uni0496
 Encoding: 1174 1174 852
 Width: 1060
-Flags: HW
+Flags: W
 HStem: -5 21G<-25 143 418 555 805.5 823> 614 147<316.647 418 555 656.094> 1306 2G<81.1667 177.5 418 555 804.5 900.833>
 VStem: -25 157<3.99557 152.26> 418 137<-5 614 761 1308> 871 157<-270 -6>
 LayerCount: 2
@@ -28072,7 +28088,64 @@ SplineSet
  375 193 422 147 559 147 c 0
  729 147 784 274 784 478 c 0
 EndSplineSet
-Validated: 8388609
+Validated: 1
+EndChar
+
+StartChar: k.noloop
+Encoding: 57349 57349 977
+Width: 1060
+VWidth: -2
+Flags: W
+HStem: -2 2G<136 293 787 879.111> 1028 20G<747.5 888.315> 1407 20G<196 276>
+VStem: 136 157<0 417.498 607 1380.61>
+LayerCount: 2
+Fore
+SplineSet
+947 902 m 5
+ 754 831 623 749 498 616 c 5
+ 664 505 842 300 981 67 c 5
+ 850 -23 l 5
+ 724 208 558 398 396 499 c 5
+ 363 453 322 399 291 344 c 5
+ 293 0 l 5
+ 136 0 l 5
+ 136 1222 l 6
+ 136 1277 130 1332 112 1383 c 5
+ 266 1427 l 5
+ 286 1376 293 1332 293 1258 c 6
+ 291 607 l 5
+ 429 794 616 944 879 1048 c 5
+ 947 902 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: kcommaaccent.noloop
+Encoding: 57350 57350 978
+Width: 1060
+VWidth: -2
+Flags: W
+HStem: -527 498 -2 2G<136 293 787 879.111> 1028 20G<747.5 888.315> 1407 20G<196 276>
+VStem: 136 157<0 417.498 607 1380.61> 463 220<-250 -29> 519 164<-375.366 -250>
+LayerCount: 2
+Fore
+Refer: 520 806 N 1 0 0 1 13 -33 2
+Refer: 977 57349 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni01E9.noloop
+Encoding: 57351 57351 979
+Width: 1060
+VWidth: -2
+Flags: W
+HStem: -2 2G<136 293 787 879.111> 1028 20G<747.5 888.315> 1407 20G<196 276> 1437 425
+VStem: 136 157<0 417.498 607 1380.61>
+LayerCount: 2
+Fore
+Refer: 334 780 N 1 0 0 1 -311 219 2
+Refer: 977 57349 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
