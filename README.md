@@ -41,6 +41,14 @@ to Consolas' italic version, with new glyph designs, not just an added slant.
 
 ![](Specimen/vim21.png)
 
+Stylistic set(s)
+----------------
+
+### `ss01`: nondescript `k`
+
+No ~~distractive~~ lovely loop.
+
+![](Specimen/noloopk.png)
 
 Author and license
 ------------------
@@ -155,4 +163,11 @@ Versions
         Fix some Windows rendering issues.
         Move accents around (why do I do that every time?)
         Add `fontdiff` script which generates font diffs.
+
+1.7.1 - **Add a stylistic set to replace the looped lowercase `k` with
+        a straight version.**
+        Adjust curly quotes so they behave better as apostrophes.
+        Also, since nobody complained about the new Cyrillic characters,
+        I declare this is their official release! (I did not change
+        anything since 1.7.0 though).
 
