@@ -19,14 +19,15 @@ fpm -s dir -t ${pkg} -a all \
   --url ${url}              \
   --description "${desc}"   \
 	--license OFL             \
-  TTF/FantasqueSansMono-Regular.ttf=/usr/share/fonts/truetype/${name}/         \
-  TTF/FantasqueSansMono-Bold.ttf=/usr/share/fonts/truetype/${name}/     \
-  TTF/FantasqueSansMono-Italic.ttf=/usr/share/fonts/truetype/${name}/     \
-  TTF/FantasqueSansMono-BoldItalic.ttf=/usr/share/fonts/truetype/${name}/     \
-  OTF/FantasqueSansMono-Regular.otf=/usr/share/fonts/opentype/${name}/     \
-  OTF/FantasqueSansMono-Bold.otf=/usr/share/fonts/opentype/${name}/ \
-  OTF/FantasqueSansMono-Italic.otf=/usr/share/fonts/opentype/${name}/ \
-  OTF/FantasqueSansMono-BoldItalic.otf=/usr/share/fonts/opentype/${name}/ \
+  Variants/Normal/TTF/FantasqueSansMono-Regular.ttf=/usr/share/fonts/truetype/${name}/         \
+  Variants/Normal/TTF/FantasqueSansMono-Bold.ttf=/usr/share/fonts/truetype/${name}/     \
+  Variants/Normal/TTF/FantasqueSansMono-Italic.ttf=/usr/share/fonts/truetype/${name}/     \
+  Variants/Normal/TTF/FantasqueSansMono-BoldItalic.ttf=/usr/share/fonts/truetype/${name}/     \
+  Variants/Normal/OTF/FantasqueSansMono-Regular.otf=/usr/share/fonts/opentype/${name}/     \
+  Variants/Normal/OTF/FantasqueSansMono-Bold.otf=/usr/share/fonts/opentype/${name}/ \
+  Variants/Normal/OTF/FantasqueSansMono-Italic.otf=/usr/share/fonts/opentype/${name}/ \
+  Variants/Normal/OTF/FantasqueSansMono-BoldItalic.otf=/usr/share/fonts/opentype/${name}/ \
   LICENSE.txt=/usr/share/doc/${name}/copyright \
   README.md=/usr/share/doc/${name}/        \
-	Specimen=/usr/share/doc/${name}/
+  CHANGELOG.md=/usr/share/doc/${name}/        \
+  Specimen=/usr/share/doc/${name}/

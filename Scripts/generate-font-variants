@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+SCRIPTS=$(cd "$(dirname $0)"; pwd)
+
+# Generate all possible variants of the font statically
+
+if ! type fontforge &> /dev/null; then echo "ERROR: Missing dependency: fontforge" 1>&2; exit 1; fi
+
+path="$(pwd)/$1"
+basename=$(basename "$path" .sfdir)
+output_dir=$2
+
+echo -e "\e[1;37mGenerating ${basename} variants... \e[0m"
+
+fontforge --quiet -lang=py -script "$SCRIPTS/build.py" 1 0 "$path" "$output_dir" || exit 1
+
+echo -e "\e[1;32m${basename} OK.\e[0m"

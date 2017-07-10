@@ -4,13 +4,8 @@ TeX
 *.deb
 *.rpm
 *~
-Webfonts/*.woff
-Webfonts/*.woff2
-Webfonts/*.svg
-Webfonts/*.eot
-Webfonts/*.css
-OTF/*.otf
-TTF/*.ttf
 Specimen/*.svg
 Sources/*.sfd-*
+Variants
 
+*.pyc

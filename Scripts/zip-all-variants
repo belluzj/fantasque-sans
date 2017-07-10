@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Create a distributable ZIP file in each variant folder
+
+variants=$1
+
+for variant in $(find "$variants"/* -maxdepth 0 -type d); do
+  name=$(basename "$variant")
+  cp LICENSE.txt README.md CHANGELOG.md "$variant/"
+  (
+    cd "$variant"
+    echo "Zipping $name"
+    zip -r "../FantasqueSansMono-$name.zip" * > /dev/null || exit 1
+    echo "Targzing $name"
+    tar czvf "../FantasqueSansMono-$name.tar.gz" * > /dev/null || exit 1
+  )
+done

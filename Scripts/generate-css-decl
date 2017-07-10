@@ -1,19 +1,17 @@
 #!/usr/bin/env bash
 
-# Generate font files with FontForge, and a CSS declaration for this font.
+# Generate a CSS declaration for the given font
 
 if ! type fontforge &> /dev/null; then echo "ERROR: Missing dependency: fontforge" 1>&2; exit 1; fi
 
-basename=$1
-ttf="${basename}.ttf"
-otf="OTF/${basename}.otf"
+fullname=$1
+basename=$(basename "$fullname" .sfdir)
 
-echo -e "\e[1;37mGenerating ${basename}... \e[0m"
-
-output=$(fontforge -lang=py -script - <<EOF
+output=$(fontforge --quiet -lang=py -script - "$fullname" <<EOF
 import fontforge;
+import sys;
 
-font = fontforge.open("Sources/${basename}.sfdir");
+font = fontforge.open(sys.argv[1]);
 
 # Extract interesting informations
 print("---")
@@ -22,18 +20,8 @@ print(font.familyname)
 print(font.fullname)
 print(font.os2_weight)
 print(font.italicangle)
-
-bitmask = font.validate();
-if bitmask != 0:
-  exit(42);
-
-font.generate("TTF/${basename}.ttf", flags=("opentype", "dummy-dsig"));
-font.generate("OTF/${basename}.otf", flags=("opentype", "dummy-dsig"));
-font.generate("Webfonts/${basename}.svg");
-
 EOF
-)
-error=$?
+) || exit 1
 
 output="${output##*---
 }"
@@ -54,7 +42,7 @@ else
   fontstyle=italic
 fi
 
-cat > Webfonts/${basename}-decl.css <<EOF
+cat > "Webfonts/${basename}-decl.css" <<EOF
 @font-face {
   font-family: '${familyname}';
   src: url('${basename}.eot'); /* IE 9 Compatibility Mode */
@@ -67,14 +55,3 @@ cat > Webfonts/${basename}-decl.css <<EOF
   font-style: ${fontstyle};
 }
 EOF
-
-if [ "x$error" != "x0" ]; then
-  echo -e "\e[1;31mError in ${basename}.\e[0m"
-  if [ "x$error" = "x42" ]; then
-    echo "Font ${basename}.sfd is not valid"
-  fi
-else
-  echo -e "\e[1;32m${basename} OK.\e[0m"
-fi
-
-exit $error

@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+# Validate a font file with FontForge.
+
+if ! type fontforge &> /dev/null; then echo "ERROR: Missing dependency: fontforge" 1>&2; exit 1; fi
+
+name=$1
+basename=$(basename "$name" .sfdir)
+
+echo -e "\e[1;37mValidating ${basename}... \e[0m"
+
+output=$(fontforge --quiet -lang=py -script - "$name" <<EOF
+import fontforge;
+import sys;
+
+font = fontforge.open(sys.argv[1]);
+
+bitmask = font.validate();
+if bitmask != 0:
+  exit(42);
+EOF
+) || exit 1
+error=$?
+
+if [ "x$error" != "x0" ]; then
+  echo -e "\e[1;31mError in ${basename}.\e[0m"
+  if [ "x$error" = "x42" ]; then
+    echo "Font ${basename}.sfd is not valid"
+  fi
+fi
+
+exit $error
