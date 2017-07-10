@@ -1,0 +1,13 @@
+StartChar: uni030E
+Encoding: 782 782 338
+Width: 1060
+VWidth: -34
+Flags: W
+HStem: 1280 348<323 482 587 746>
+VStem: 323 159<1280 1628> 587 159<1280 1628>
+LayerCount: 2
+Fore
+Refer: 337 781 N 1 0 0 1 164 0 2
+Refer: 337 781 N 1 0 0 1 -100 0 2
+Validated: 1
+EndChar

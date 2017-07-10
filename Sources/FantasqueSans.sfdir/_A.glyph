@@ -1,0 +1,31 @@
+StartChar: A
+Encoding: 65 65 26
+Width: 1195
+VWidth: 0
+Flags: W
+HStem: 496 119<407.362 801>
+AnchorPoint: "accents" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+556 1332 m 1
+ 665 1332 l 1
+ 1146 12 l 1
+ 1037 -27 l 1
+ 843 498 l 1
+ 798 498 714 498 622 496 c 0
+ 555 494 487 491 432 486 c 0
+ 402 484 374 479 357 474 c 1
+ 171 -22 l 1
+ 62 17 l 1
+ 556 1332 l 1
+608 1141 m 1
+ 407 603 l 2
+ 412 603 414 603 419 603 c 0
+ 479 608 553 613 620 615 c 0
+ 642 615 664 615 684 615 c 0
+ 729 615 769 615 801 615 c 0
+ 608 1141 l 1
+EndSplineSet
+Validated: 1
+EndChar

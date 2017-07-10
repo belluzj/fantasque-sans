@@ -1,0 +1,24 @@
+StartChar: Chi
+Encoding: 935 935 381
+Width: 1060
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+979 1340 m 1
+ 1097 1255 l 1
+ 621 657 l 1
+ 740 390 803 214 918 77 c 1
+ 792 -36 l 1
+ 669 111 607 266 502 508 c 1
+ 79 -31 l 1
+ -37 54 l 1
+ 432 654 l 1
+ 352 858 299 1082 189 1238 c 1
+ 332 1331 l 1
+ 434 1185 485 971 555 799 c 1
+ 979 1340 l 1
+EndSplineSet
+Validated: 1
+EndChar

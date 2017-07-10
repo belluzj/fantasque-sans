@@ -1,0 +1,23 @@
+StartChar: tildecomb
+Encoding: 771 771 205
+Width: 0
+VWidth: 0
+Flags: W
+HStem: 1184 109<438.379 628.786> 1276 112<224.986 408.398>
+VStem: 110 622
+AnchorPoint: "accents" 422 1200 mark 0
+LayerCount: 2
+Fore
+SplineSet
+110 1251 m 21x60
+ 167 1353 224 1388 284 1388 c 7x60
+ 386 1388 483 1293 557 1293 c 7
+ 594 1293 626 1316 651 1380 c 13
+ 732 1310 l 21
+ 672 1213 612 1184 552 1184 c 7xa0
+ 455 1184 363 1276 289 1276 c 7
+ 257 1276 230 1254 205 1194 c 13
+ 110 1251 l 21x60
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,14 @@
+StartChar: Udieresis
+Encoding: 220 220 132
+Width: 1060
+VWidth: -4
+Flags: W
+HStem: -10 210<393.874 605.877> 1329 1G<67 328 696 881.714> 1399 240<165 444 585 867>
+VStem: 68 252<291.203 1329> 165 279<1399 1639> 585 282<1399 1636> 693 256<306.506 1323.05>
+AnchorPoint: "above_accent" 513 1604 basechar 0
+LayerCount: 2
+Fore
+Refer: 173 168 N 1 0 0 1 19 215 2
+Refer: 44 85 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

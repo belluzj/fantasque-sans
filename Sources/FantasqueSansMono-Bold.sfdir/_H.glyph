@@ -1,0 +1,29 @@
+StartChar: H
+Encoding: 72 72 33
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 0 21G<60 318 675 930> 599 215<321.491 675> 1302 15G<60 316.963 674 930>
+VStem: 60 256<0 578.711 785 1320> 675 255<0 599 814 1317>
+AnchorPoint: "above_accent" 494 1322 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+317 1322 m 1
+ 316 785 l 1
+ 408 806 468 814 588 814 c 2
+ 675 814 l 1
+ 675 1094 674 1152 674 1317 c 1
+ 930 1317 l 1
+ 930 0 l 1
+ 675 0 l 1
+ 675 599 l 1
+ 643 599 l 0
+ 497 599 434 596 316 570 c 1
+ 316 220 318 185 318 0 c 1
+ 60 0 l 1
+ 60 1320 l 1
+ 317 1322 l 1
+EndSplineSet
+Validated: 1
+EndChar

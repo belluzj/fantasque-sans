@@ -1,0 +1,13 @@
+StartChar: oacute
+Encoding: 243 243 136
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 1 155<282.579 590.831> 878 154<453.6 737.526> 1066 150<452.979 501.552>
+VStem: 73 162<201.274 586.445> 396 613 787 161<423.036 831.077>
+LayerCount: 2
+Fore
+Refer: 321 769 S 1 0 0 1 -30 -214 2
+Refer: 14 111 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

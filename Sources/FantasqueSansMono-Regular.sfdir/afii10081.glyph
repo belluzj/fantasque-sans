@@ -1,0 +1,35 @@
+StartChar: afii10081
+Encoding: 1087 1087 799
+Width: 1060
+Flags: W
+HStem: -5 21G<128.942 287 730.954 888> 870 150<287 729>
+VStem: 129 158<-5 870> 731 157<-5 870>
+LayerCount: 2
+Back
+SplineSet
+220 870 m 1
+ 220 -5 l 1
+ 62 -5 l 1
+ 59 1021 l 1
+ 730 1020 l 1
+ 887 1020 l 1
+ 888 -5 l 1
+ 731 -5 l 1
+ 729 870 l 1
+ 220 870 l 1
+EndSplineSet
+Fore
+SplineSet
+287 870 m 1
+ 287 -5 l 1
+ 129 -5 l 1
+ 126 1021 l 1
+ 730 1020 l 1
+ 887 1020 l 1
+ 888 -5 l 1
+ 731 -5 l 1
+ 729 870 l 1
+ 287 870 l 1
+EndSplineSet
+Validated: 1
+EndChar

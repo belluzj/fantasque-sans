@@ -1,0 +1,18 @@
+StartChar: acutecomb
+Encoding: 769 769 321
+Width: 1060
+VWidth: -43
+Flags: W
+HStem: 1280 150<482.979 531.552>
+VStem: 426 613
+LayerCount: 2
+Fore
+SplineSet
+426 1430 m 1
+ 571 1473 803 1637 922 1741 c 1
+ 1039 1591 l 1
+ 924 1483 634 1322 489 1280 c 1
+ 426 1430 l 1
+EndSplineSet
+Validated: 1
+EndChar

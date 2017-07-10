@@ -1,0 +1,118 @@
+SplineFontDB: 3.0
+FontName: FantasqueSans
+FullName: Fantasque Sans
+FamilyName: FantasqueSans
+Weight: Medium
+Copyright: Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)
+UComments: "2013-9-13: Created."
+Version: 1.0
+ItalicAngle: 0
+UnderlinePosition: -192
+UnderlineWidth: 96
+Ascent: 1650
+Descent: 398
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 607 50037791 3178130]
+FSType: 8
+OS2Version: 3
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1379052706
+ModificationTime: 1398183237
+PfmFamily: 33
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 184
+VLineGap: 0
+Panose: 2 11 5 3 0 0 0 0 0 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 184
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2FamilyClass: 2048
+OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Ligature facoltativa dans Latin lookup 1" { "'dlig' Ligature facoltativa dans Latin lookup 1-1"  } ['dlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Posizione della marca dans Latin lookup 1" { "'mark' Posizione della marca dans Latin lookup 1-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "kerns" { "kerns-1" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+MarkAttachClasses: 1
+DEI: 91125
+KernClass2: 21+ 12 "kerns-1"
+ 58 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron
+ 52 a agrave aacute acircumflex atilde adieresis amacron
+ 9 d h m n u
+ 51 e ae egrave eacute ecircumflex edieresis emacron oe
+ 5 f f_f
+ 1 B
+ 46 b o ograve oacute ocircumflex otilde odieresis
+ 1 J
+ 12 V W Y Yacute
+ 1 L
+ 1 C
+ 81 D O copyright registered Ograve Oacute Ocircumflex Otilde Odieresis Oslash Dcaron
+ 1 T
+ 1 S
+ 131 c i k l p r s t v w x y aring ccedilla ntilde ugrave uacute ucircumflex udieresis yacute ydieresis dotlessi f_f_i f_i f_t f_l f_f_l
+ 112 G H I K M N Q R X Z Ccedilla Igrave Iacute Icircumflex Idieresis Eth Ntilde Cacute Ccircumflex Cdotaccent Ccaron
+ 37 U Uacute Ucircumflex Udieresis Ugrave
+ 51 E AE OE Eacute Ecircumflex Edieresis Egrave Emacron
+ 1 F
+ 1 P
+ 1 z
+ 12 V W Y Yacute
+ 1 j
+ 134 c e o q egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis cacute ccircumflex cdotaccent ccaron emacron oe
+ 61 A Agrave Aacute Acircumflex Atilde Adieresis Aring AE Amacron
+ 118 C G O Q copyright registered Ograve Oacute Ocircumflex Otilde Odieresis Oslash Cacute Ccircumflex Cdotaccent Ccaron OE
+ 1 T
+ 53 a agrave aacute acircumflex atilde adieresis aring ae
+ 22 v w y yacute ydieresis
+ 1 J
+ 50 m n r u ntilde ugrave uacute ucircumflex udieresis
+ 1 i
+ 0 {} -190 {} -340 {} -35 {} -67 {} -60 {} -256 {} -67 {} -102 {} -134 {} 0 {} -106 {} 0 {} -35 {} -325 {} 20 {} 0 {} 0 {} -340 {} 0 {} 0 {} -65 {} 0 {} -55 {} 0 {} 0 {} -290 {} 0 {} 0 {} 0 {} -67 {} 0 {} 0 {} -51 {} 0 {} 0 {} 0 {} -35 {} -262 {} 27 {} -35 {} 0 {} -238 {} 0 {} 0 {} -21 {} 0 {} 0 {} 0 {} -35 {} -392 {} -171 {} -278 {} -102 {} -67 {} -102 {} -109 {} -242 {} -137 {} -123 {} 0 {} -144 {} -313 {} 0 {} -47 {} -13 {} -270 {} 0 {} -55 {} -24 {} 0 {} -20 {} 0 {} -102 {} -305 {} 0 {} 0 {} 0 {} -236 {} 0 {} 0 {} 7 {} 0 {} 0 {} 0 {} -40 {} -380 {} -102 {} -171 {} -102 {} -27 {} -109 {} -102 {} -194 {} -82 {} -83 {} 0 {} -67 {} -404 {} -99 {} -211 {} -102 {} 0 {} 0 {} 0 {} -205 {} -55 {} -95 {} 0 {} -297 {} -386 {} 0 {} -52 {} -186 {} -407 {} -102 {} -169 {} -178 {} -55 {} -121 {} 0 {} -102 {} -325 {} 0 {} -122 {} -65 {} -102 {} 0 {} -136 {} -92 {} 0 {} -62 {} 0 {} -102 {} -312 {} 0 {} -102 {} -34 {} -142 {} 0 {} 0 {} -80 {} 0 {} -56 {} 0 {} 0 {} -399 {} -340 {} -270 {} -134 {} -67 {} -169 {} -238 {} -336 {} -191 {} -114 {} 0 {} -67 {} -290 {} 0 {} -102 {} 0 {} -136 {} 0 {} 0 {} 0 {} 0 {} -32 {} 0 {} 0 {} -223 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -14 {} 0 {} 0 {} 0 {} 0 {} -295 {} 0 {} 0 {} 0 {} 0 {} 0 {} -67 {} -77 {} 0 {} -35 {} 0 {} 0 {} -295 {} 0 {} -109 {} 0 {} 0 {} 0 {} 0 {} -94 {} 0 {} 0 {} 0 {} -82 {} -328 {} -55 {} -82 {} -82 {} -109 {} -82 {} -109 {} -125 {} 0 {} -71 {} 0 {} -54 {} -382 {} -82 {} -246 {} -82 {} -82 {} -164 {} -164 {} -308 {} -137 {} -135 {} 0 {} 0 {} -328 {} 0 {} -164 {} 0 {} 0 {} -55 {} 0 {} -174 {} 0 {} -53 {} 0 {} -82 {} -300 {} -82 {} -54 {} -55 {} -300 {} -55 {} -55 {} -82 {} 0 {} -19 {}
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2013-2014, Jany Belluz (<jany.belluz@hotmail.fr>),+AAoA-with Reserved Font Name Fantasque Sans.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: Adobe Glyph List
+DisplaySize: -36
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 42 42 12
+BeginPrivate: 1
+BlueValues 44 [-8 0 828 840 1042 1058 1074 1084 1138 1154]
+EndPrivate
+Grid
+-2048 1079.91 m 0
+ 4096 1079.91 l 1024
+-2539.52 510.88 m 0
+ 5079.04 510.88 l 1024
+  Named: "OP+AMkA-RATEURS"
+-2539.52 1330.71 m 0
+ 5079.04 1330.71 l 1024
+  Named: "Majuscules"
+-2539.52 1198.6 m 4
+ 5079.04 1198.6 l 1028
+  Named: "point du i"
+-2539.52 -391.086 m 0
+ 5079.04 -391.086 l 1024
+-2539.52 1411.21 m 0
+ 5079.04 1411.21 l 1024
+-2539.52 1020.25 m 0
+ 5079.04 1020.25 l 1024
+EndSplineSet
+TeXData: 1 0 0 346030 173015 115343 423805 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass2: "accents" "'mark' Posizione della marca dans Latin lookup 1-1"
+EndSplineFont

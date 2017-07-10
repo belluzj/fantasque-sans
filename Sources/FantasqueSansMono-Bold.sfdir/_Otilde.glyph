@@ -1,0 +1,14 @@
+StartChar: Otilde
+Encoding: 213 213 125
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -16 203<387.94 609.054> 1147 203<415.193 616.501> 1367 178<592.92 751.997> 1497 180<314.718 478.459>
+VStem: 36 261<295.851 964.02> 718 261<341.03 985.544>
+AnchorPoint: "above_accent" 531 1604 basechar 0
+LayerCount: 2
+Fore
+Refer: 325 771 N 1 0 0 1 16 215 2
+Refer: 38 79 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

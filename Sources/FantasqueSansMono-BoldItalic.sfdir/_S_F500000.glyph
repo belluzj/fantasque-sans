@@ -1,0 +1,24 @@
+StartChar: SF500000
+Encoding: 9560 9560 885
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 273 166<613 1080> 604 166<613 1080>
+VStem: 448 165<439 604 770 1820>
+LayerCount: 2
+Fore
+SplineSet
+448 273 m 1
+ 448 1820 l 1
+ 613 1820 l 1
+ 613 770 l 1
+ 1080 770 l 1
+ 1080 604 l 1
+ 613 604 l 1
+ 613 439 l 1
+ 1080 439 l 1
+ 1080 273 l 1
+ 448 273 l 1
+EndSplineSet
+Validated: 1
+EndChar

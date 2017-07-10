@@ -1,0 +1,16 @@
+StartChar: slash
+Encoding: 47 47 104
+Width: 1060
+VWidth: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+64 -50 m 1
+ 192 227 569 1112 704 1468 c 1
+ 922 1372 l 1
+ 784 1020 404 133 284 -149 c 1
+ 64 -50 l 1
+EndSplineSet
+Validated: 1
+EndChar

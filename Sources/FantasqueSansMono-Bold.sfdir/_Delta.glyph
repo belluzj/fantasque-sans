@@ -1,0 +1,23 @@
+StartChar: Delta
+Encoding: 916 916 384
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 0 199<309 698> 1305 20G<403.489 638.908>
+LayerCount: 2
+Fore
+SplineSet
+698 199 m 1
+ 668 351 517 847 516 998 c 1
+ 510 832 349 343 309 199 c 1
+ 698 199 l 1
+149 0 m 1
+ -9 38 l 1
+ 410 1325 l 1
+ 633 1325 l 1
+ 1012 42 l 1
+ 875 0 l 1
+ 149 0 l 1
+EndSplineSet
+Validated: 1
+EndChar

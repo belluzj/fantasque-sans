@@ -1,0 +1,14 @@
+StartChar: kcommaaccent
+Encoding: 311 311 248
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -527 498 872 144<500.523 718.984> 1407 20<196.455 270.5>
+VStem: 136 157<0 469 611.15 735.644 880 1381.07> 463 220<-250 -29> 519 164<-375.366 -250> 742 157<618.956 848.248>
+LayerCount: 2
+Fore
+Refer: 520 806 S 1 0 0 1 13 -33 2
+Refer: 11 107 S 1 0 0 1 0 0 3
+Validated: 1
+Substitution2: "'ss01' Stylistic Set 1 - No loop k-1" kcommaaccent.noloop
+EndChar

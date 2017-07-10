@@ -1,0 +1,20 @@
+StartChar: uni030C
+Encoding: 780 780 334
+Width: 1060
+VWidth: -10
+Flags: W
+HStem: 1206 447
+AnchorPoint: "above_accent" 670 1155 mark 0
+LayerCount: 2
+Fore
+SplineSet
+681 1206 m 1
+ 365 1503 l 1
+ 536 1641 l 1
+ 709 1452 l 1
+ 1008 1653 l 1
+ 1120 1478 l 1
+ 681 1206 l 1
+EndSplineSet
+Validated: 1
+EndChar

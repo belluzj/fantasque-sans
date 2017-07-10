@@ -1,0 +1,13 @@
+StartChar: iotadieresis
+Encoding: 970 970 366
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -18 202<637.127 798.449> 813 200<134.449 364> 1183 240<155 434 575 857>
+VStem: 155 279<1183 1423> 364 256<199.609 296 296.323 813> 575 282<1183 1420>
+LayerCount: 2
+Fore
+Refer: 173 168 N 1 0 0 1 9 -1 2
+Refer: 349 953 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

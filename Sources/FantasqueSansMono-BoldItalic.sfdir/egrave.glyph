@@ -1,0 +1,13 @@
+StartChar: egrave
+Encoding: 232 232 56
+Width: 1060
+VWidth: -2
+Flags: W
+HStem: -10 206<384.238 715.575> 818 203<490.842 711.12> 1147 450
+VStem: 88 255<237.586 336.479> 438 562 738 253<630.154 791.478>
+LayerCount: 2
+Fore
+Refer: 322 768 N 1 0 0 1 58 -120 2
+Refer: 4 101 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

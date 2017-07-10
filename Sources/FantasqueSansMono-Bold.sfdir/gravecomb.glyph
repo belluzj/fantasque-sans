@@ -1,0 +1,19 @@
+StartChar: gravecomb
+Encoding: 768 768 322
+Width: 1060
+VWidth: -43
+Flags: W
+HStem: 1093 442
+VStem: 193 566
+AnchorPoint: "above_accent" 448 1080 mark 0
+LayerCount: 2
+Fore
+SplineSet
+759 1267 m 1
+ 669 1093 l 1
+ 526 1140 304 1251 193 1363 c 1
+ 327 1535 l 1
+ 442 1427 616 1315 759 1267 c 1
+EndSplineSet
+Validated: 1
+EndChar

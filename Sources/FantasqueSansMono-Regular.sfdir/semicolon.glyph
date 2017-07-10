@@ -1,0 +1,13 @@
+StartChar: semicolon
+Encoding: 59 59 67
+Width: 1060
+VWidth: 26
+Flags: W
+HStem: -393 667 751.4 269<390 641>
+VStem: 390 251<751.4 1020.4> 393 258<5 274> 481 170<-164.236 5>
+LayerCount: 2
+Fore
+Refer: 53 46 S 1 0 0 1 -7 751.4 2
+Refer: 54 44 N 1 0 0 1 -8 0 2
+Validated: 1
+EndChar

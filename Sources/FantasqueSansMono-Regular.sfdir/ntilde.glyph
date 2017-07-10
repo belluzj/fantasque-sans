@@ -1,0 +1,13 @@
+StartChar: ntilde
+Encoding: 241 241 134
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 872 150<419.742 708.885> 1128 153<561.743 768.584> 1249 153<263.453 488.876>
+VStem: 112 158<0 778.144> 739 158<129.808 836.004>
+LayerCount: 2
+Fore
+Refer: 325 771 S 1 0 0 1 26.5 -284 2
+Refer: 15 110 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

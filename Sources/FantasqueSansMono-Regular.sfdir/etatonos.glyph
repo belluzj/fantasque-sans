@@ -1,0 +1,13 @@
+StartChar: etatonos
+Encoding: 942 942 397
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 872 150<437.027 707.196> 1098 491
+VStem: 113 158<0 758.239> 575 180<1438.42 1543.9> 734 159<-327.685 841.083>
+LayerCount: 2
+Fore
+Refer: 392 900 S 1 0 0 1 33 -124 2
+Refer: 347 951 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

@@ -1,0 +1,13 @@
+StartChar: Omicrontonos
+Encoding: 908 908 406
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -16 153<385.716 689.474> 1137 491 1170 153<412.35 690.552>
+VStem: 77 159<320.826 920.593> 196.38 168.835<1477.42 1582.9> 850 158<350.765 944.703>
+LayerCount: 2
+Fore
+Refer: 392 900 N 0.93797 0 0 1 -312 -85 2
+Refer: 379 927 N 1 0 0 1 36 0 3
+Validated: 1
+EndChar

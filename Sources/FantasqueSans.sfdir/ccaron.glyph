@@ -1,0 +1,21 @@
+StartChar: ccaron
+Encoding: 269 269 188
+Width: 967
+VWidth: 0
+Flags: W
+HStem: -10 117<330.41 738.555> 930 117<334.952 710.715> 1150 21G<479.407 556>
+VStem: 37 117<294.708 747.822>
+LayerCount: 2
+Fore
+SplineSet
+507 1150 m 5
+ 209 1366 l 5
+ 269 1450 l 5
+ 507 1292 l 5
+ 743 1450 l 5
+ 802 1366 l 5
+ 704 1294 605 1234 507 1150 c 5
+EndSplineSet
+Refer: 2 99 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

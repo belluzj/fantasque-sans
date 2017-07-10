@@ -1,0 +1,20 @@
+StartChar: onequarter
+Encoding: 188 188 201
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -159 135<393 580 750 849> 534 141<162 1028> 1133 132<392.633 489.758>
+VStem: 227 651 365 570
+LayerCount: 2
+Fore
+SplineSet
+162 675 m 1xe0
+ 1055 675 l 1
+ 1028 534 l 1
+ 135 534 l 1
+ 162 675 l 1xe0
+EndSplineSet
+Refer: 971 8324 N 1 0 0 1 0 0 2
+Refer: 199 185 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

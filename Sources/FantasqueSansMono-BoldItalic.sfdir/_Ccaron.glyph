@@ -1,0 +1,13 @@
+StartChar: Ccaron
+Encoding: 268 268 186
+Width: 1060
+VWidth: -12
+Flags: W
+HStem: -3 201<416.318 648.987> 1128 204<592.527 818.265> 1373 447
+VStem: 84 265<271.823 726.457>
+LayerCount: 2
+Fore
+Refer: 334 780 N 1 0 0 1 91 167 2
+Refer: 28 67 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

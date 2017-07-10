@@ -1,0 +1,13 @@
+StartChar: Epsilontonos
+Encoding: 904 904 407
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 0 204<467.741 950.711> 646 203<580.092 846.758> 1118 205<618.986 1096.24> 1197 454
+VStem: 59.4803 359.541
+LayerCount: 2
+Fore
+Refer: 392 900 N 0.798981 0 0 1 -348 -25 2
+Refer: 371 917 S 0.884648 0 0 1 182 0 3
+Validated: 1
+EndChar

@@ -1,0 +1,13 @@
+StartChar: uni04E9
+Encoding: 1257 1257 944
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -16 203<379.111 619.252> 412 222<311.268 713> 835 203<391.689 630.259>
+VStem: 36 262<278.478 398.084 620 723.292> 714 265<288.172 412 634 747.861>
+AnchorPoint: "above_accent" 502 1107 basechar 0
+LayerCount: 2
+Fore
+Refer: 846 1139 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

@@ -1,0 +1,25 @@
+StartChar: afii10193
+Encoding: 1119 1119 833
+Width: 1060
+Flags: W
+HStem: 0 150<217 363 515 707> 1002 20G<225.051 387 875.055 1036>
+LayerCount: 2
+Fore
+SplineSet
+217 150 m 1
+ 707 150 l 1
+ 879 1022 l 1
+ 1036 1022 l 1
+ 867 158 l 1
+ 836 0 l 1
+ 515 0 l 0
+ 457 -299 l 1
+ 305 -299 l 1
+ 363 0 l 1
+ 256 0 134 -1 27 -1 c 1
+ 229 1022 l 1
+ 387 1022 l 1
+ 217 150 l 1
+EndSplineSet
+Validated: 1
+EndChar

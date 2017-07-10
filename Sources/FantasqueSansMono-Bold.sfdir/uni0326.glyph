@@ -1,0 +1,22 @@
+StartChar: uni0326
+Encoding: 806 806 519
+Width: 1060
+VWidth: 26
+Flags: W
+HStem: -528 532
+VStem: 390 270<-217 4> 446 214<-373.832 -217>
+AnchorPoint: "cedilla_accent" 510 53 mark 0
+LayerCount: 2
+Fore
+SplineSet
+390 4 m 1xc0
+ 660 4 l 1
+ 660 -211 l 2xc0
+ 660 -362 630 -426 504 -528 c 1
+ 370 -403 l 1
+ 423 -361 446 -328 446 -217 c 1xa0
+ 390 -217 l 1
+ 390 4 l 1xc0
+EndSplineSet
+Validated: 1
+EndChar

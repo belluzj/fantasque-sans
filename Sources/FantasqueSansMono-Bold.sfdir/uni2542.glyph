@@ -1,0 +1,26 @@
+StartChar: uni2542
+Encoding: 9538 9538 642
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 438 166<-20 400 660 1080>
+VStem: 400 260<-505 438 604 1820>
+LayerCount: 2
+Fore
+SplineSet
+400 604 m 1
+ 400 1820 l 1
+ 660 1820 l 1
+ 660 604 l 1
+ 1080 604 l 1
+ 1080 438 l 1
+ 660 438 l 1
+ 660 -505 l 1
+ 400 -505 l 1
+ 400 438 l 1
+ -20 438 l 1
+ -20 604 l 1
+ 400 604 l 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,22 @@
+StartChar: Gamma
+Encoding: 915 915 370
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 0 21G<149 403> 1118 210<403 942.961>
+VStem: 149 254<0 1118>
+LayerCount: 2
+Fore
+SplineSet
+149 1328 m 1
+ 832 1328 l 2
+ 907 1328 969 1310 1016 1294 c 1
+ 945 1097 l 1
+ 901 1112 889 1115 830 1118 c 1
+ 403 1118 l 1
+ 403 0 l 1
+ 149 0 l 1
+ 149 1328 l 1
+EndSplineSet
+Validated: 1
+EndChar

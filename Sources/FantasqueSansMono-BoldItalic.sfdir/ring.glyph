@@ -1,0 +1,13 @@
+StartChar: ring
+Encoding: 730 730 974
+Width: 1060
+VWidth: -8
+Flags: W
+HStem: 1278 132<648.419 808.929> 1535 142<656.142 817.047>
+VStem: 454 191<1415.96 1521.24> 819 192<1425.31 1530.9>
+AnchorPoint: "above_accent" 662 1200 mark 0
+LayerCount: 2
+Fore
+Refer: 331 778 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

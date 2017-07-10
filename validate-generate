@@ -13,7 +13,7 @@ echo -e "\e[1;37mGenerating ${basename}... \e[0m"
 output=$(fontforge -lang=py -script - <<EOF
 import fontforge;
 
-font = fontforge.open("Sources/${basename}.sfd");
+font = fontforge.open("Sources/${basename}.sfdir");
 
 # Extract interesting informations
 print("---")
@@ -27,7 +27,7 @@ bitmask = font.validate();
 if bitmask != 0:
   exit(42);
 
-font.generate("${basename}.ttf", flags=("opentype", "dummy-dsig"));
+font.generate("TTF/${basename}.ttf", flags=("opentype", "dummy-dsig"));
 font.generate("OTF/${basename}.otf", flags=("opentype", "dummy-dsig"));
 font.generate("Webfonts/${basename}.svg");
 

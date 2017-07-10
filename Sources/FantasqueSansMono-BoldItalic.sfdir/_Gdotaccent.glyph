@@ -1,0 +1,13 @@
+StartChar: Gdotaccent
+Encoding: 288 288 226
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -8 206<372.09 617.957> 567 207<506.497 763> 1121 207<557.669 820.978> 1447 246<678.756 921.116>
+VStem: 49 259<268.34 731.835> 634 331
+LayerCount: 2
+Fore
+Refer: 330 775 N 1 0 0 1 121 22 2
+Refer: 32 71 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

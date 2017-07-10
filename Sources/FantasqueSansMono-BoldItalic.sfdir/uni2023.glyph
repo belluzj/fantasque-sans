@@ -1,0 +1,18 @@
+StartChar: uni2023
+Encoding: 8227 8227 764
+Width: 1060
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+302 964 m 1
+ 499 836 695 709 892 581 c 1
+ 883 533 873 485 864 437 c 1
+ 622 326 381 215 139 104 c 1
+ 134 133 129 163 124 192 c 1
+ 169 424 215 656 260 888 c 1
+ 274 913 288 939 302 964 c 1
+EndSplineSet
+Validated: 1
+EndChar

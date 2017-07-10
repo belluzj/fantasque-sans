@@ -1,0 +1,12 @@
+StartChar: Upsilon
+Encoding: 933 933 382
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 1342 20G<358 406.5 900 978.5>
+AnchorPoint: "above_accent" 700 1322 basechar 0
+LayerCount: 2
+Fore
+Refer: 48 89 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

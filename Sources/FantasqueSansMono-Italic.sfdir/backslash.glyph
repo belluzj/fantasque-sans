@@ -1,0 +1,17 @@
+StartChar: backslash
+Encoding: 92 92 115
+Width: 1060
+VWidth: 60
+Flags: W
+VStem: 298 506
+LayerCount: 2
+Fore
+SplineSet
+804 -108 m 1
+ 641 -147 l 1
+ 576 135 368 1059 298 1411 c 1
+ 466 1449 l 1
+ 531 1092 738 178 804 -108 c 1
+EndSplineSet
+Validated: 1
+EndChar

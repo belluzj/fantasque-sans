@@ -1,0 +1,13 @@
+StartChar: lcommaaccent
+Encoding: 316 316 251
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -636 498 -18 142<481.209 835.381>
+VStem: 280 161<166.217 556.789> 346 322
+LayerCount: 2
+Fore
+Refer: 518 806 N 1 0 0 1 72 -142 2
+Refer: 12 108 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

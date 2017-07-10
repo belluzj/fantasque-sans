@@ -1,0 +1,28 @@
+StartChar: dotlessi
+Encoding: 305 305 178
+Width: 500
+VWidth: 0
+Flags: W
+HStem: -2 21G<314.5 347.789>
+VStem: 188 114<131.8 1024>
+AnchorPoint: "accents" 245 1199.4 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+298 1029 m 1
+ 298 1029 302 992 302 937 c 0
+ 302 897 302 841 302 779 c 0
+ 302 608 300 387 298 211 c 0
+ 303 169 310 148 322 131 c 0
+ 334 116 357 99 392 74 c 9
+ 332 -2 l 17
+ 297 13 253 32 228 67 c 0
+ 203 102 189 146 184 203 c 2
+ 184 206 l 1
+ 186 382 188 608 188 779 c 0
+ 188 841 188 897 188 937 c 0
+ 188 1024 l 1
+ 298 1029 l 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,28 @@
+StartChar: uni04AD
+Encoding: 1197 1197 884
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 810 210<52 365 620 917.955>
+VStem: 365 255<210 810> 603 228<-297 -9>
+LayerCount: 2
+Fore
+SplineSet
+365 -9 m 1xc0
+ 365 810 l 1
+ 167 810 128 809 52 809 c 1
+ 52 1019 l 1
+ 174 1019 628 1020 816 1020 c 0
+ 889 1020 941 1016 959 1013 c 1
+ 918 782 l 1
+ 918 782 856 810 771 810 c 2
+ 620 810 l 1
+ 620 210 l 1xc0
+ 831 210 l 1
+ 831 -297 l 1
+ 603 -297 l 1
+ 603 -9 l 1xa0
+ 365 -9 l 1xc0
+EndSplineSet
+Validated: 1
+EndChar

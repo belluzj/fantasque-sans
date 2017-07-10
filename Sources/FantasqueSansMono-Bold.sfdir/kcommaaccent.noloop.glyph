@@ -1,0 +1,13 @@
+StartChar: kcommaaccent.noloop
+Encoding: 57350 57350 976
+Width: 1060
+VWidth: -2
+Flags: W
+HStem: -561 532 -7 7G<134 383 752 843.312> 1028 20G<758.5 886.333> 1407 20G<244.182 366>
+VStem: 134 249<0 412.28 650.557 1380.61> 403 270<-250 -29> 459 214<-406.832 -250>
+LayerCount: 2
+Fore
+Refer: 519 806 N 1 0 0 1 13 -33 2
+Refer: 975 57349 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

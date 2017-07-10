@@ -1,0 +1,24 @@
+StartChar: idieresis
+Encoding: 239 239 80
+Width: 500
+VWidth: 0
+Flags: W
+HStem: -2 21<314.5 347.789> 1199 131<54 183 304 433>
+VStem: 54 129<1201 1330> 188 114<131.8 1024> 304 129<1201 1330>
+LayerCount: 2
+Fore
+SplineSet
+304 1330 m 5
+ 433 1330 l 5
+ 433 1201 l 5
+ 304 1199 l 5
+ 304 1330 l 5
+54 1330 m 5
+ 183 1330 l 5
+ 183 1201 l 5
+ 54 1199 l 5
+ 54 1330 l 5
+EndSplineSet
+Refer: 178 305 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

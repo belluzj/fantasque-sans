@@ -1,0 +1,13 @@
+StartChar: colon
+Encoding: 58 58 66
+Width: 1060
+VWidth: 26
+Flags: W
+HStem: 0 269<374 573> 752 269<519.279 718.279>
+VStem: 322 303 467.279 303
+LayerCount: 2
+Fore
+Refer: 53 46 N 1 0 0 1 145.279 752 2
+Refer: 53 46 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

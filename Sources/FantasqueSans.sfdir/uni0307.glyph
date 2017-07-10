@@ -1,0 +1,18 @@
+StartChar: uni0307
+Encoding: 775 775 209
+Width: 0
+Flags: W
+HStem: 1200 131<162 292>
+VStem: 162 130<1203 1331>
+AnchorPoint: "accents" 230 1198 mark 0
+LayerCount: 2
+Fore
+SplineSet
+162 1331 m 1
+ 292 1331 l 1
+ 292 1203 l 1
+ 162 1200 l 1
+ 162 1331 l 1
+EndSplineSet
+Validated: 1
+EndChar

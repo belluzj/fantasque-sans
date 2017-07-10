@@ -1,0 +1,27 @@
+StartChar: K
+Encoding: 75 75 34
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -11 6G<8 280.5 746 797> 1315 20G<224.5 526 976 1025>
+AnchorPoint: "cedilla_accent" 470 0 basechar 0
+AnchorPoint: "above_accent" 688 1322 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+638 742 m 1
+ 735 623 968 192 992 54 c 1
+ 914 25 836 -3 758 -32 c 1
+ 734 79 570 445 465 574 c 1
+ 465 574 397 512 353 440 c 1
+ 324 292 295 143 266 -5 c 1
+ 180 -5 94 -5 8 -5 c 1
+ 95 442 181 888 268 1335 c 1
+ 354 1335 440 1335 526 1335 c 1
+ 496 1180 466 1026 436 871 c 1
+ 567 1016 954 1339 998 1376 c 1
+ 1052 1317 1106 1258 1160 1199 c 1
+ 952 1064 712 816 638 742 c 1
+EndSplineSet
+Validated: 1
+EndChar

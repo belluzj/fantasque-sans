@@ -1,0 +1,13 @@
+StartChar: uni01F4
+Encoding: 500 500 454
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -8 155<359.057 715.354> 585 150<438.203 826> 1150 152<357.915 706.991> 1302 461
+VStem: 20 162<349.429 932.761> 289 590 826 166<281.886 587>
+LayerCount: 2
+Fore
+Refer: 323 769 S 1 0 0 1 65 22 2
+Refer: 32 71 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

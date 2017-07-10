@@ -1,0 +1,22 @@
+StartChar: comma
+Encoding: 44 44 54
+Width: 1060
+VWidth: 26
+Flags: W
+HStem: -393 667
+VStem: 223 408
+LayerCount: 2
+Fore
+SplineSet
+379 274 m 1
+ 631 274 l 1
+ 586 11 l 1
+ 586 8 l 2
+ 548 -189 439 -317 257 -393 c 1
+ 223 -254 l 1
+ 325 -203 388 -133 415 5 c 1
+ 327 5 l 1
+ 379 274 l 1
+EndSplineSet
+Validated: 1
+EndChar

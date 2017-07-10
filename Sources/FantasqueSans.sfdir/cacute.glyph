@@ -1,0 +1,13 @@
+StartChar: cacute
+Encoding: 263 263 182
+Width: 967
+VWidth: 0
+Flags: W
+HStem: -10 117<330.41 738.555> 930 117<334.952 710.715> 1158.62 290
+VStem: 37 117<294.708 747.822> 242.76 479
+LayerCount: 2
+Fore
+Refer: 175 180 S 1 0 0 1 277.76 -131.384 2
+Refer: 2 99 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

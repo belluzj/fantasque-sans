@@ -1,0 +1,17 @@
+StartChar: rtblock
+Encoding: 9616 9616 721
+Width: 1060
+VWidth: 1918
+Flags: W
+VStem: 530 550<-505 1820>
+LayerCount: 2
+Fore
+SplineSet
+530 -505 m 1
+ 530 1820 l 1
+ 1080 1820 l 1
+ 1080 -505 l 1
+ 530 -505 l 1
+EndSplineSet
+Validated: 1
+EndChar

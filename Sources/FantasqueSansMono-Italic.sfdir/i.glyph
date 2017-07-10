@@ -1,0 +1,19 @@
+StartChar: i
+Encoding: 105 105 9
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -18 142<526.508 832.381> 1000 20<462 661> 1181 225<511 703>
+VStem: 350 159<140.796 459.859>
+LayerCount: 2
+Fore
+SplineSet
+511 1406 m 1
+ 746 1406 l 1
+ 703 1181 l 1
+ 468 1181 l 1
+ 511 1406 l 1
+EndSplineSet
+Refer: 177 305 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

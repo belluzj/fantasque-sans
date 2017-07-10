@@ -1,0 +1,26 @@
+StartChar: quotedbl
+Encoding: 34 34 92
+Width: 1060
+VWidth: -25
+Flags: W
+HStem: 794 670
+LayerCount: 2
+Fore
+SplineSet
+820 1464 m 1
+ 1076 1425 l 1
+ 1021 1142 977 995 904 794 c 1
+ 709 846 l 1
+ 741 933 781 1059 781 1171 c 0
+ 781 1194 779 1215 775 1235 c 1
+ 820 1464 l 1
+398 1464 m 1
+ 654 1425 l 1
+ 599 1142 555 995 482 794 c 1
+ 287 846 l 1
+ 319 933 359 1059 359 1171 c 0
+ 359 1194 357 1215 353 1235 c 1
+ 398 1464 l 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,13 @@
+StartChar: Atilde
+Encoding: 195 195 74
+Width: 1060
+VWidth: -6
+Flags: W
+HStem: 0 21G<6 267.5 750 1026> 281 223<390.856 651> 1305 20G<411.503 648.179> 1367 178<590.92 749.997> 1497 180<312.718 476.459>
+VStem: 6 260<0 174.195> 750 276<0 224.965>
+LayerCount: 2
+Fore
+Refer: 325 771 N 1 0 0 1 14 215 2
+Refer: 26 65 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

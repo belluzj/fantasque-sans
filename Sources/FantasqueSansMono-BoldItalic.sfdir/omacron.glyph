@@ -1,0 +1,13 @@
+StartChar: omacron
+Encoding: 333 333 269
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -6 203<374.176 589.924> 830 202<479.876 701.14> 1271 194<487.574 953.216>
+VStem: 72 260<238.301 581.159> 452 538 729 258<424.209 804.393>
+LayerCount: 2
+Fore
+Refer: 326 772 N 1 0 0 1 5 -192 2
+Refer: 14 111 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

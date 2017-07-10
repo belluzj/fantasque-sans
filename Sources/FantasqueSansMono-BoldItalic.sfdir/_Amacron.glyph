@@ -1,0 +1,13 @@
+StartChar: Amacron
+Encoding: 256 256 178
+Width: 1060
+VWidth: -4
+Flags: W
+HStem: 0 21G<-69 196.5 692 972> 281 223<409.995 673.747> 1305 20G<505.5 849.5> 1486 194<523.574 989.216>
+VStem: 488 538
+LayerCount: 2
+Fore
+Refer: 326 772 N 1 0 0 1 41 23 2
+Refer: 26 65 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

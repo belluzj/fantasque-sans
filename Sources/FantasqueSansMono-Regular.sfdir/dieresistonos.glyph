@@ -1,0 +1,13 @@
+StartChar: dieresistonos
+Encoding: 901 901 411
+Width: 1060
+VWidth: -28
+Flags: W
+HStem: 1092.51 192.078<139 374 545 780> 1254.47 451.814
+VStem: 139 235<1092.51 1282.03> 535.147 166.765<1567.73 1664.79> 545 235<1089.95 1279.47>
+LayerCount: 2
+Fore
+Refer: 392 900 N 0.926471 0 0 0.920192 33 130 2
+Refer: 173 168 N 1 0 0 0.853679 0 162 2
+Validated: 1
+EndChar

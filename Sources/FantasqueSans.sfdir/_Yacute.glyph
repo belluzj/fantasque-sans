@@ -1,0 +1,13 @@
+StartChar: Yacute
+Encoding: 221 221 133
+Width: 1125
+VWidth: 0
+Flags: HW
+HStem: -2 21<481 598> 1411.52 290
+VStem: 337 479 481 117<2 661.198>
+LayerCount: 2
+Fore
+Refer: 175 180 S 1 0 0 1 372 121.52 2
+Refer: 48 89 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

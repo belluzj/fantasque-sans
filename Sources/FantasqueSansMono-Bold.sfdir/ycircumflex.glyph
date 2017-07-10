@@ -1,0 +1,13 @@
+StartChar: ycircumflex
+Encoding: 375 375 309
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -376 212<298.407 422.094> -20 20G<42 278> 751 262<56.7511 199.549> 1132 447
+VStem: 42 236<-155.58 0> 716 256<565.814 1013>
+LayerCount: 2
+Fore
+Refer: 324 770 N 1 0 0 1 -26 -23 2
+Refer: 24 121 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

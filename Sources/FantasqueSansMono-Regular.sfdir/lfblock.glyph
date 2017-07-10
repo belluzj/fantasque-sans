@@ -1,0 +1,17 @@
+StartChar: lfblock
+Encoding: 9612 9612 717
+Width: 1060
+VWidth: 1918
+Flags: W
+VStem: -20 550<-505 1820>
+LayerCount: 2
+Fore
+SplineSet
+-20 1820 m 1
+ 530 1820 l 1
+ 530 -505 l 1
+ -20 -505 l 1
+ -20 1820 l 1
+EndSplineSet
+Validated: 1
+EndChar

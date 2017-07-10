@@ -1,0 +1,14 @@
+StartChar: dieresistonos
+Encoding: 901 901 411
+Width: 1060
+VWidth: -28
+Flags: W
+HStem: 1172.76 204.883<146 425 566 848> 1350.47 417.767
+VStem: 146 279<1172.76 1377.64> 475.412 218.647<1630.46 1721.57> 566 282<1172.76 1375.08>
+AnchorPoint: "above_accent" 495 1100 mark 0
+LayerCount: 2
+Fore
+Refer: 392 900 S 0.926471 0 0 0.920192 27 226 2
+Refer: 173 168 N 1 0 0 0.853679 0 162 2
+Validated: 1
+EndChar

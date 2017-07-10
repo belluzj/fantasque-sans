@@ -1,0 +1,13 @@
+StartChar: alphatonos
+Encoding: 940 940 393
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -32 21G<786 870> -7 206<339.61 466.373> 815 203<437.727 565.716> 1017 20G<900 961.5> 1170 454
+VStem: 61 254<216.122 625.63> 581 450
+LayerCount: 2
+Fore
+Refer: 392 900 N 1 0 0 1 71 -52 2
+Refer: 341 945 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

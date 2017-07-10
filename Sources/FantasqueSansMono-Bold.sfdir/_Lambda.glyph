@@ -1,0 +1,22 @@
+StartChar: Lambda
+Encoding: 923 923 385
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -27 21G<159.923 240.614 748.238 835.222> 1305 20G<403.489 638.908>
+LayerCount: 2
+Fore
+SplineSet
+379 486 m 1
+ 235 -27 l 1
+ -9 38 l 1
+ 410 1325 l 1
+ 633 1325 l 1
+ 1012 42 l 1
+ 753 -21 l 1
+ 628 504 l 1
+ 602 647 517 844 516 998 c 1
+ 510 830 417 625 379 486 c 1
+EndSplineSet
+Validated: 1
+EndChar

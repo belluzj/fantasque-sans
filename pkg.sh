@@ -19,10 +19,10 @@ fpm -s dir -t ${pkg} -a all \
   --url ${url}              \
   --description "${desc}"   \
 	--license OFL             \
-  FantasqueSansMono-Regular.ttf=/usr/share/fonts/truetype/${name}/         \
-  FantasqueSansMono-Bold.ttf=/usr/share/fonts/truetype/${name}/     \
-  FantasqueSansMono-Italic.ttf=/usr/share/fonts/truetype/${name}/     \
-  FantasqueSansMono-BoldItalic.ttf=/usr/share/fonts/truetype/${name}/     \
+  TTF/FantasqueSansMono-Regular.ttf=/usr/share/fonts/truetype/${name}/         \
+  TTF/FantasqueSansMono-Bold.ttf=/usr/share/fonts/truetype/${name}/     \
+  TTF/FantasqueSansMono-Italic.ttf=/usr/share/fonts/truetype/${name}/     \
+  TTF/FantasqueSansMono-BoldItalic.ttf=/usr/share/fonts/truetype/${name}/     \
   OTF/FantasqueSansMono-Regular.otf=/usr/share/fonts/opentype/${name}/     \
   OTF/FantasqueSansMono-Bold.otf=/usr/share/fonts/opentype/${name}/ \
   OTF/FantasqueSansMono-Italic.otf=/usr/share/fonts/opentype/${name}/ \

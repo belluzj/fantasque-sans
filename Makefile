@@ -1,7 +1,6 @@
-SOURCES=$(wildcard Sources/*.sfd)
-BASENAMES=$(patsubst Sources/%.sfd,%,$(SOURCES))
-TTF_FILES=$(patsubst %,%.ttf,$(BASENAMES))
-# TTF_HINTED_FILES=$(patsubst %,%-autohint.ttf,$(BASENAMES))
+SOURCES=$(wildcard Sources/*.sfdir)
+BASENAMES=$(patsubst Sources/%.sfdir,%,$(SOURCES))
+TTF_FILES=$(patsubst %,TTF/%.ttf,$(BASENAMES))
 OTF_FILES=$(patsubst %,OTF/%.otf,$(BASENAMES))
 SVG_FILES=$(patsubst %,Webfonts/%.svg,$(BASENAMES))
 WOFF_FILES=$(patsubst %,Webfonts/%.woff,$(BASENAMES))
@@ -14,17 +13,17 @@ INSTALLED_TTF_FILES=$(patsubst %,~/.fonts/%.ttf,$(BASENAMES))
 
 all: $(TTF_FILES)
 
-OTF/%.otf %.ttf Webfonts/%.svg Webfonts/%.eot Webfonts/%.woff Webfonts/%.woff2 Webfonts/%-decl.css: Sources/%.sfd
-	mkdir -p OTF Webfonts
+OTF/%.otf TTF/%.ttf Webfonts/%.svg Webfonts/%.eot Webfonts/%.woff Webfonts/%.woff2 Webfonts/%-decl.css: Sources/%.sfdir
+	mkdir -p OTF TTF Webfonts
 	./validate-generate "$*"
 	# TODO determine perfect parameters
-	ttfautohint "$*.ttf" "$*.hinted.ttf"
-	mv "$*.hinted.ttf" "$*.ttf"
+	ttfautohint "TTF/$*.ttf" "TTF/$*.hinted.ttf"
+	mv "TTF/$*.hinted.ttf" "TTF/$*.ttf"
 	sfnt2woff "OTF/$*.otf"
 	mv "OTF/$*.woff" Webfonts
-	woff2_compress "$*.ttf"
-	mv "$*.woff2" Webfonts
-	ttf2eot "$*.ttf" > "Webfonts/$*.eot"
+	woff2_compress "TTF/$*.ttf"
+	mv "TTF/$*.woff2" Webfonts
+	ttf2eot "TTF/$*.ttf" > "Webfonts/$*.eot"
 
 $(CSS_FILE): $(CSS_FRAGMENTS)
 	cat $(foreach v,$(CSS_FRAGMENTS),$(if $(findstring Mono,$v),$v)) > $(CSS_FILE)
@@ -49,8 +48,7 @@ zip-prop: $(TTF_FILES) $(OTF_FILES) $(SVG_FILES) $(EOT_FILES) $(WOFF_FILES) $(WO
 	tar czvf FantasqueSans.tar.gz OFL.txt README.md Webfonts/README.md $(foreach v,$^,$(if $(findstring Mono,$v),,$v))
 
 clean:
-	rm -f *.ttf *.zip OTF/* Webfonts/*.eot Webfonts/*.woff Webfonts/*.woff2 Webfonts/*.svg Webfonts/*.css
+	rm -f TTF/*.ttf *.zip OTF/* Webfonts/*.eot Webfonts/*.woff Webfonts/*.woff2 Webfonts/*.svg Webfonts/*.css
 
 test: $(INSTALLED_TTF_FILES)
 	gvim -f ~/Developpement/Système/kernel-base/shared/printf.c
-

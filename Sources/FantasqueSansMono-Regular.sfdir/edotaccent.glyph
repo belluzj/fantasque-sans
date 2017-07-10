@@ -1,0 +1,19 @@
+StartChar: edotaccent
+Encoding: 279 279 217
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -10 153<357.663 694.191> 427 153<236 721.719> 869 152<361.998 649.715> 1178 225<392 626>
+VStem: 78 158<266.631 427 580 738.031> 392 234<1178 1403>
+LayerCount: 2
+Fore
+SplineSet
+392 1403 m 1
+ 626 1403 l 1
+ 626 1178 l 1
+ 392 1178 l 1
+ 392 1403 l 1
+EndSplineSet
+Refer: 4 101 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

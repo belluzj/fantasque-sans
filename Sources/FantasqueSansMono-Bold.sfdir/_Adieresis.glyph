@@ -1,0 +1,14 @@
+StartChar: Adieresis
+Encoding: 196 196 75
+Width: 1060
+VWidth: -4
+Flags: W
+HStem: 0 21G<6 267.5 750 1026> 281 223<390.856 651> 1305 20G<411.503 648.179> 1398 240<176 455 596 878>
+VStem: 6 260<0 174.195> 176 279<1398 1638> 596 282<1398 1635> 750 276<0 224.965>
+AnchorPoint: "above_accent" 513 1604 basechar 0
+LayerCount: 2
+Fore
+Refer: 173 168 N 1 0 0 1 30 214 2
+Refer: 26 65 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

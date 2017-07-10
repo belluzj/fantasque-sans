@@ -1,0 +1,20 @@
+StartChar: greater
+Encoding: 62 62 103
+Width: 1060
+VWidth: 6
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+926 591 m 1
+ 926 474 l 1
+ 830 405 410 35 232 -30 c 1
+ 164 109 l 1
+ 339 203 600 413 741 526 c 1
+ 615 616 371 794 257 900 c 0
+ 230 925 208 944 189 974 c 1
+ 307 1076 l 1
+ 413 950 839 658 926 591 c 1
+EndSplineSet
+Validated: 1
+EndChar

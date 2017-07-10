@@ -1,0 +1,21 @@
+StartChar: quoteleft
+Encoding: 8216 8216 529
+Width: 1060
+VWidth: -25
+Flags: HW
+VStem: 516 185<1002.12 1254.07>
+LayerCount: 2
+Fore
+SplineSet
+816 792 m 1
+ 564 737 l 1
+ 524 939 l 2
+ 519 964 516 1009 516 1036 c 0
+ 516 1267 641 1413 809 1516 c 1
+ 883 1406 l 1
+ 757 1329 701 1242 701 1125 c 0
+ 701 1046 734 994 775 989 c 1
+ 816 792 l 1
+EndSplineSet
+Validated: 1
+EndChar

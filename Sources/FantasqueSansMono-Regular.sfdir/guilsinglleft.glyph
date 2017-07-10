@@ -1,0 +1,20 @@
+StartChar: guilsinglleft
+Encoding: 8249 8249 547
+Width: 1060
+VWidth: 6
+Flags: W
+VStem: 585 152<103.907 161.156> 599 156<871.117 942.4>
+LayerCount: 2
+Fore
+SplineSet
+269 574 m 1x80
+ 413 704 576 836 599 976 c 1
+ 755 939 l 1x40
+ 715 750 579 627 454 518 c 1
+ 582 400 692 281 737 109 c 1
+ 585 55 l 1
+ 547 204 427 318 269 459 c 1
+ 269 574 l 1x80
+EndSplineSet
+Validated: 1
+EndChar

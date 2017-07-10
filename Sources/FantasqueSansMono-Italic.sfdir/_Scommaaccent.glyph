@@ -1,0 +1,13 @@
+StartChar: Scommaaccent
+Encoding: 536 536 474
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -629 498 -9 151<203.089 565.798> 1051 21<863.5 904.94> 1148 154<374.685 806.998>
+VStem: -71 162<240.514 319> 107 171<864.58 1065.2> 165 322 718 164<281.674 547.404>
+LayerCount: 2
+Fore
+Refer: 518 806 N 1 0 0 1 -109 -135 2
+Refer: 42 83 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

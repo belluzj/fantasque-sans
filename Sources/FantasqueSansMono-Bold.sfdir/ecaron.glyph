@@ -1,0 +1,13 @@
+StartChar: ecaron
+Encoding: 283 283 221
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -10 206<423.72 684.274> 434 196<404.825 676> 818 203<407.494 621.802> 1144 447
+VStem: 78 258<289.863 403.211 606 738.031> 676 261<630 763.58>
+LayerCount: 2
+Fore
+Refer: 334 780 N 1 0 0 1 6 -62 2
+Refer: 4 101 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

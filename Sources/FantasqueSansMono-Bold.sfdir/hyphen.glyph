@@ -1,0 +1,25 @@
+StartChar: hyphen
+Encoding: 45 45 100
+Width: 1060
+VWidth: 6
+Flags: W
+HStem: 413 244<88 974>
+LayerCount: 2
+Fore
+SplineSet
+82 654 m 1
+ 127 656 177 657 227 657 c 0
+ 327 657 428 654 496 654 c 0
+ 537 654 576 654 615 654 c 0
+ 697 654 849 653 956 652 c 1
+ 974 652 l 1
+ 974 407 l 1
+ 956 407 l 1
+ 821 410 619 410 494 410 c 0
+ 451 410 360 413 260 413 c 0
+ 203 413 143 412 88 409 c 1
+ 88 531 l 1
+ 82 654 l 1
+EndSplineSet
+Validated: 1
+EndChar

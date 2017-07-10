@@ -1,0 +1,13 @@
+StartChar: Umacron
+Encoding: 362 362 296
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -10 210<393.874 605.877> 1329 1G<67 328 696 881.714> 1427 194<264 764>
+VStem: 68 252<291.203 1329> 264 500<1427 1616> 693 256<306.506 1323.05>
+LayerCount: 2
+Fore
+Refer: 326 772 N 1 0 0 1 26 138 2
+Refer: 44 85 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

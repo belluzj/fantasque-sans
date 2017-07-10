@@ -1,0 +1,17 @@
+StartChar: underscore
+Encoding: 95 95 117
+Width: 1060
+VWidth: 41
+Flags: W
+HStem: -334 213<-53 854.614>
+LayerCount: 2
+Fore
+SplineSet
+-53 -121 m 1
+ 262 -121 578 -121 893 -121 c 1
+ 879 -192 866 -263 852 -334 c 1
+ 535 -334 219 -334 -98 -334 c 1
+ -83 -263 -68 -192 -53 -121 c 1
+EndSplineSet
+Validated: 1
+EndChar

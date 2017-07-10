@@ -1,0 +1,13 @@
+StartChar: odieresis
+Encoding: 246 246 139
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 1 155<343.159 630.662> 878 154<352.497 639.881> 1178 225<185 420 591 826>
+VStem: 72 158<272.944 736.885> 185 235<1178 1400> 591 235<1175 1397> 743 159<279.587 758.636>
+LayerCount: 2
+Fore
+Refer: 173 168 N 1 0 0 1 46 88 2
+Refer: 14 111 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

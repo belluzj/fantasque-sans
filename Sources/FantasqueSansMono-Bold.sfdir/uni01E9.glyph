@@ -1,0 +1,14 @@
+StartChar: uni01E9
+Encoding: 489 489 452
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 0 21G<134 383 766 854.415> 398 199<383.84 550.435> 813 204<496.154 669.449> 1450 447
+VStem: 134 249<0 398 617.945 719.977 898.492 1381.07> 679 255<609.816 804.907>
+LayerCount: 2
+Fore
+Refer: 334 780 N 1 0 0 1 -267 244 2
+Refer: 11 107 N 1 0 0 1 0 0 3
+Validated: 1
+Substitution2: "'ss01' Stylistic Set 1 - No loop k-1" uni01E9.noloop
+EndChar

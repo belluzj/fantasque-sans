@@ -1,0 +1,22 @@
+StartChar: Y
+Encoding: 89 89 48
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 1342 20G<358 406.5 900 978.5>
+AnchorPoint: "above_accent" 696 1322 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+279 18 m 1
+ 379 215 466 395 566 592 c 1
+ 509 705 207 1114 177 1222 c 1
+ 249 1269 322 1315 394 1362 c 1
+ 419 1283 630 962 690 822 c 1
+ 774 1007 858 1191 942 1376 c 1
+ 1015 1344 1088 1312 1161 1280 c 1
+ 955 853 716 361 510 -66 c 1
+ 447 -45 354 -18 279 18 c 1
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,26 @@
+StartChar: Alpha
+Encoding: 913 913 368
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 326 163<346.805 677> 1278 20G<454.251 579.589>
+LayerCount: 2
+Fore
+SplineSet
+461 1298 m 1
+ 573 1298 l 1
+ 997 11 l 1
+ 833 -19 l 1
+ 734 326 l 1
+ 593 323 398 324 287 297 c 1
+ 185 -24 l 1
+ 23 0 l 1
+ 461 1298 l 1
+677 490 m 1
+ 517 982 l 1
+ 344 470 l 1
+ 404 483 454 485 537 489 c 1
+ 677 490 l 1
+EndSplineSet
+Validated: 1
+EndChar

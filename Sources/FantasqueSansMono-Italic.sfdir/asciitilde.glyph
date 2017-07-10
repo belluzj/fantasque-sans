@@ -1,0 +1,21 @@
+StartChar: asciitilde
+Encoding: 126 126 120
+Width: 1060
+VWidth: -12
+Flags: W
+HStem: 417 153<654.338 827.231> 612 154<292.519 485.816>
+LayerCount: 2
+Fore
+SplineSet
+446 766 m 0
+ 626 766 622 570 729 570 c 0
+ 816 570 911 694 938 759 c 1
+ 1070 698 l 1
+ 1030 610 924 417 695 417 c 0
+ 534 417 518 612 406 612 c 0
+ 323 612 213 515 148 428 c 1
+ 36 519 l 1
+ 132 654 239 766 446 766 c 0
+EndSplineSet
+Validated: 1
+EndChar

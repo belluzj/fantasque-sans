@@ -1,0 +1,13 @@
+StartChar: uhungarumlaut
+Encoding: 369 369 303
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -17 21G<786 844.5> 2 213<316.264 455.141> 1000 13G<392 435 779 1040> 1150 545
+VStem: 46 267<215.184 439.6> 177 258<702.308 991.764>
+LayerCount: 2
+Fore
+Refer: 333 779 N 1 0 0 1 69 7 2
+Refer: 20 117 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

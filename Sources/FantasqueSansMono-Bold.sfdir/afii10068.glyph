@@ -1,0 +1,22 @@
+StartChar: afii10068
+Encoding: 1075 1075 796
+Width: 1060
+Flags: W
+HStem: 0 21G<217 473> 810 210<473 865.581>
+VStem: 217 256<0 810>
+AnchorPoint: "above_accent" 569 1107 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+217 1020 m 1
+ 791 1020 l 2
+ 866 1020 914 1013 961 997 c 1
+ 867 773 l 1
+ 837 795 789 810 763 810 c 1
+ 473 810 l 1
+ 473 0 l 1
+ 217 0 l 1
+ 217 1020 l 1
+EndSplineSet
+Validated: 1
+EndChar

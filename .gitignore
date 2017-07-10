@@ -10,7 +10,7 @@ Webfonts/*.svg
 Webfonts/*.eot
 Webfonts/*.css
 OTF/*.otf
-*.ttf
+TTF/*.ttf
 Specimen/*.svg
 Sources/*.sfd-*
 

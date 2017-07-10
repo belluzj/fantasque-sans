@@ -1,0 +1,19 @@
+StartChar: j
+Encoding: 106 106 10
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -387 156<326.311 591.621> 864 155<374.191 626> 1179 225<560 794>
+VStem: 560 234<1179 1401> 627 156<-196.669 864>
+LayerCount: 2
+Fore
+SplineSet
+560 1404 m 1xf0
+ 794 1401 l 1
+ 794 1176 l 1
+ 560 1179 l 1
+ 560 1404 l 1xf0
+EndSplineSet
+Refer: 332 567 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

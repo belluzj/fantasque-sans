@@ -1,0 +1,13 @@
+StartChar: Upsilontonos
+Encoding: 910 910 403
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 0 21G<528.301 743.858> 1197 454 1343 20G<385.115 429.144 853.361 898.653>
+VStem: 100.942 183.311<1501.27 1600.28> 528.301 215.558<0 654.188>
+LayerCount: 2
+Fore
+Refer: 392 900 S 0.77674 0 0 1 -275 -25 2
+Refer: 382 933 N 0.86223 0 0 1 211 0 3
+Validated: 1
+EndChar

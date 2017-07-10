@@ -1,0 +1,13 @@
+StartChar: idieresis
+Encoding: 239 239 80
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -18 142<451.508 757.381> 1181 225<276 466 681 872>
+VStem: 275 159<140.796 464.359>
+LayerCount: 2
+Fore
+Refer: 173 168 S 1 0 0 1 31 91 2
+Refer: 177 305 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

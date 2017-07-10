@@ -1,0 +1,13 @@
+StartChar: Racute
+Encoding: 340 340 272
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: 0 5<-60 101.845 788 827.515> 567 152<237 423.259> 1150 153<318 701.317> 1354 150<491.979 540.552>
+VStem: 435 613 801 159<790.734 1062>
+LayerCount: 2
+Fore
+Refer: 321 769 S 1 0 0 1 84 74 2
+Refer: 41 82 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

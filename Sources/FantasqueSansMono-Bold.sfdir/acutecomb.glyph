@@ -1,0 +1,19 @@
+StartChar: acutecomb
+Encoding: 769 769 323
+Width: 1060
+VWidth: -43
+Flags: W
+HStem: 1093 442
+VStem: 199 566
+AnchorPoint: "above_accent" 500 1080 mark 0
+LayerCount: 2
+Fore
+SplineSet
+199 1267 m 1
+ 342 1315 516 1427 631 1535 c 1
+ 765 1363 l 1
+ 654 1251 432 1140 289 1093 c 1
+ 199 1267 l 1
+EndSplineSet
+Validated: 1
+EndChar

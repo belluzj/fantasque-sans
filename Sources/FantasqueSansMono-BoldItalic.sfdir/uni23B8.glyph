@@ -1,0 +1,17 @@
+StartChar: uni23B8
+Encoding: 9144 9144 970
+Width: 1060
+VWidth: 0
+Flags: W
+VStem: 0 165<-505 1820>
+LayerCount: 2
+Fore
+SplineSet
+165 1820 m 1
+ 165 -505 l 1
+ 0 -505 l 1
+ 0 1820 l 1
+ 165 1820 l 1
+EndSplineSet
+Validated: 1
+EndChar

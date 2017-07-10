@@ -1,0 +1,12 @@
+StartChar: Idieresis
+Encoding: 207 207 91
+Width: 1060
+VWidth: -8
+Flags: W
+HStem: 4 214<100 341.29 590 775.962> 1112 212<312.878 509 756.837 995.969> 1433 240<389 621 809 1044>
+LayerCount: 2
+Fore
+Refer: 173 168 N 1 0 0 1 -34 249 2
+Refer: 50 73 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

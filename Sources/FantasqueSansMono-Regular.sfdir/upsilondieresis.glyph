@@ -1,0 +1,13 @@
+StartChar: upsilondieresis
+Encoding: 971 971 367
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -4 156<334.513 604.023> 1012 20<132.481 259.5> 1183 225<188 423 594 829>
+VStem: 114 156<217.662 1001.91> 188 235<1183 1405> 594 235<1180 1402> 790 156<372.78 977.938>
+LayerCount: 2
+Fore
+Refer: 173 168 S 1 0 0 1 49 93 2
+Refer: 361 965 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

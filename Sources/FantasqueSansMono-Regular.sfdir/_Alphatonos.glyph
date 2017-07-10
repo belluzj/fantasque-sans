@@ -1,0 +1,13 @@
+StartChar: Alphatonos
+Encoding: 902 902 410
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: 326 163<346.805 677> 1189 491 1278 20<454.251 579.589>
+VStem: 275 180<1529.42 1634.9>
+LayerCount: 2
+Fore
+Refer: 392 900 S 1 0 0 1 -267 -33 2
+Refer: 368 913 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

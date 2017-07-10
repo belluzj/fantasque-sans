@@ -1,0 +1,19 @@
+StartChar: tonos
+Encoding: 900 900 392
+Width: 1060
+VWidth: -43
+Flags: W
+HStem: 1222 454
+VStem: 484 236<1526.27 1625.28>
+AnchorPoint: "above_accent" 455 1198 mark 0
+LayerCount: 2
+Fore
+SplineSet
+326 1334 m 1
+ 421 1451 445 1523 484 1676 c 1
+ 720 1622 l 1
+ 687 1468 604 1338 509 1222 c 1
+ 326 1334 l 1
+EndSplineSet
+Validated: 1
+EndChar

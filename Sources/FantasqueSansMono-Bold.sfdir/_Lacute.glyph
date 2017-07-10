@@ -1,0 +1,13 @@
+StartChar: Lacute
+Encoding: 313 313 250
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -3 210<413 950.961> 1305 20G<157 413> 1335 442
+VStem: -22 566 157 256<207 1325>
+LayerCount: 2
+Fore
+Refer: 323 769 N 1 0 0 1 -221 242 2
+Refer: 35 76 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

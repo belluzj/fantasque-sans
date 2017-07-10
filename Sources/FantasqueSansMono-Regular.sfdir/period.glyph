@@ -1,0 +1,18 @@
+StartChar: period
+Encoding: 46 46 53
+Width: 1060
+VWidth: 26
+Flags: W
+HStem: 0 269<397 648>
+VStem: 397 251<0 269>
+LayerCount: 2
+Fore
+SplineSet
+397 269 m 1
+ 648 269 l 1
+ 648 0 l 1
+ 397 0 l 1
+ 397 269 l 1
+EndSplineSet
+Validated: 1
+EndChar

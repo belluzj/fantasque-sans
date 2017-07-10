@@ -1,0 +1,13 @@
+StartChar: omicron
+Encoding: 959 959 355
+Width: 1060
+VWidth: 6
+Flags: W
+HStem: -6 203<400.251 610.825> 830 202<403 623.518>
+VStem: 72 252<282.644 737.435> 685 256<277.821 760.797>
+AnchorPoint: "above_accent" 510 1108 basechar 0
+LayerCount: 2
+Fore
+Refer: 14 111 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

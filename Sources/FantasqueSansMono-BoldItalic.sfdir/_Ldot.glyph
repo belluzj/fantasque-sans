@@ -1,0 +1,13 @@
+StartChar: Ldot
+Encoding: 319 319 256
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -3 210<376 919.823> 589.776 244.881<600.894 811.599> 1305 20G<297 594>
+VStem: 552.564 307.365
+LayerCount: 2
+Fore
+Refer: 171 183 S 0.817461 0 0 0.782367 264 287 2
+Refer: 35 76 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

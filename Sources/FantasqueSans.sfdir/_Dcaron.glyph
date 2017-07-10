@@ -1,0 +1,21 @@
+StartChar: Dcaron
+Encoding: 270 270 189
+Width: 1168
+VWidth: 0
+Flags: W
+HStem: -7 117<223 741.783> 1220 117<229.267 627.88>
+VStem: 114 117<117 1217.15> 950 119<318.739 849.771>
+LayerCount: 2
+Fore
+SplineSet
+451 1414 m 1
+ 156 1629 l 1
+ 213 1714 l 1
+ 451 1555 l 1
+ 689 1714 l 1
+ 746 1629 l 1
+ 451 1414 l 1
+EndSplineSet
+Refer: 29 68 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

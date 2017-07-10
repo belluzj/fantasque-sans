@@ -1,0 +1,19 @@
+StartChar: lcaron
+Encoding: 318 318 255
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -18 215<491.285 818.08> 1013 21G<764.909 951.5> 1410 20G<791 917.919> 1422 20G<359 434.5>
+VStem: 186 265<236.501 559.992>
+LayerCount: 2
+Fore
+SplineSet
+1019 1393 m 1xe8
+ 989 1278 969 1167 934 1013 c 1
+ 748 1035 l 1
+ 762 1180 783 1325 799 1430 c 1
+ 1019 1393 l 1xe8
+EndSplineSet
+Refer: 12 108 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar

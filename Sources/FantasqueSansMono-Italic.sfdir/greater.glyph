@@ -1,0 +1,21 @@
+StartChar: greater
+Encoding: 62 62 103
+Width: 1060
+VWidth: 6
+Flags: W
+HStem: 1042 20G<268.128 337>
+LayerCount: 2
+Fore
+SplineSet
+821 577 m 1
+ 811 453 l 1
+ 702 384 212 22 21 -43 c 1
+ -45 83 l 1
+ 148 177 461 399 624 512 c 1
+ 515 602 311 788 218 894 c 0
+ 196 919 178 938 165 968 c 1
+ 296 1062 l 1
+ 378 936 747 644 821 577 c 1
+EndSplineSet
+Validated: 1
+EndChar

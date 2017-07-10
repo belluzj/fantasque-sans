@@ -1,0 +1,13 @@
+StartChar: epsilontonos
+Encoding: 941 941 396
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -4 197<380.385 772.942> 469 196<482.549 735.426> 825 199<453.153 931.221> 1170 454
+VStem: 84 268<226.728 395> 630 450
+LayerCount: 2
+Fore
+Refer: 392 900 N 1 0 0 1 120 -52 2
+Refer: 345 949 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

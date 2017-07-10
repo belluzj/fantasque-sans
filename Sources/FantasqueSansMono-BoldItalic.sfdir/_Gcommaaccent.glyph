@@ -1,0 +1,13 @@
+StartChar: Gcommaaccent
+Encoding: 290 290 228
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -581 532 -8 206<372.09 617.957> 567 207<506.497 763> 1121 207<557.669 820.978>
+VStem: 49 259<268.34 731.835> 186 369
+LayerCount: 2
+Fore
+Refer: 488 806 N 1 0 0 1 -31 -53 2
+Refer: 32 71 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

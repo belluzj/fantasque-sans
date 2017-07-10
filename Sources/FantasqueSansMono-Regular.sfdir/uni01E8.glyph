@@ -1,0 +1,13 @@
+StartChar: uni01E8
+Encoding: 488 488 451
+Width: 1060
+VWidth: 0
+Flags: W
+HStem: -5 21<116 274> 1288 20<116 274 851.5 882.943> 1304 425
+VStem: 116 158<-5 508.713 703 1308>
+LayerCount: 2
+Fore
+Refer: 334 780 S 1 0 0 1 -5 86 2
+Refer: 34 75 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

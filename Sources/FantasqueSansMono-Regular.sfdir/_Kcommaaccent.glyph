@@ -1,0 +1,13 @@
+StartChar: Kcommaaccent
+Encoding: 310 310 247
+Width: 1060
+VWidth: 32
+Flags: W
+HStem: -532 498 -5 21<116 274> 1288 20<116 274 851.5 882.943>
+VStem: 116 158<-5 508.713 703 1308> 451 220<-255 -34> 507 164<-380.366 -255>
+LayerCount: 2
+Fore
+Refer: 520 806 S 1 0 0 1 1 -38 2
+Refer: 34 75 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

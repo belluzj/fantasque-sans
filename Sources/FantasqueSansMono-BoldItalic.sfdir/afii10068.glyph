@@ -1,0 +1,29 @@
+StartChar: afii10068
+Encoding: 1075 1075 541
+Width: 1060
+Flags: W
+HStem: -16 200<381.743 749.364> 830 200<344.871 693.23>
+VStem: 103 260<212.82 340.751> 697 260<700.814 821.895>
+AnchorPoint: "above_accent" 709 1107 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+807 267 m 1
+ 921 87 l 1
+ 837 15 706 -16 540 -16 c 0
+ 308 -16 103 54 103 274 c 0
+ 103 410 195 497 482 617 c 0
+ 664 693 697 714 697 774 c 0
+ 697 798 664 830 606 830 c 0
+ 486 830 426 820 362 782 c 1
+ 278 968 l 1
+ 370 1013 469 1030 605 1030 c 0
+ 823 1030 957 957 957 783 c 0
+ 957 637 900 564 649 463 c 0
+ 419 370 363 328 363 263 c 0
+ 363 226 421 184 533 184 c 0
+ 669 184 767 227 807 267 c 1
+EndSplineSet
+Validated: 1
+Substitution2: "'locl' Macedonian/Serbian italic forms" afii10068.serbian
+EndChar
