@@ -27,6 +27,6 @@ fpm -s dir -t ${pkg} -a all \
   OTF/FantasqueSansMono-Bold.otf=/usr/share/fonts/opentype/${name}/ \
   OTF/FantasqueSansMono-Italic.otf=/usr/share/fonts/opentype/${name}/ \
   OTF/FantasqueSansMono-BoldItalic.otf=/usr/share/fonts/opentype/${name}/ \
-  OFL.txt=/usr/share/doc/${name}/copyright \
+  LICENSE.txt=/usr/share/doc/${name}/copyright \
   README.md=/usr/share/doc/${name}/        \
 	Specimen=/usr/share/doc/${name}/

@@ -1,7 +1,7 @@
 Fantasque Sans Mono
 ===================
 
-A programming font, designed with functionality in mind, and with some 
+A programming font, designed with functionality in mind, and with some
 wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
 [Download](https://github.com/belluzj/fantasque-sans/releases/latest).
 
@@ -19,7 +19,7 @@ Here is my original explanation:
 > mutant child of Comic Sans and Helvetica Neue. Hopefully it is not the
 > case any more.
 
-Inspirational sources include Inconsolata and Monaco. I have also been using 
+Inspirational sources include Inconsolata and Monaco. I have also been using
 Consolas a lot in my programming life, so it may have some points in common.
 
 ![](Specimen/kdevelop11.png)
@@ -28,7 +28,7 @@ Consolas a lot in my programming life, so it may have some points in common.
 Weights, variants and glyph coverage
 ------------------------------------
 
-The font includes a bold version, with the same metrics as the regular one. 
+The font includes a bold version, with the same metrics as the regular one.
 Both versions include the same ranges of characters : latin letters, some
 accented glyphs (quite a lot), some greek letters, some arrows.
 
@@ -58,7 +58,7 @@ Author and license
 
 Created by Jany Belluz \<jany.belluz AT hotmail.fr\>
 
-Licensed under the SIL Open Font License (see [OFL.txt](OFL.txt)).
+Licensed under the SIL Open Font License (see [LICENSE.txt](LICENSE.txt)).
 
 Please send me an e-mail or [report an issue on
 Github](http://github.com/belluzj/cosmic-sans-neue/issues) if you stumble upon
@@ -90,7 +90,7 @@ You are advised to install FontForge from
 Alternatively, you can always [download](https://github.com/belluzj/fantasque-sans/releases/latest)
 the latest prebuilt release of these fonts.
 
-`make install` will install the TTF fonts into your local `.fonts/` directory 
+`make install` will install the TTF fonts into your local `.fonts/` directory
 and update the font cache. It comes in handy while modifying the font.
 
 [![](Specimen/Specimen.png)](Specimen/Specimen.pdf)
@@ -100,17 +100,17 @@ Versions
 
 1.1 - First release.
 
-1.1.1 - Make slashes longer, ensure parenthesis and brackets are rendered at 
+1.1.1 - Make slashes longer, ensure parenthesis and brackets are rendered at
         the same height, and some other minor adjustments.
-        
+
 1.2 - Add the bold version.
       Various minor adjustments, new paragraph symbol, slanted dollar.
-      
+
 1.2.1 - Minor adjustments.
 
 1.3 - Very slight change of metrics to add space between characters and lines.
       Various small changes : curlier curly brackets, more difference between
-      various quotes, cleaner W, w, m, and rounder @. 
+      various quotes, cleaner W, w, m, and rounder @.
       Windows compatibility.
       More latin accents.
       Greek letters.
@@ -153,7 +153,7 @@ Versions
         Make the underscore visible on Windows.
         Generate better CSS.
 
-1.6.4 - Fix line height on Mac. 
+1.6.4 - Fix line height on Mac.
         Move all the italic glyphs to the left.
         Adjust some accents.
 
@@ -173,4 +173,3 @@ Versions
         Also, since nobody complained about the new Cyrillic characters,
         I declare this is their official release! (I did not change
         anything since 1.7.0 though).
-
