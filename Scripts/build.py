@@ -29,13 +29,13 @@ output = sys.argv[4]
 #     style('Tight', Bearing(left=-128))
 # )
 
-# conflicting(
-#     option('XtraSmall', '13px', Line(1536, 256)),
-#     option('Small', '14px', Line(1536, 384)),
-# #   option('medium', 15px', Line(1664, 384)),
-#     option('Large', '16px', Line(1664, 512)),
-#     option('XtraLarge', '17px', Line(1792, 512))
-# )
+conflicting(
+#     option('XtraSmall', '13px', Line(x, x)),
+#     option('Small', '14px', Line(x, x)),
+# #   option('medium', 15px', Line(1650, 398)),
+    option('LargeLineHeight', 'Large Line Height', Line(1750, 498)),
+#     option('XtraLarge', '17px', Line(x, x))
+)
 
 # ss01
 option('NoLoopK', 'No loop k', SwapLookup('ss01'))
