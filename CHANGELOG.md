@@ -6,12 +6,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+### Added
+- Font variant with a larger line height, especially for users of accented
+  capitals. [#23]
+- Numero sign (№) [#23]
+
 ### Changed
+- Fixed the curly tail on Cyrillic у [#23]
 - Upgrade the build system to have a proper version of the font with
-  a built-in stylistic set `ss01` (no-loop `k`)
+  a built-in stylistic set `ss01` (no-loop `k`) [#67]
 
   Thanks to the [Monoid](https://github.com/larsenwork/monoid) project
   for open-sourcing their build scripts.
+
+[#23]: https://github.com/belluzj/fantasque-sans/issues/23
+[#67]: https://github.com/belluzj/fantasque-sans/issues/67
 
 ## 1.7.1
 - **Add a stylistic set to replace the looped lowercase `k` with
