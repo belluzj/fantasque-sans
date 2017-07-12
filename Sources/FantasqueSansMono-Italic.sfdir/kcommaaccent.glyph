@@ -2,12 +2,13 @@ StartChar: kcommaaccent
 Encoding: 311 311 246
 Width: 1060
 VWidth: 32
-Flags: W
-HStem: -527 498 0 21<61 221> 872 144<603.881 801.355> 1407 20<305 469>
-VStem: 212 322 311 161<1173.33 1410.36> 820 152<595.534 854.097>
+Flags: HW
+HStem: -527 498 0 21G<61 221 753.5 825.762> 872 144<603.881 798.748> 1407 20G<305 469>
+VStem: 212 322 311 161<1173.33 1410.36> 820 152.001<587.541 853.502>
 LayerCount: 2
 Fore
 Refer: 518 806 S 1 0 0 1 -62 -33 2
 Refer: 11 107 N 1 0 0 1 0 0 3
 Validated: 1
+Substitution2: "'ss01' Style Set 1 - No loop k-1" kcommaaccent.noloop
 EndChar

@@ -2,7 +2,7 @@ StartChar: quoteright
 Encoding: 8217 8217 530
 Width: 1060
 VWidth: -25
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 529 8216 S -1 1.22465e-16 -1.22465e-16 -1 1310 2232 2

@@ -63,4 +63,5 @@ SplineSet
  714 42 577 233 456 429 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "'ss01' Style Set 1 - No loop k-1" k.noloop
 EndChar
