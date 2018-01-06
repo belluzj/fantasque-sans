@@ -1,8 +1,8 @@
-StartChar: greater
-Encoding: 62 62 103
+StartChar: hyphen_greater.liga
+Encoding: 57364 57364 993
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15,6 +15,10 @@ SplineSet
  230 925 208 944 189 974 c 5
  307 1076 l 5
  413 950 839 658 926 591 c 5
+-908 600 m 5
+ 801 600 l 5
+ 801 444 l 5
+ -908 444 l 5
+ -908 600 l 5
 EndSplineSet
-Validated: 1
 EndChar

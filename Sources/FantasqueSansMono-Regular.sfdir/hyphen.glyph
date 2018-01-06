@@ -7,11 +7,11 @@ HStem: 444 156<152 939>
 LayerCount: 2
 Fore
 SplineSet
-152 600 m 1
- 939 600 l 1
- 939 444 l 1
- 152 444 l 1
- 152 600 l 1
+152 600 m 5
+ 939 600 l 5
+ 939 444 l 5
+ 152 444 l 5
+ 152 600 l 5
 EndSplineSet
 Validated: 1
 EndChar

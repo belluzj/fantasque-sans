@@ -8,6 +8,7 @@ from itertools import compress
 import os
 from os.path import basename, splitext, join
 import subprocess
+from features import update_features
 
 SCRIPTS = os.path.dirname(os.path.realpath(__file__))
 
@@ -92,6 +93,9 @@ def _build(dstdir, font, permutations):
             # Run all the operations for this option
             for oper in option.operations[opt]:
                 oper(fnt)
+
+        # Update the automatic features (code ligatures)
+        update_features(fnt)
 
         variant = '-'.join(variants) or 'Normal'
         variant_dir = join(dstdir, variant)

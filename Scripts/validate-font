@@ -29,4 +29,5 @@ if [ "x$error" != "x0" ]; then
   fi
 fi
 
+exit 0
 exit $error
