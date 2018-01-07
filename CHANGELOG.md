@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Numero sign (№) [#23]
 - Perl 6 quotes (｢ and ｣) [#82]
 - Black circle (●) [#78]
+- Comparison operators (≤ and ≥) [#69]
 
 ### Changed
 - Fixed the curly tail on Cyrillic у [#23]
@@ -23,6 +24,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 [#23]: https://github.com/belluzj/fantasque-sans/issues/23
 [#67]: https://github.com/belluzj/fantasque-sans/issues/67
+[#69]: https://github.com/belluzj/fantasque-sans/issues/69
 [#78]: https://github.com/belluzj/fantasque-sans/issues/78
 [#82]: https://github.com/belluzj/fantasque-sans/issues/82
 
