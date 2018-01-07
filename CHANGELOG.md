@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Font variant with a larger line height, especially for users of accented
   capitals. [#23]
 - Numero sign (№) [#23]
+- Perl 6 quotes (｢ and ｣) [#82]
 
 ### Changed
 - Fixed the curly tail on Cyrillic у [#23]
@@ -21,6 +22,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 [#23]: https://github.com/belluzj/fantasque-sans/issues/23
 [#67]: https://github.com/belluzj/fantasque-sans/issues/67
+[#82]: https://github.com/belluzj/fantasque-sans/issues/82
 
 ## 1.7.1
 - **Add a stylistic set to replace the looped lowercase `k` with

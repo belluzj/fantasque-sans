@@ -1,0 +1,21 @@
+StartChar: uniFF62
+Encoding: 65378 65378 981
+Width: 1060
+VWidth: 66
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+316 313 m 1
+ 315 382 315 465 314 567 c 0
+ 314 742 312 918 312 1049 c 2
+ 312 1470 l 1
+ 405 1470 749 1477 800 1477 c 1
+ 872 1480 881 1481 904 1483 c 1
+ 936 1329 l 1
+ 835 1320 639 1320 472 1316 c 1
+ 472 313 l 1
+ 316 313 l 1
+EndSplineSet
+Validated: 1
+EndChar
