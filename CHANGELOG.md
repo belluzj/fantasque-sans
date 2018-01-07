@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [1.7.2] - 2018-01-07
+
 ### Added
 - Font variant with a larger line height, especially for users of accented
   capitals. [#23]
@@ -27,8 +29,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 [#69]: https://github.com/belluzj/fantasque-sans/issues/69
 [#78]: https://github.com/belluzj/fantasque-sans/issues/78
 [#82]: https://github.com/belluzj/fantasque-sans/issues/82
+[1.7.2]: https://github.com/belluzj/fantasque-sans/releases/tag/v1.7.2
 
 ## 1.7.1
+
 - **Add a stylistic set to replace the looped lowercase `k` with
   a straight version.**
 - Adjust curly quotes so they behave better as apostrophes.
