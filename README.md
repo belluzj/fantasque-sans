@@ -63,9 +63,7 @@ Licensed under the SIL Open Font License (see [LICENSE.txt](LICENSE.txt)).
 Please send me an e-mail or [report an issue on
 Github](http://github.com/belluzj/cosmic-sans-neue/issues) if you stumble upon
 bad design or rendering problems (with screen shot if possible), or if you need
-more characters, or if you want to compliment me (I love compliments). I also
-accept
-[Flattry](https://flattr.com/thing/2258061/belluzjcosmic-sans-neue-on-GitHub).
+more characters, or if you want to compliment me (I love compliments).
 
 Building installable font files
 -------------------------------
