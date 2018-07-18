@@ -3,7 +3,8 @@ Fantasque Sans Mono
 
 A programming font, designed with functionality in mind, and with some
 wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
-[Download](https://github.com/belluzj/fantasque-sans/releases/latest) or see [installion instructions](#installation).
+[Download](https://github.com/belluzj/fantasque-sans/releases/latest) or 
+see [installion instructions](#installation).
 
 
 ![](Specimen/urxvt13.png)
@@ -68,7 +69,10 @@ more characters, or if you want to compliment me (I love compliments).
 Installation
 ------------
 
-You can [download the latest version][] and install it by hand. In the `NoLoopK` variant, the looped lowercase `k` is replaced with a straight version. The `LargeLineHeight` variant is especially useful for users of accented capitals. For more info, see the [CHANGELOG](CHANGELOG.md).
+You can [download the latest version](https://github.com/belluzj/fantasque-sans/releases/latest)
+and install it by hand. In the `NoLoopK` variant, the looped lowercase `k` is 
+replaced with a straight version. The `LargeLineHeight` variant is especially 
+useful for users of accented capitals. For more info, see the [CHANGELOG](CHANGELOG.md).
 
 Automatic installation on macOS with [homebrew](https://brew.sh):
 
