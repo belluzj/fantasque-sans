@@ -3,7 +3,7 @@ Fantasque Sans Mono
 
 A programming font, designed with functionality in mind, and with some
 wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
-[Download](https://github.com/belluzj/fantasque-sans/releases/latest).
+[Download](https://github.com/belluzj/fantasque-sans/releases/latest) or see [installion instructions](#installation).
 
 
 ![](Specimen/urxvt13.png)
@@ -64,6 +64,14 @@ Please send me an e-mail or [report an issue on
 Github](http://github.com/belluzj/cosmic-sans-neue/issues) if you stumble upon
 bad design or rendering problems (with screen shot if possible), or if you need
 more characters, or if you want to compliment me (I love compliments).
+
+Installation
+------------
+
+On macOS with [homebrew](https://brew.sh):
+
+    brew tap homebrew/cask-fonts #You only need to do this once for cask-fonts
+    brew cask install font-fantasque-sans-mono
 
 Building installable font files
 -------------------------------
