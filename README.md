@@ -68,10 +68,14 @@ more characters, or if you want to compliment me (I love compliments).
 Installation
 ------------
 
-On macOS with [homebrew](https://brew.sh):
+You can [download the latest version][] and install it by hand. In the `NoLoopK` variant, the looped lowercase `k` is replaced with a straight version. The `LargeLineHeight` variant is especially useful for users of accented capitals. For more info, see the [CHANGELOG](CHANGELOG.md).
+
+Automatic installation on macOS with [homebrew](https://brew.sh):
 
     brew tap homebrew/cask-fonts #You only need to do this once for cask-fonts
     brew cask install font-fantasque-sans-mono
+
+Instructions for other platforms might follow.
 
 Building installable font files
 -------------------------------
