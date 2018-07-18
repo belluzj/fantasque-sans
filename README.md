@@ -4,7 +4,7 @@ Fantasque Sans Mono
 A programming font, designed with functionality in mind, and with some
 wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
 [Download](https://github.com/belluzj/fantasque-sans/releases/latest) or 
-see [installion instructions](#installation).
+see [installation instructions](#installation).
 
 
 ![](Specimen/urxvt13.png)
