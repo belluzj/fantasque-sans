@@ -2,10 +2,9 @@ StartChar: emdash
 Encoding: 8212 8212 528
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HW
 HStem: 413 244<1.51591 1023.6>
 LayerCount: 2
 Fore
 Refer: 100 45 N 1.15359 0 0 1 -100 0 2
-Validated: 1
 EndChar

@@ -1,0 +1,21 @@
+StartChar: bar_greater.liga
+Encoding: 57602 57602 1030
+Width: 1060
+VWidth: 4
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-139 1069 m 6
+ -132 1102 l 5
+ 139 1102 l 5
+ 122 1017 l 6
+ 68 740 45 558 -20 224 c 6
+ -49 74 l 6
+ -71 -41 -56 43 -81 -58 c 5
+ -353 -57 l 5
+ -337 5 -328 48 -317 103 c 4
+ -139 1069 l 6
+EndSplineSet
+Refer: 1033 57566 S 1 0 0 1 287 1 2
+EndChar

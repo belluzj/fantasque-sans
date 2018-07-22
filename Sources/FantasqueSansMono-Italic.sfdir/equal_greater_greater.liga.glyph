@@ -1,0 +1,22 @@
+StartChar: equal_greater_greater.liga
+Encoding: 57607 57607 1002
+Width: 1060
+VWidth: 4
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-2072.16113281 349 m 1
+ -0.1611328125 349 l 1
+ -33.4560546875 188 l 1
+ -2103.26171875 189 l 1
+ -2072.16113281 349 l 1
+-1981.63671875 825 m 1
+ 131.974609375 823 l 1
+ 101.068359375 664 l 1
+ -2015.34863281 667 l 1
+ -1981.63671875 825 l 1
+EndSplineSet
+Refer: 1037 57568 N 1 0 0 1 0 0 2
+Refer: 1036 57567 N 1 0 0 1 0 0 2
+EndChar

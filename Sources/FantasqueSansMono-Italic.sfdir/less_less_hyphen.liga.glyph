@@ -1,0 +1,17 @@
+StartChar: less_less_hyphen.liga
+Encoding: 57638 57638 989
+Width: 1060
+VWidth: 4
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-1235.37207031 600 m 1
+ 985.627929688 600 l 1
+ 955.3046875 444 l 1
+ -1265.6953125 444 l 1
+ -1235.37207031 600 l 1
+EndSplineSet
+Refer: 1039 57563 S 1 0 0 1 0 0 2
+Refer: 1038 57564 S 1 0 0 1 0 0 2
+EndChar

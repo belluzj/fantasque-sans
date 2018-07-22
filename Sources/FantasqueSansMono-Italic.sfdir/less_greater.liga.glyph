@@ -1,0 +1,10 @@
+StartChar: less_greater.liga
+Encoding: 57632 57632 1018
+Width: 1060
+VWidth: 4
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1034 57566 N 1 0 0 1 518 1 2
+Refer: 1035 57565 N 1 0 0 1 -167 0 2
+EndChar

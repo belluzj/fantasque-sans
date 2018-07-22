@@ -2,10 +2,9 @@ StartChar: afii00208
 Encoding: 8213 8213 529
 Width: 1060
 VWidth: 6
-Flags: W
+Flags: HW
 HStem: 400 244<-51.5198 1070.88>
 LayerCount: 2
 Fore
 Refer: 100 45 N 1.26682 0 0 1 -163 -13 2
-Validated: 1
 EndChar

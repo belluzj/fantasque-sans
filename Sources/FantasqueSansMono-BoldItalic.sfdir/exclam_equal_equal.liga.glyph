@@ -1,0 +1,17 @@
+StartChar: exclam_equal_equal.liga
+Encoding: 57611 57611 1028
+Width: 1060
+VWidth: 6
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-837 -178 m 5
+ -1036 -90 l 5
+ -907 118 -510 834 -403 1064 c 4
+ -382 1108 -346 1177 -338 1191 c 5
+ -127 1105 l 5
+ -302 840 -684 99 -837 -178 c 5
+EndSplineSet
+Refer: 1029 57604 S 1 0 0 1 0 0 2
+EndChar

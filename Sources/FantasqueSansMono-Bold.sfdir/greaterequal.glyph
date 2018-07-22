@@ -1,8 +1,8 @@
 StartChar: greaterequal
-Encoding: 8805 8805 983
+Encoding: 8805 8805 1023
 Width: 1060
 VWidth: 4
-Flags: HWO
+Flags: HW
 HStem: 167 156<-560.768 -486.601>
 LayerCount: 2
 Fore

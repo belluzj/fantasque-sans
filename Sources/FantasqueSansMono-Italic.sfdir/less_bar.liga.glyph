@@ -1,0 +1,10 @@
+StartChar: less_bar.liga
+Encoding: 57623 57623 1021
+Width: 1060
+VWidth: 4
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1041 57569 S 1 0 0 1 -287.542 0 2
+Refer: 1035 57565 N 1 0 0 1 0 0 2
+EndChar
