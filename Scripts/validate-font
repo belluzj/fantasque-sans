@@ -16,8 +16,8 @@ import sys;
 font = fontforge.open(sys.argv[1]);
 
 bitmask = font.validate();
-# if bitmask != 0:
-#   exit(42);
+if bitmask != 0:
+  exit(42);
 EOF
 )
 error=$?

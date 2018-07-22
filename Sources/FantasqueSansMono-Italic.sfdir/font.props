@@ -16,12 +16,13 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 607 50037791 3178130]
+StyleMap: 0x0001
 FSType: 8
 OS2Version: 3
-OS2_WeightWidthSlopeOnly: 0
+OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1379052706
-ModificationTime: 1529172790
+ModificationTime: 1532294774
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 21 12
+WinInfo: 57498 21 12
 BeginPrivate: 1
 BlueValues 37 [-29 1 1021 1061 1281 1345 1402 1431]
 EndPrivate

@@ -1,10 +1,25 @@
 StartChar: less_bar.liga
 Encoding: 57623 57623 1021
-Width: 1060
+Width: 970
 VWidth: 4
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1036 57569 N 1 0 0 1 -287.542 0 2
-Refer: 1032 57565 N 1 0 0 1 0 0 2
+SplineSet
+129 230 m 1
+ 123 812 l 1
+ -53 722 -300 592 -418 525 c 1
+ -284 438 -41 317 129 230 c 1
+120 1102 m 5
+ 391 1102 l 5
+ 391 1017 l 2
+ 391 740 403 558 403 224 c 2
+ 403 74 l 2
+ 403 -41 402 43 397 -58 c 1
+ 125 -57 l 0
+ -59 56 -491 268 -676 420 c 1
+ -674 646 l 1
+ -582 710 -43 996 120 1102 c 5
+EndSplineSet
+Validated: 1
 EndChar
