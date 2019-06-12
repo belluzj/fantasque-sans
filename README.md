@@ -1,4 +1,4 @@
-All credits goes to the creator ,i fixed some bugs that's it.
+All credits goes to the creator ,just fixed some bugs that's it.
 --> see build section.
 
 
