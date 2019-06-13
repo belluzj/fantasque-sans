@@ -1,11 +1,12 @@
 # Supported only on gvim as in my case
 
-## HTML
+## Mine screenshots
+
+### HTML
 ![alt text](http://url/to/img.png)
 
-## Python
-![alt text](http://https://github.com/ask1234560/fantasque-sans/blob/master/Screenshot%20from%202019-06-13%2008-08-08.png)
-
+### Python
+![Alt text](fantasque-sans/Screenshot%20from%202019-06-13%2008-08-08.png?raw=true "Title")
 
 
 
