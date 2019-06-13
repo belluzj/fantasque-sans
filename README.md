@@ -6,11 +6,10 @@
 #### bold font-size 19
 
 ### HTML
-![](images/f1.png)
+<img src="images/f1.png" width=1000px>
 
 ### PYTHON
-![](images/f2.png)
-
+<img src="images/f2.png" width=1000px>
 
 
 
