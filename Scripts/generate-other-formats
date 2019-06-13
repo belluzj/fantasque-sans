@@ -9,6 +9,6 @@ ttfautohint "TTF/${basename}.ttf" "TTF/${basename}.hinted.ttf"
 mv "TTF/${basename}.hinted.ttf" "TTF/${basename}.ttf"
 sfnt2woff "OTF/${basename}.otf"
 mv "OTF/${basename}.woff" Webfonts
-woff2_compress "TTF/${basename}.ttf"
+$HOME/Desktop/woff2/woff2_compress "TTF/${basename}.ttf"
 mv "TTF/${basename}.woff2" Webfonts
-ttf2eot "TTF/${basename}.ttf" > "Webfonts/${basename}.eot"
+$HOME/Desktop/ttf2eot/ttf2eot "TTF/${basename}.ttf" > "Webfonts/${basename}.eot"

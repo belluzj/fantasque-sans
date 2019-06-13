@@ -1,3 +1,25 @@
+# Supported only on gvim as in my case
+
+- - - -
+
+## Mine screenshots 
+#### bold, font-size 19
+
+### HTML
+<img src="images/f1.png" width=1000px>
+
+### PYTHON
+<img src="images/f2.png" width=1000px>
+
+
+
+# All credits goes to the creator for this awesome font,just fixed some bugs that's it.
+## See build section below for installation 
+
+
+
+- - - -
+
 Fantasque Sans Mono
 ===================
 
@@ -92,6 +114,10 @@ The build process requires:
   repository](https://github.com/harrastia/ttf2eot).
 * `woff2_compress` from [the Google WOFF2
   tools](https://github.com/google/woff2)
+  
+  ## For linux users clone and build ttf2eot and woff2 ,the destination location must be on desktop.
+  
+  
 
 Run `make`. You should see green stuff and some "OK" messages.
 
@@ -125,3 +151,4 @@ Versions
 --------
 
 [Check out the changelog](CHANGELOG.md).
+
