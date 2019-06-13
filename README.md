@@ -1,5 +1,5 @@
 # All credits goes to the creator ,just fixed some bugs that's it.
-## see build section.
+## see build section below for installation 
 
 
 
