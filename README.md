@@ -8,7 +8,7 @@
 ### HTML
 ![](images/f1.png)
 
-### Python
+### PYTHON
 ![](images/f2.png)
 
 
