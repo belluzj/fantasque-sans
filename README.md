@@ -1,5 +1,17 @@
-# All credits goes to the creator ,just fixed some bugs that's it.
-## see build section below for installation 
+# Supported only on gvim as in my case
+
+## HTML
+![alt text](http://url/to/img.png)
+
+## Python
+![alt text](http://https://github.com/ask1234560/fantasque-sans/blob/master/Screenshot%20from%202019-06-13%2008-08-08.png)
+
+
+
+
+
+# All credits goes to the creator for this awesome font,just fixed some bugs that's it.
+## See build section below for installation 
 
 
 
