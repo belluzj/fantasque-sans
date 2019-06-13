@@ -1,5 +1,7 @@
 # Supported only on gvim as in my case
 
+- - - -
+
 ## Mine screenshots 
 #### bold font-size 19
 
@@ -16,6 +18,8 @@
 ## See build section below for installation 
 
 
+
+- - - -
 
 Fantasque Sans Mono
 ===================
