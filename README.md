@@ -3,7 +3,7 @@
 - - - -
 
 ## Mine screenshots 
-#### bold font-size 19
+#### bold, font-size 19
 
 ### HTML
 <img src="images/f1.png" width=1000px>
