@@ -1,12 +1,13 @@
 # Supported only on gvim as in my case
 
-## Mine screenshots
+## Mine screenshots 
+#### bold font-size 19
 
 ### HTML
-![alt text](http://url/to/img.png)
+![](images/f1.png)
 
 ### Python
-![Alt text](fantasque-sans/Screenshot%20from%202019-06-13%2008-08-08.png?raw=true "Title")
+![](images/f2.png)
 
 
 
