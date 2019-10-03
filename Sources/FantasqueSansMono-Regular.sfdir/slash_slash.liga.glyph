@@ -1,0 +1,10 @@
+StartChar: slash_slash.liga
+Encoding: 57402 57402 1031
+Width: 1060
+VWidth: 60
+Flags: W
+LayerCount: 2
+Fore
+Refer: 104 47 N 1 0 0 1 -870 0 2
+Refer: 104 47 N 1 0 0 1 -120 0 2
+EndChar
