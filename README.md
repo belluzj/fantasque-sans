@@ -72,10 +72,8 @@ The build process requires:
 * FontForge with python scripting support,
 * `ttfautohint`
 * `sfnt2woff` (from the `woff-tools` package on Ubuntu)
-* `ttf2eot`, for example from [this
-  repository](https://github.com/harrastia/ttf2eot).
 * `woff2_compress` from [the Google WOFF2
-  tools](https://github.com/google/woff2)
+  tools](https://github.com/google/woff2) or `woff2` package on Ubuntu
 
 Run `make`. You should see green stuff and some "OK" messages.
 
@@ -101,7 +99,7 @@ use on the web, along with the matching CSS font declarations. To use them,
 you must combine in the same folder:
 * a custom `.css` file that you can assemble from the `*-decl.css` fragments
   (you can only pick the styles that you need, e.g. normal and bold)
-* the matching `.svg`, `.woff`, `.woff2`, `.eot` files from `Webfonts/`
+* the matching `.svg`, `.woff`, `.woff2` files from `Webfonts/`
 * the matching `.ttf` files from the `TTF/` folder
 * the matching `.otf` files from the `OTF/` folder.
 

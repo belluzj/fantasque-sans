@@ -11,4 +11,3 @@ sfnt2woff "TTF/${basename}.ttf"
 mv "TTF/${basename}.woff" Webfonts
 woff2_compress "TTF/${basename}.ttf"
 mv "TTF/${basename}.woff2" Webfonts
-ttf2eot "TTF/${basename}.ttf" > "Webfonts/${basename}.eot"

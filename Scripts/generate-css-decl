@@ -45,9 +45,7 @@ fi
 cat > "Webfonts/${basename}-decl.css" <<EOF
 @font-face {
   font-family: '${familyname}';
-  src: url('${basename}.eot'); /* IE 9 Compatibility Mode */
-  src: url('${basename}.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-       url('${basename}.woff2') format('woff2'),
+  src: url('${basename}.woff2') format('woff2'),
        url('${basename}.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
        url('${basename}.ttf') format('truetype'), /* Safari, Android, iOS */
        url('${basename}.svg#${fontname}') format('svg'); /* Chrome < 4, Legacy iOS */
