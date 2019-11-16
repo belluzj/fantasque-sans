@@ -9,7 +9,7 @@ esac
 pkg=${PKG:-${pkg}}
 
 name='fantasque-sans'
-version='1.7.2'
+version='1.8.0'
 desc='A font family with a great monospaced variant for programmers.'
 url=http://openfontlibrary.org/en/font/fantasque-sans
 

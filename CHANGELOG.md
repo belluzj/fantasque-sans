@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [1.8.0] - 2019-11-16
+
+### Added
+- Add coding ligatures to all weights [#64]
+
+### Removed
+- Stop producing EOTs
+
+[#64]: https://github.com/belluzj/fantasque-sans/issues/64
+[1.8.0]: https://github.com/belluzj/fantasque-sans/releases/tag/v1.8.0
+
 ## [1.7.2] - 2018-01-07
 
 ### Added
