@@ -2,9 +2,10 @@ StartChar: greater_greater.liga
 Encoding: 57399 57399 1038
 Width: 1060
 VWidth: 6
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
-Refer: 103 62 S 1 0 0 1 -121 0 2
-Refer: 103 62 S 1 0 0 1 -897 0 2
+Refer: 103 62 N 1 0 0 1 -107 0 2
+Refer: 103 62 S 1 0 0 1 -911 0 2
+Validated: 1
 EndChar

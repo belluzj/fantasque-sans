@@ -2,7 +2,8 @@ StartChar: less_equal_equal.liga
 Encoding: 57628 57628 1011
 Width: 1060
 VWidth: 4
-Flags: HW
+Flags: W
+HStem: 174 228<-1218 900> 627 222<-1254.85 895>
 LayerCount: 2
 Fore
 SplineSet

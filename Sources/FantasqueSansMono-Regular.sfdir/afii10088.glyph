@@ -2,7 +2,7 @@ StartChar: afii10088
 Encoding: 1094 1094 806
 Width: 1060
 Flags: W
-HStem: -1 150<266 694>
+HStem: -1 150<266 694> 999 20G<107.941 266 695.954 853>
 VStem: 105 161<149 1019> 694 158<157 1019> 852 147<-260.94 -1>
 LayerCount: 2
 Back
@@ -25,11 +25,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-266 149 m 1xd0
+266 149 m 1xe8
  694 149 l 1
  696 1019 l 1
  853 1019 l 1
- 852 157 l 1xe0
+ 852 157 l 1xf0
  1001 157 l 1
  1000 127 999 94 999 60 c 0
  999 -53 1007 -179 1039 -265 c 1
@@ -39,7 +39,7 @@ SplineSet
  105 -2 l 1
  108 1019 l 1
  266 1019 l 1
- 266 149 l 1xd0
+ 266 149 l 1xe8
 EndSplineSet
 Validated: 1
 EndChar

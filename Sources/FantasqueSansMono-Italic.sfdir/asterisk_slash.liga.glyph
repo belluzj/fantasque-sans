@@ -2,9 +2,10 @@ StartChar: asterisk_slash.liga
 Encoding: 57406 57406 1038
 Width: 1060
 VWidth: 60
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 191 42 N 1 0 0 1 -1060 0 2
 Refer: 104 47 N 1 0 0 1 -110 0 2
+Validated: 1
 EndChar

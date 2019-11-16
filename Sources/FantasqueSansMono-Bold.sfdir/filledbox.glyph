@@ -3,7 +3,8 @@ Encoding: 9632 9632 737
 Width: 1060
 VWidth: 1918
 Flags: W
-VStem: -20 1100<-505 1820>
+HStem: 110 880<90 970>
+VStem: 90 880<110 990>
 LayerCount: 2
 Fore
 SplineSet

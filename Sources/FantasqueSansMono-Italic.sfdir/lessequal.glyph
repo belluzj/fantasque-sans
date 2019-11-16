@@ -2,8 +2,8 @@ StartChar: lessequal
 Encoding: 8804 8804 1028
 Width: 1060
 VWidth: 4
-Flags: HW
-HStem: 167 156<-695.768 -621.601>
+Flags: W
+HStem: 0 156<107 864> 1277 20G<959.5 986.451>
 LayerCount: 2
 Fore
 SplineSet

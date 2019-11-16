@@ -3,7 +3,7 @@ Encoding: 1090 1090 802
 Width: 1060
 VWidth: 0
 Flags: W
-HStem: -9 21G<416 576> -9 21G<416 576> 865 155<52 416 576 922.955>
+HStem: -9 21G<416 576> 865 155<52 416 576 922.955>
 VStem: 416 160<-9 865>
 LayerCount: 2
 Back
@@ -22,7 +22,7 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-416 -9 m 1xb0
+416 -9 m 1
  416 865 l 1
  218 865 128 864 52 864 c 1
  52 1019 l 1
@@ -32,7 +32,7 @@ SplineSet
  923 853 861 865 811 865 c 2
  576 865 l 1
  576 -9 l 1
- 416 -9 l 1xb0
+ 416 -9 l 1
 EndSplineSet
 Validated: 1
 EndChar

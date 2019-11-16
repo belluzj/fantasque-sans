@@ -3,7 +3,7 @@ Encoding: 1050 1050 771
 Width: 1060
 VWidth: 0
 Flags: W
-HStem: -11 11G<84 342 787 847.46> 1315 20G<84 342 787.5 828.147>
+HStem: 0 21G<84 342> 1315 20G<84 342 787.5 828.147>
 VStem: 84 258<0 519.312 871 1335>
 AnchorPoint: "above_accent" 500 1322 basechar 0
 LayerCount: 2

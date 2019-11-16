@@ -2,8 +2,8 @@ StartChar: uni2010
 Encoding: 8208 8208 524
 Width: 1060
 VWidth: 6
-Flags: HW
-HStem: 413 244<88 974>
+Flags: W
+HStem: 393 244<88 974>
 LayerCount: 2
 Fore
 Refer: 100 45 S 1 0 0 1 0 0 2

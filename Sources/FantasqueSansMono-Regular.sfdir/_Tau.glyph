@@ -3,12 +3,12 @@ Encoding: 932 932 381
 Width: 1060
 VWidth: 0
 Flags: W
-HStem: -9 21G<403 563> -9 21G<403 563> 1144 155<39 403 563 909.955>
+HStem: -9 21G<403 563> 1144 155<39 403 563 909.955>
 VStem: 403 160<-9 1144>
 LayerCount: 2
 Fore
 SplineSet
-403 -9 m 1xb0
+403 -9 m 1
  403 1144 l 1
  205 1144 115 1143 39 1143 c 1
  39 1298 l 1
@@ -18,7 +18,7 @@ SplineSet
  910 1132 848 1144 798 1144 c 2
  563 1144 l 1
  563 -9 l 1
- 403 -9 l 1xb0
+ 403 -9 l 1
 EndSplineSet
 Validated: 1
 EndChar

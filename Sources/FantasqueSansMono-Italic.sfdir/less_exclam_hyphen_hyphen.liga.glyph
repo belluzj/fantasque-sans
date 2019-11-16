@@ -2,7 +2,8 @@ StartChar: less_exclam_hyphen_hyphen.liga
 Encoding: 57631 57631 1010
 Width: 1060
 VWidth: 6
-Flags: HW
+Flags: W
+HStem: -30 21G<-2515.5 -2475.94> 0 270<-1880 -1682> 444 156<-2695 -1950 -1473 955> 1299 20G<-1652.51 -1451>
 LayerCount: 2
 Fore
 SplineSet

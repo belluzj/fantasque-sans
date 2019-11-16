@@ -3,19 +3,19 @@ Encoding: 9627 9627 732
 Width: 1060
 VWidth: 1918
 Flags: W
-VStem: -20 550<-505 1820>
+VStem: -20 1100<658 1820> -20 550<-505 658>
 LayerCount: 2
 Fore
 SplineSet
-530 1820 m 1
+530 1820 m 1x40
  1080 1820 l 1
- 1080 658 l 1
+ 1080 658 l 1x80
  530 658 l 1
  530 -505 l 1
- -20 -505 l 1
+ -20 -505 l 1x40
  -20 658 l 1
- -20 1820 l 1
- 530 1820 l 1
+ -20 1820 l 1x80
+ 530 1820 l 1x40
 EndSplineSet
 Validated: 1
 EndChar

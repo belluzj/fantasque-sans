@@ -2,9 +2,9 @@ StartChar: afii10085
 Encoding: 1091 1091 812
 Width: 1060
 VWidth: 14
-Flags: HW
-HStem: -376 212<298.407 422.094> -20 20G<42 278> 751 262<56.7511 199.549>
-VStem: 42 236<-155.58 0> 716 256<565.814 1013>
+Flags: W
+HStem: -375 208<106.901 398.828> 751 262<56.7511 204.69>
+VStem: 716 256<565.814 1013>
 AnchorPoint: "above_accent" 497 1107 basechar 0
 LayerCount: 2
 Fore

@@ -3,6 +3,7 @@ Encoding: 9604 9604 710
 Width: 1060
 VWidth: 1918
 Flags: W
+HStem: -505 1163<-20 1080>
 VStem: -20 1100<-505 658>
 LayerCount: 2
 Fore

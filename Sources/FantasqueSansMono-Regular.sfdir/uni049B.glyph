@@ -3,7 +3,7 @@ Encoding: 1179 1179 857
 Width: 1060
 VWidth: 0
 Flags: W
-HStem: -8 21G<815 895> -8 21G<815 895> 1000 20G<157 313>
+HStem: 0 13G<157 313 815 895> 1000 20G<157 313 816.5 900.039>
 VStem: 157 156<0 303 529 1020> 895 157<-270 -1>
 LayerCount: 2
 Back
@@ -29,7 +29,7 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-847 -8 m 1xb8
+847 -8 m 1
  783 92 577 303 447 430 c 1
  313 303 l 1
  313 0 l 1
@@ -45,7 +45,7 @@ SplineSet
  1052 -270 l 1
  895 -271 l 1
  895 -1 l 1
- 847 -8 l 1xb8
+ 847 -8 l 1
 EndSplineSet
 Validated: 1
 EndChar

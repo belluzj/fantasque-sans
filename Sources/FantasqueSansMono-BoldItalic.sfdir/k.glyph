@@ -3,7 +3,7 @@ Encoding: 107 107 11
 Width: 1060
 VWidth: -2
 Flags: W
-HStem: 813 204<571.989 752.293>
+HStem: 0 21G<59 330 752 826.5> 813 204<571.989 752.293> 1407 20G<515 558.5>
 VStem: 308 258<1105.37 1385.1> 757 253<625.47 880.135>
 AnchorPoint: "cedilla_accent" 474 0 basechar 0
 AnchorPoint: "above_accent" 432 1400 basechar 0
