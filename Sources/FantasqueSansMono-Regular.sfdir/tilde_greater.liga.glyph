@@ -2,7 +2,8 @@ StartChar: tilde_greater.liga
 Encoding: 57642 57642 1016
 Width: 1060
 VWidth: 6
-Flags: HW
+Flags: W
+HStem: 241 151<-243.31 -24.0534> 487 150<213.684 549.006> 639 153<-771.774 -544.751>
 LayerCount: 2
 Fore
 SplineSet

@@ -2,7 +2,7 @@ StartChar: slash_asterisk_asterisk_slash.liga
 Encoding: 57407 57407 987
 Width: 1060
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 191 42 N 1 0 0 1 -2120 0 2

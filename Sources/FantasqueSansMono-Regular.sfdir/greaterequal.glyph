@@ -2,8 +2,8 @@ StartChar: greaterequal
 Encoding: 8805 8805 985
 Width: 1060
 VWidth: 4
-Flags: HW
-HStem: 167 156<-560.768 -486.601>
+Flags: W
+HStem: 0 156<152 939> 1266 20G<283.863 360>
 LayerCount: 2
 Fore
 SplineSet

@@ -2,7 +2,7 @@ StartChar: exclam_equal_equal.liga
 Encoding: 57611 57611 1030
 Width: 1060
 VWidth: 6
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet

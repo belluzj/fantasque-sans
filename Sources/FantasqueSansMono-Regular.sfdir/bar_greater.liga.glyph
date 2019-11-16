@@ -2,7 +2,8 @@ StartChar: bar_greater.liga
 Encoding: 57602 57602 1031
 Width: 1060
 VWidth: 4
-Flags: HW
+Flags: W
+VStem: -385 162<133 901>
 LayerCount: 2
 Fore
 SplineSet

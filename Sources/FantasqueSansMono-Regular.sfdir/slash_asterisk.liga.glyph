@@ -1,8 +1,8 @@
 StartChar: slash_asterisk.liga
-Encoding: 57403 57403 1032
+Encoding: 57405 57405 1034
 Width: 1060
 VWidth: 60
-Flags: HW
+Flags: W
 VStem: 434 163<688 1113>
 LayerCount: 2
 Fore
