@@ -7,8 +7,8 @@ basename=$(basename "$name" .sfdir)
 # TODO determine perfect parameters
 ttfautohint "TTF/${basename}.ttf" "TTF/${basename}.hinted.ttf"
 mv "TTF/${basename}.hinted.ttf" "TTF/${basename}.ttf"
-sfnt2woff "OTF/${basename}.otf"
-mv "OTF/${basename}.woff" Webfonts
+sfnt2woff "TTF/${basename}.ttf"
+mv "TTF/${basename}.woff" Webfonts
 woff2_compress "TTF/${basename}.ttf"
 mv "TTF/${basename}.woff2" Webfonts
 ttf2eot "TTF/${basename}.ttf" > "Webfonts/${basename}.eot"
