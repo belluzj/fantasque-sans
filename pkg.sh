@@ -27,6 +27,7 @@ fpm -s dir -t ${pkg} -a all \
   Variants/Normal/OTF/FantasqueSansMono-Bold.otf=/usr/share/fonts/opentype/${name}/ \
   Variants/Normal/OTF/FantasqueSansMono-Italic.otf=/usr/share/fonts/opentype/${name}/ \
   Variants/Normal/OTF/FantasqueSansMono-BoldItalic.otf=/usr/share/fonts/opentype/${name}/ \
+  Extras/fontconfig/ss01.conf=/etc/fonts/conf.avail/25-${name}-nondescript-k.conf \
   LICENSE.txt=/usr/share/doc/${name}/copyright \
   README.md=/usr/share/doc/${name}/        \
   CHANGELOG.md=/usr/share/doc/${name}/        \
