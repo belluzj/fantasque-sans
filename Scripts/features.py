@@ -45,13 +45,17 @@ def rule(liga):
                  [LIG   f i] LIG
                  [ f    f i] LIG }
     """
+    rules = []
     # standard ignores:
     #   ignore sub {0} {0}' {1};
     #   ignore sub {0}' {1} {1};
-    rules = [
-        ignore(prefix=liga[:1], head=liga[0], suffix=liga[1:]),
-        ignore(head=liga[0], suffix=(liga[1:] + [liga[-1]])),
-    ]
+    if tuple(liga) not in skip_ignores:
+        rules.extend(
+            [
+                ignore(prefix=liga[:1], head=liga[0], suffix=liga[1:]),
+                ignore(head=liga[0], suffix=(liga[1:] + [liga[-1]])),
+            ]
+        )
 
     # careful with repeats:
     # #133 ->->->->, /**/**/**/, etc.
@@ -218,6 +222,15 @@ ignore_prefixes = [
     # PHP <?=
     ["less", "question", "equal"],
 ]
+
+
+# DO NOT generate ignores at all
+skip_ignores = {
+    # # <<*>> <<+>> <<$>>
+    # ("less", "asterisk", "greater"),
+    # ("less", "plus", "greater"),
+    # ("less", "dollar", "greater"),
+}
 
 
 def indent(text, prefix):
