@@ -53,6 +53,12 @@ def rule(liga):
         ignore(head=liga[0], suffix=(liga[1:] + [liga[-1]])),
     ]
 
+    # careful with repeats:
+    # #133 ->->->->, /**/**/**/, etc.
+    if len(liga) > 2 and liga[0] == liga[-1]:
+        rules.append(ignore([liga[-2]], liga[0], liga[1:]))
+        rules.append(ignore(head=liga[0], suffix=(liga[1:] + [liga[1]])))
+
     # hardcoded ignores, i.e. `<||>`
     rules.extend(ignores[tuple(liga)])
 
