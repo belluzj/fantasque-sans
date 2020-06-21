@@ -59,6 +59,16 @@ def rule(liga):
         rules.append(ignore([liga[-2]], liga[0], liga[1:]))
         rules.append(ignore(head=liga[0], suffix=(liga[1:] + [liga[1]])))
 
+    # Don't cut into `prefix` to complete a ligature.
+    #  i.e. regex `(?=`>  is not `(?`=>.
+    rules.extend(
+        [
+            ignore(prefix[:-n], liga[0], liga[1:])
+            for prefix in ignore_prefixes
+            for n in range(1, len(liga))
+            if prefix[-n:] == liga[:n]
+        ]
+    )
     # hardcoded ignores, i.e. `<||>`
     rules.extend(ignores[tuple(liga)])
 
@@ -196,6 +206,18 @@ ignores = defaultdict(
         ("slash", "slash"): ["ignore sub colon slash' slash;"],
     },
 )
+
+
+ignore_prefixes = [
+    ["parenleft", "question", "colon"],
+    # Regexp lookahead/lookbehind
+    ["parenleft", "question", "equal"],
+    ["parenleft", "question", "less", "equal"],
+    ["parenleft", "question", "exclam"],
+    ["parenleft", "question", "less", "exclam"],
+    # PHP <?=
+    ["less", "question", "equal"],
+]
 
 
 def indent(text, prefix):
