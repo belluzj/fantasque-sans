@@ -105,11 +105,13 @@ the latest prebuilt release of these fonts.
 `make install` will install the TTF fonts into your local `.fonts/` directory
 and update the font cache. It comes in handy while modifying the font.
 
-Alternatively, if you'd like to build Fantasque without installing required dependencies, a Dockerfile is provided. Run the following command, and the fonts will be built to the ./Variants directory.
+Alternatively, if you'd like to build Fantasque without installing required
+dependencies, a Dockerfile is provided. Run the following command, and the
+fonts will be built to the `./Variants` directory.
 
 ```sh
 docker build -t fantasque .
-docker run -v `pwd`/Variants:/fantasque/Variants fantasque
+docker run -v "$(pwd)/Variants:/fantasque/Variants" fantasque
 ```
 
 [![](Specimen/Specimen.png)](Specimen/Specimen.pdf)
