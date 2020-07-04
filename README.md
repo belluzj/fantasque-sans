@@ -109,7 +109,7 @@ Alternatively, if you'd like to build Fantasque without installing required depe
 
 ```sh
 docker build -t fantasque .
-docker run -v `pwd`/Variants:/fantasque/Variants
+docker run -v `pwd`/Variants:/fantasque/Variants fantasque
 ```
 
 [![](Specimen/Specimen.png)](Specimen/Specimen.pdf)
