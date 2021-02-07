@@ -2,6 +2,8 @@
 #
 # Adapted from https://github.com/tonsky/FiraCode/blob/master/gen_calt.clj
 
+from __future__ import unicode_literals
+
 from textwrap import dedent
 from collections import defaultdict
 import tempfile
@@ -33,7 +35,7 @@ def update_features(font):
     # Add the dummy "LIG" glyph
     lig = font.createChar(-1, 'LIG')
     lig.width = font['space'].width
-    with tempfile.NamedTemporaryFile(suffix='.fea') as f:
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.fea') as f:
         f.write(fea_code)
         f.seek(0)
         font.mergeFeature(f.name)

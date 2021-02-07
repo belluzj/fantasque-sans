@@ -3,6 +3,8 @@
 # LICENSE: MIT
 # vim: sts=4 sw=4 ts=4 et
 
+from past.builtins import xrange
+
 import fontforge
 from itertools import compress
 import os
