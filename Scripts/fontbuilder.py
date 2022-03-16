@@ -11,6 +11,11 @@ import os
 from os.path import basename, splitext, join
 import subprocess
 from features import update_features
+import sys
+
+PY3 = sys.version_info[0] == 3
+if PY3:
+    xrange = range
 
 SCRIPTS = os.path.dirname(os.path.realpath(__file__))
 
