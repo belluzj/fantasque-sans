@@ -79,6 +79,10 @@ Automatic installation on macOS with [homebrew](https://brew.sh):
     brew tap homebrew/cask-fonts #You only need to do this once for cask-fonts
     brew install --cask font-fantasque-sans-mono
 
+Automatic installation for Ubuntu and probably most other desktop GNU/Linuxes. This will install the `Normal` variant. Adapt the code if you want to use other variants.
+
+    mkdir -p ~/.local/share/fonts/opentype/fantasque && curl -L https://github.com/belluzj/fantasque-sans/releases/latest/download/FantasqueSansMono-Normal.tar.gz | tar xvz -C ~/.local/share/fonts/opentype/fantasque/ --wildcards "*.otf" --strip-components=1 && sudo fc-cache -fv
+
 Instructions for other platforms might follow.
 
 Building installable font files
