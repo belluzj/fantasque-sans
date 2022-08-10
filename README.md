@@ -79,6 +79,11 @@ Automatic installation on macOS with [homebrew](https://brew.sh):
     brew tap homebrew/cask-fonts #You only need to do this once for cask-fonts
     brew install --cask font-fantasque-sans-mono
 
+For Ubuntu operating system(using apt package manager):
+
+    sudo apt update
+    sudo apt install fonts-fantasque-sans
+
 Instructions for other platforms might follow.
 
 Building installable font files
