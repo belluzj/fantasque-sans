@@ -3,8 +3,6 @@
 # LICENSE: MIT
 # vim: sts=4 sw=4 ts=4 et
 
-from past.builtins import xrange
-
 import fontforge
 from itertools import compress
 import os
@@ -72,9 +70,9 @@ def permutations():
     bitmap_max = 1 << count
 
     # Iterate over all possible permutations
-    for i in xrange(bitmap_max):
+    for i in range(bitmap_max):
         # Map the iteration's permutations using a bitmap
-        bitmap = [i >> n & 1 for n in xrange(count)]
+        bitmap = [i >> n & 1 for n in range(count)]
         for opts in _expand_options(bitmap):
             yield(int(float(i)/bitmap_max*100), opts)
 
