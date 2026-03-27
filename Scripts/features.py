@@ -7,7 +7,22 @@ from __future__ import unicode_literals
 from textwrap import dedent
 from collections import defaultdict
 import tempfile
+import sys
 
+PY3 = sys.version_info[0] == 3
+if PY3:
+    binary_type = bytes
+    text_type = str
+else:
+    binary_type = str
+    text_type = unicode
+
+def ensure_binary(s, encoding='utf-8', errors='strict'):
+    if isinstance(s, binary_type):
+        return s
+    if isinstance(s, text_type):
+        return s.encode(encoding, errors)
+    raise TypeError("not expecting type '%s'" % type(s))
 
 def update_features(font):
     """Find ligatures in the font and generate features for them."""
@@ -29,6 +44,7 @@ def update_features(font):
         {}
         }} calt;
     ''').format(indent(rules, '  '))
+    fea_code = ensure_binary(fea_code)
 
     # print(fea_code)  # DEBUG
 
