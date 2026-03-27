@@ -78,6 +78,11 @@ Automatic installation on macOS with [homebrew](https://brew.sh):
 
     brew install --cask font-fantasque-sans-mono
 
+For Ubuntu operating system(using apt package manager):
+
+    sudo apt update
+    sudo apt install fonts-fantasque-sans
+
 Instructions for other platforms might follow.
 
 Building installable font files
